@@ -1,0 +1,501 @@
+.city-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-family: $mts;
+    font-weight: 400;
+
+    &__link {
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        transition: color $time;
+        color: $city_header;
+        text-decoration: none;
+        font-size: 2.7em;
+        white-space: nowrap;
+
+        &_active,
+        &_hover {
+            color: $white;
+        }
+    }
+
+    &__text {
+        margin-top: -.2em;
+    }
+
+    @include tablet {
+        padding: 0;
+
+        &__item {
+            background-color: $dark;
+
+            &:not(:last-child) {
+                margin-right: 0;
+                padding-right: 4em;
+            }
+
+            &:first-child {
+                padding-left: 8em;
+            }
+
+            &:last-child {
+                padding-right: 8em;
+            }
+        }
+
+        &__link {
+            font-size: 2.5em;
+        }
+    }
+
+    @include mobile {
+        margin-left: -5px;
+        justify-content: flex-start;
+
+        &__item {
+            padding-right: 2em;
+
+            &:first-child {
+                padding-left: 2em;
+            }
+
+            &_city {
+                margin-right: 5vw;
+            }
+
+            &_health {
+                margin-right: 9vw;
+            }
+
+            &_retail {
+                margin-right: 20vw;
+            }
+
+            &_home {
+                margin-right: 25vw;
+            }
+
+            &_office {
+                margin-right: 15vw;
+            }
+        }
+
+        &__link {
+            font-size: 1.6em;
+            white-space: normal;
+            text-align: center;
+            max-width: 45vw;
+        }
+    }
+}
+
+.city-graphics {
+    overflow: hidden;
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+
+    &__inner {
+        padding-bottom: 56.2%;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        bottom: 0;
+    }
+
+    &__loader {
+        position: absolute;
+        width: 6rem;
+        height: 6rem;
+        z-index: 2;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 0;
+
+        &_city {
+            left: 34%;
+        }
+
+        &_health {
+            left: 50%;
+        }
+
+        &_retail {
+            left: 67%;
+        }
+
+        &_home {
+            left: 80%;
+        }
+
+        &_office {
+            left: 96%;
+        }
+
+        &_education {
+            left: 116%;
+        }
+
+        &_visible {
+            transform: translate(-50%, -50%) scale(1);
+            opacity: 1;
+            transition: opacity $time 1s, transform $time 1s;
+        }
+    }
+
+    &__animations,
+    &__images {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    &__animations {
+        pointer-events: none;
+        z-index: 2;
+
+        &_bg {
+            z-index: -1;
+        }
+    }
+
+    &__images {
+        z-index: 1;
+        transform-origin: center 87.5%;
+    }
+
+    &__image {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        height: 100%;
+    }
+
+    &__svg {
+        cursor: pointer;
+    }
+
+    &__svg-mask {
+        opacity: 0;
+        transition: opacity $time;
+
+        &_visible,
+        &_hover {
+            opacity: 0.85;
+        }
+    }
+
+    &__image-inner {
+        display: inline-block;
+        height: 100%;
+        width: auto;
+        vertical-align: top;
+
+        &_svg {
+            transform-origin: center 87.5%;
+        }
+    }
+
+    &__anim {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    &__animation>svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto !important;
+        height: 100% !important;
+    }
+
+    @include tablet {
+        &__loader {
+            width: 4.5rem;
+            height: 4.5rem;
+        }
+    }
+
+    @include mobile {
+        &__loader {
+            width: 3rem;
+            height: 3rem;
+        }
+
+        &:before {
+            content: '';
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5.6em;
+            background-color: $dark;
+        }
+
+        &__anim {
+
+            &_traffic_light,
+            &_new_clouds,
+            &_bus,
+            &_dron2 {
+                display: none;
+            }
+        }
+    }
+}
+
+.city {
+    position: relative;
+    z-index: 1;
+    font-size: 0.625rem;
+
+    &__mask {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 3;
+        opacity: 0;
+        background-color: $city_mask;
+        pointer-events: none;
+        transform: translateZ(0);
+    }
+
+    &__sticky-wrapper {
+        position: absolute;
+        overflow: visible;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 200%;
+    }
+
+    &__inner {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        height: 50%;
+        width: 100%;
+
+        &:before {
+            content: '';
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            left: 7em;
+            width: calc(100% - 7em);
+            height: 7em;
+            background-color: $dark;
+        }
+    }
+
+    &_footer-visible {
+        .city__sticky-wrapper {
+            bottom: -100%;
+            height: 300%;
+        }
+
+        .city__inner {
+            height: calc(100% / 3);
+        }
+    }
+
+    &_top-hidden {
+        .city__mask {
+            // display: none;
+        }
+    }
+
+    &__container {
+        position: relative;
+        z-index: 2;
+    }
+
+    &__header {
+        position: relative;
+    }
+
+    &__header-line {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 2px;
+        height: 1.5em;
+        opacity: 0;
+        background-color: $white;
+        transition: opacity $time, transform $time;
+        transform: translateX(0) translateZ(0);
+        pointer-events: none;
+
+        &_visible {
+            opacity: 1;
+        }
+    }
+
+    &__city-menu {
+        height: 7.2em;
+        font-size: 0.625rem;
+        transform: translateZ(0);
+    }
+
+    &__graphics {
+        position: absolute;
+        z-index: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__city-button {
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        right: 0;
+        background-color: $red;
+        width: 3.2em;
+        height: 3.2em;
+        line-height: 3.2em;
+        color: $white;
+        font-size: 0.625rem;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: opacity $time, visibility $time;
+        transition-delay: 0s;
+
+        &_visible {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+            transition-delay: $mobile-button-delay;
+        }
+    }
+
+    &__city-icon {
+        fill: currentColor;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: -3px;
+    }
+
+    @include min-tablet {
+
+        &__graphics {
+            width: 161.6%;
+        }
+    }
+
+    @include big-tablet {
+
+        &__graphics {
+            width: 121.2%;
+        }
+    }
+
+    @include tablet {
+        &__inner {
+            overflow: auto;
+
+            &:before {
+                display: none;
+            }
+
+            &_overflow-hidden {
+                overflow: hidden;
+            }
+        }
+
+        &__city-menu {
+            height: 5.6em;
+            position: -webkit-sticky;
+            position: sticky;
+            left: 0;
+            right: 0;
+        }
+
+        &__header-line {
+            width: 1px;
+            height: 1em;
+        }
+    }
+
+    @include mobile {
+        position: fixed;
+        top: 0;
+        height: 100%;
+        width: 100%;
+
+        &__inner {
+            overflow: auto;
+
+            &:before {
+                display: none;
+            }
+
+            &_overflow-hidden {
+                overflow: hidden;
+            }
+        }
+
+        &__mask {
+            display: none;
+        }
+
+        &__container {
+            width: 300%;
+        }
+
+        &__city-menu {
+            height: 5.6em;
+        }
+
+        &__header-line {
+            width: 1px;
+            height: .5em;
+        }
+
+        &__graphics {
+            width: 300%;
+        }
+
+        &__sticky-wrapper {
+            position: relative;
+            height: 100%;
+            bottom: 0;
+        }
+
+        &__inner {
+            position: relative;
+            height: 100%;
+        }
+
+        &_footer-visible {
+            .city__sticky-wrapper {
+                bottom: 0;
+                height: 100%;
+            }
+
+            .city__inner {
+                height: 100%;
+            }
+        }
+    }
+
+    @include min-mobile {
+        &__graphics {
+            background-position: center bottom !important;
+        }
+    }
+}

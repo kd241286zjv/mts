@@ -1,0 +1,45 @@
+$path: '/fonts/';
+
+$mts: "MTSSans",
+Helvetica,
+Arial,
+sans-serif;
+$noah: "Noah",
+Helvetica,
+Arial,
+sans-serif;
+$geometria: "Geometria",
+Helvetica,
+Arial,
+sans-serif;
+
+@mixin fontFace($name, $src, $weight, $style) {
+    $source: $path+$src;
+
+    @font-face {
+        font-family: $name;
+        src: url($source + '.woff2') format('woff2'),
+            url($source + '.woff') format('woff'),
+            url($source + '.ttf') format('truetype');
+        font-weight: $weight;
+        font-style: $style;
+    }
+}
+
+
+@include fontFace('MTSSans', 'MTSSans/MTSSans-UltraWide', 900,
+    normal);
+@include fontFace('MTSSans', 'MTSSans/MTSSans-Bold', 700,
+    normal);
+@include fontFace('MTSSans', 'MTSSans/MTSSans-Medium', 500,
+    normal);
+@include fontFace('MTSSans', 'MTSSans/MTSSans-Regular', 400,
+    normal);
+@include fontFace('Geometria', 'Geometria/Geometria', 400,
+    normal);
+@include fontFace('Geometria', 'Geometria/Geometria-Bold', 700,
+    normal);
+@include fontFace('Geometria', 'Geometria/Geometria-ExtraBold', 800,
+    normal);
+@include fontFace('Noah', 'Noah/Noah-Regular', 400,
+    normal);

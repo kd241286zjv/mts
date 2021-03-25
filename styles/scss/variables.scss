@@ -1,0 +1,108 @@
+$white: #fff;
+$red: #B70338;
+$dark: #080A1A;
+
+$info_blue: rgba(#021E70, .5);
+$city_header: #6b6c75;
+
+$zone_bg: #07091f;
+$city_mask: #0c2667;
+$rotate-bg: #0A216B;
+$body-bg:#0e2665;
+$mobile-menu-active:#7DC7FF;
+
+$zone_city: #0057AE;
+$zone_health: #081A62;
+$zone_retail:#0C1756;
+$zone_home: #0B1F68;
+$zone_office: #073589;
+$zone_education:#0f215c;
+
+$zone_city-bottom: #09348C;
+$zone_health-bottom: #053F93;
+$zone_retail-bottom:#0A3188;
+$zone_home-bottom: #081E68;
+$zone_office-bottom: #08338A;
+$zone_education-bottom:#09226F;
+
+$just-time: .35s;
+$time: .35s ease-in-out;
+$city-time: .65s ease-in-out;
+$menu-time: .35s ease-in-out;
+
+$mobile-button-delay: 1.5s;
+
+@mixin menu-bg {
+    background-image: url(/images/menu-bg.svg), url(/images/menu-bg-pat.png), linear-gradient(148.8deg, #001A6C 0%, #07297B 93.91%, #082677 104.79%);
+    background-size: 100% auto, 300px auto, 100% auto;
+    background-position: center center;
+
+    @include big-tablet {
+        background-size: 150% auto, 300px auto, 100% auto;
+        background-position: -1.25rem center, center center, center center;
+    }
+
+    @include min-tablet {
+        background-size: 230% auto, 300px auto, 100% auto;
+        background-position: -5rem center, center center, center center;
+    }
+
+    @include mobile {
+        background-size: 350% auto, 300px auto, 100% auto;
+        background-position: -5.625rem center, center center, center center;
+    }
+}
+
+@mixin desktop1600 {
+    @media (min-width: 1200px)and(max-width: 1600px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin big-tablet {
+    @media (max-width: 1199px) and (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin min-tablet {
+    @media (max-width: 1023px) and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: 1199px) and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin no-mobile {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin min-mobile {
+    @media (max-width: 370px) {
+        @content;
+    }
+}
+
+@mixin mobile-landscape {
+    @media (max-width: 767px) and (orientation:landscape) {
+        @content;
+    }
+}

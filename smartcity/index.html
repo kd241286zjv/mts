@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="ru" style="background-color: #0e2665;">
+
+<head>
+	<!-- Google Tag Manager -->
+	<script>(function (w, d, s, l, i) {
+			w[l] = w[l] || []; w[l].push({
+				'gtm.start':
+					new Date().getTime(), event: 'gtm.js'
+			}); var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+					'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-PV4QKRH');</script>
+	<!-- End Google Tag Manager -->
+
+	<meta charset="UTF-8">
+	<title>Виртуальная прогулка по городу будущего</title>
+	<link rel="stylesheet" href="/styles/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="/styles/css/style.min.css">
+	<link rel="shortcut icon" href="/favicon.png" type="image/png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="twitter:image" content="https://mts.tass.ru/images/1024x512.jpg" />
+	<meta property="twitter:image:width" content="1024" />
+	<meta property="twitter:image:height" content="512" />
+	<meta name="twitter:title" content="Новый умный мир" />
+	<meta name="twitter:description"
+		content="Виртуальная прогулка по городу будущего, где всем управляет искусственный интеллект, – в спецпроекте ТАСС." />
+	<meta property="og:type" content="page" />
+	<meta property="og:url" content="https://mts.tass.ru" />
+	<meta property="og:title" content="Умные подъезды и роботы-врачи" />
+	<meta property="og:description" content="Как искусственный интеллект изменит нашу жизнь. Спецпроект ТАСС" />
+	<meta property="og:image" content="https://mts.tass.ru/images/1200x630.jpg" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta property="vk:image" content="https://mts.tass.ru/images/700x500.jpg" />
+	<meta property="vk:image:width" content="700" />
+	<meta property="vk:image:height" content="500" />
+	<script>
+		(function () {
+			// Установка размера шрифта на html при ресайзе окна
+			var sizes = [{
+				width: 1200,
+				size: 10
+			}, {
+				width: 768,
+				size: 16,
+				resize: false
+			},
+			{
+				width: 320,
+				size: 16
+			}],
+				htmlElem = document.querySelector("html");
+			setSize();
+			window.addEventListener("resize", setSize);
+			function setSize() {
+				var width = window.innerWidth,
+					size,
+					fontSize;
+				for (var i = 0, l = sizes.length; i < l; i++) {
+					if (width >= sizes[i].width) {
+						size = sizes[i];
+						break;
+					}
+				}
+				if (typeof size.resize != undefined && size.resize !== false) {
+					fontSize = width / size.width * size.size;
+				} else {
+					fontSize = size.size;
+				}
+				htmlElem.style.fontSize = fontSize + "px";
+			}
+		})();
+	</script>
+</head>
+
+<body class='page page_mobile-pb' style="opacity: 0">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PV4QKRH" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	<main id="app" class="page__main">
+		<header :class="['header',{'header_hidden':(cityInView||mobileDisplay==2) && !zonesVisible}]">
+			<button :class="['menu-button', 'header__menu-button', {'menu-button__active':menu_visible}]"
+				@click="toggleMenu">
+				<span class="menu-button__icon"></span>
+			</button>
+			<ul class="soc-list header__soc-list">
+				<li class="soc-list__item">
+					<a target="_blank" :href="share.tw" class="soc-list__link share__header_tw">
+						<svg class="soc-list__icon soc-list__icon_tw" role="img" width="19" height="15"
+							viewBox="0 0 19 15">
+							<use xlink:href="/images/sprites.svg#tw"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="soc-list__item">
+					<a target="_blank" :href="share.ok" class="soc-list__link share__header_ok">
+						<svg class="soc-list__icon soc-list__icon_ok" role="img" width="13" height="22"
+							viewBox="0 0 13 22">
+							<use xlink:href="/images/sprites.svg#ok"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="soc-list__item">
+					<a target="_blank" :href="share.vk" class="soc-list__link share__header_vk">
+						<svg class="soc-list__icon soc-list__icon_vk" role="img" width="22" height="13"
+							viewBox="0 0 22 13">
+							<use xlink:href="/images/sprites.svg#vk"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="soc-list__item">
+					<a target="_blank" :href="share.fb" class="soc-list__link share__header_fb">
+						<svg class="soc-list__icon soc-list__icon_fb" role="img" width="12" height="21"
+							viewBox="0 0 12 21">
+							<use xlink:href="/images/sprites.svg#fb"></use>
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</header>
+		<article :class="['menu',{'menu_visible':menu_visible}]">
+			<div class="container-fluid menu__container">
+				<div class="row menu__row align-items-center align-content-center">
+					<div class="col-12 col-md-10 offset-1 offset-xl-2 my-auto">
+						<p class="menu__head">Меню</p>
+						<ul class="menu-list menu__menu-list">
+							<li class="menu-list__item" v-for="(zone, index) in zones" :key="zone.id">
+								<a @click.prevent="setZoneByName(zone.name);" :href="zone.path"
+									:class="['menu-list__link',{'menu-list__link_active': zone==activeZone}]"><span
+										class="menu-list__number">{{'0'+(index+1)}}</span>{{zone.menuTitle || zone.title}}</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="soc-list menu__soc-list d-flex d-md-none">
+						<li class="soc-list__item">
+							<a target="_blank" :href="share.tw" class="soc-list__link share__menu_tw">
+								<svg class="soc-list__icon soc-list__icon_tw" role="img" width="19" height="15"
+									viewBox="0 0 19 15">
+									<use xlink:href="/images/sprites.svg#tw"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="soc-list__item">
+							<a target="_blank" :href="share.ok" class="soc-list__link share__menu_ok">
+								<svg class="soc-list__icon soc-list__icon_ok" role="img" width="13" height="22"
+									viewBox="0 0 13 22">
+									<use xlink:href="/images/sprites.svg#ok"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="soc-list__item">
+							<a target="_blank" :href="share.vk" class="soc-list__link share__menu_vk">
+								<svg class="soc-list__icon soc-list__icon_vk" role="img" width="22" height="13"
+									viewBox="0 0 22 13">
+									<use xlink:href="/images/sprites.svg#vk"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="soc-list__item">
+							<a target="_blank" :href="share.fb" class="soc-list__link share__menu_fb">
+								<svg class="soc-list__icon soc-list__icon_fb" role="img" width="12" height="21"
+									viewBox="0 0 12 21">
+									<use xlink:href="/images/sprites.svg#fb"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</article>
+		<div :class="['top',{'top_mobile-hidden':mobileDisplay==2}]">
+			<div class="top__inner">
+				<!-- top__bg_zoom -->
+				<div class="top__bg">
+					<img sizes="50vw, (min-device-pixel-ratio: 2) 100vw, (max-width: 767px) 50vw, (min-device-pixel-ratio: 2) and (max-width: 767px) 100vw"
+						srcset="/images/top@2x.png 2038w,/images/top.png 1016w,/images/top-mobile@2x.png 388w,/images/top-mobile.png 194w"
+						src="/images/top.png" alt="" :class="['top__bg-inner',{'top__bg-inner_zoom':display==1}]">
+				</div>
+				<div :class="['container-fluid', 'top__container',{'top__container_mobile-hidden':mobileDisplay==1}]">
+					<div :class="['row' ,'top__row-logo',{'top__row-logo_hidden':display==1}]">
+						<div class="col-12 d-flex justify-content-end">
+							<div class="top__logos">
+								<a href="https://mts.ru/" target="_blank" class="top__logo top__logo_mts">
+									<svg class="top__logo-icon top__logo-icon_mts" role="img" width="125" height="32"
+										viewBox="0 0 125 32">
+										<use xlink:href="/images/sprites.svg#mts"></use>
+									</svg>
+								</a>
+								<a href="https://tass.ru/" target="_blank" class="top__logo top__logo_tass">
+									<svg class="top__logo-icon top__logo-icon_tass" role="img" width="66" height="66"
+										viewBox="0 0 66 66">
+										<use xlink:href="/images/sprites.svg#tass"></use>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="row top__row-content">
+						<div class="col-11 col-md-7 col-lg-5 offset-1 col-xl-4 offset-xl-1">
+							<!-- top-slide__slide-left -->
+							<div :class="['top-slide', 'top__top-slide',{'top-slide_slide-left':display==1}]">
+								<div class="top-slide__inner">
+									<h1 class="top__title"><span class="top__title-stroke">Новый</span> умный мир</h1>
+								</div>
+							</div>
+						</div>
+						<div
+							class="col-10 offset-1 col-md-6 offset-md-6 col-lg-5 offset-lg-0 col-xl-3 offset-xl-3 mt-auto">
+							<div :class="['top-slide', 'top__top-slide',{'top-slide_slide-left':display==1}]">
+								<div class="top-slide__inner">
+									<p class="top__subtitle">Как искусственный интеллект изменит нашу жизнь</p>
+									<button class="top__button"
+										@click="scrollToInfo();mobileDisplay=1;display=1;">Начать
+										путешествие</button>
+									<ul class="soc-list top__soc-list d-flex d-md-none">
+										<li class="soc-list__item">
+											<a target="_blank" :href="share.tw" class="soc-list__link share__top_tw">
+												<svg class="soc-list__icon soc-list__icon_tw" role="img" width="19"
+													height="15" viewBox="0 0 19 15">
+													<use xlink:href="/images/sprites.svg#tw"></use>
+												</svg>
+											</a>
+										</li>
+										<li class="soc-list__item">
+											<a target="_blank" :href="share.ok" class="soc-list__link share__top_ok">
+												<svg class="soc-list__icon soc-list__icon_ok" role="img" width="13"
+													height="22" viewBox="0 0 13 22">
+													<use xlink:href="/images/sprites.svg#ok"></use>
+												</svg>
+											</a>
+										</li>
+										<li class="soc-list__item">
+											<a target="_blank" :href="share.vk" class="soc-list__link share__top_vk">
+												<svg class="soc-list__icon soc-list__icon_vk" role="img" width="22"
+													height="13" viewBox="0 0 22 13">
+													<use xlink:href="/images/sprites.svg#vk"></use>
+												</svg>
+											</a>
+										</li>
+										<li class="soc-list__item">
+											<a target="_blank" :href="share.fb" class="soc-list__link share__top_fb">
+												<svg class="soc-list__icon soc-list__icon_fb" role="img" width="12"
+													height="21" viewBox="0 0 12 21">
+													<use xlink:href="/images/sprites.svg#fb"></use>
+												</svg>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div :class="['info', 'top__info',{'info_mobile-visible':mobileDisplay==1,'info_visible':display==1}]">
+					<div class="container-fluid info__container">
+						<div class="row info__row-content align-items-center align-content-center">
+							<div class="col-11 offset-1 col-xl-5 offset-xl-2">
+								<p class="info__quote">Искусственный интеллект&nbsp;&mdash; один из&nbsp;главных столпов
+									современных технологий. Многие из&nbsp;нас даже не&nbsp;замечают, насколько важной
+									частью нашей жизни он&nbsp;уже стал.</p>
+							</div>
+							<div class="col-11 offset-1 col-xl-4 offset-xl-0">
+								<p class="info__text">Интернет вещей и&nbsp;нейронные сети, облачные вычисления
+									и&nbsp;хранилища, Big&nbsp;Data&nbsp;&mdash; искусственный интеллект объединяет
+									самые
+									передовые разработки и&nbsp;стремительно меняет наш мир, делая его&nbsp;безопаснее
+									и&nbsp;удобнее. МТС&nbsp;&mdash; одна из&nbsp;ведущих российских компаний,
+									занимающихся
+									его развитием. Вместе с&nbsp;экспертами МТС мы&nbsp;представили, как будет выглядеть
+									мегаполис будущего, где&nbsp;почти всем управляет искусственный интеллект.
+									Вы&nbsp;можете
+									виртуально прогуляться по&nbsp;этому городу прямо сейчас. Это будущее реальнее,
+									чем&nbsp;вам&nbsp;кажется.</p>
+								<button class="info__scroll d-md-none" @click="mobileDisplay=2">Листать
+									вниз</button>
+							</div>
+						</div>
+						<div class="row info__row-bottom d-none d-xl-flex">
+							<div class="col-11 offset-1">
+								<button class="info__scroll" @click="scrollToCity">Листать
+									вниз</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<article class="city page__section" data-scrollize-elem>
+			<button :class="['city__city-button', ,'d-block', 'd-md-none',{'city__city-button_visible':zonesVisible}]"
+				@click="toCity">
+				<svg class="city__city-icon" role="img" width="20" height="17" viewBox="0 0 20 17">
+					<use xlink:href="/images/sprites.svg#arrow"></use>
+				</svg>
+			</button>
+			<!-- <div class="city__mask" data-lax-winY data-lax-preset="cityMaskFadeOut" data-lax-anchor="self"></div> -->
+			<div class="city__mask" data-lax-winY data-lax-preset="cityMaskFadeOut"></div>
+			<div class="city__mask" data-lax-winY data-lax-preset="cityMaskFadeIn"></div>
+			<div class="city__sticky-wrapper">
+				<div :class="['city__inner',{'city__inner_overflow-hidden':zonesVisible}]">
+					<div class="container-fluid city__container">
+						<div class="row">
+							<div class="col-12 col-xl-10 offset-xl-1">
+								<header class="city__header">
+									<ul class="city-menu city__city-menu">
+										<li :class="['city-menu__item', 'city-menu__item_'+zone.name]"
+											v-for="(zone, index) in zones" :key="zone.id">
+											<a @click.prevent="cityClick(zone.name)" :href="zone.path"
+												@mouseover="cityOver(zone.name)" @mouseout="cityOut(zone.name)"
+												:class="['city-menu__link',{'city-menu__link_active': (mustOpen.zone&&mustOpen.zone.name==zone.name),'city-menu__link_hover':hoveredCityName==zone.name}]">
+												<span class="city-menu__text">{{zone.title}}</span>
+											</a>
+										</li>
+									</ul>
+									<span
+										:class="['city__header-line',{'city__header-line_visible': mustOpen.zone}]"></span>
+								</header>
+							</div>
+						</div>
+					</div>
+					<div class="city-graphics city__graphics" style="background-image: url('/images/city/bg.svg')">
+						<div class="city-graphics__inner">
+							<div class="city-graphics__animations"></div>
+							<div class="city-graphics__animations city-graphics__animations_bg"></div>
+							<div class="city-graphics__images">
+								<div class="city-graphics__loader"></div>
+								<div class="city-graphics__image city-graphics__image_city">
+									<svg :class="['city-graphics__image-inner','city-graphics__image-inner_svg']"
+										clip-rule="evenodd" fill-rule="evenodd" stroke-miterlimit="10"
+										viewBox="0 0 3000 1686" xmlns="http://www.w3.org/2000/svg"
+										xmlns:xlink="http://www.w3.org/1999/xlink">
+										<g data-name="last" id="city_last" :class="['city-graphics__svg']">
+											<linearGradient id="last_a" gradientTransform="matrix(1 0 0 -1 0 .005064)"
+												gradientUnits="userSpaceOnUse" x1="0" x2="1" y1="0" y2="0">
+												<stop offset="0" stop-color="#0b155b" />
+												<stop offset="1" stop-color="#073489" />
+											</linearGradient>
+											<path d="m2669 213h78.21v946.04h-78.21z" fill="#0b155b"
+												transform="matrix(-1 0 0 1 5416.21 313.96)" />
+											<path d="m2745.61 526.308h254.392v946.222h-254.392z" fill="#114493" />
+											<g fill="#08123a">
+												<path d="m2796.45 964.706h76.355v118.97h-76.355z" opacity=".18"
+													transform="matrix(-1 0 0 1 5669.25 -362.382)" />
+												<path d="m2898.45 964.706h76.355v118.97h-76.355z" opacity=".18"
+													transform="matrix(-1 0 0 1 5873.25 -362.382)" />
+												<path d="m2796.45 801.373h76.35v118.97h-76.35z" opacity=".18"
+													transform="matrix(1 0 0 -1 -.003 1686)" />
+												<path d="m2898.45 801.373h76.35v118.97h-76.35z" opacity=".18"
+													transform="matrix(1 0 0 -1 -.003 1686)" />
+												<path d="m2796.45 638.04h76.35v118.969h-76.35z" opacity=".18"
+													transform="matrix(1 0 0 -1 -.003 1686)" />
+												<path d="m2898.45 638.04h76.35v118.969h-76.35z" opacity=".18"
+													transform="matrix(1 0 0 -1 -.003 1686)" />
+												<path d="m2796.45 474.706h76.35v118.97h-76.35z" opacity=".18"
+													transform="matrix(1 0 0 -1 -.003 1686)" />
+												<path d="m2796.45 311.373h76.35v118.97h-76.35z" opacity=".18"
+													transform="matrix(1 0 0 -1 -.003 1686)" />
+											</g>
+											<path
+												d="m.591 2.412c-.252-.357-.023-.787-.023-.787s-.351-.022-.444-.657c-.094-.635.207-.846.207-.846s-.355-.169-.33-.773c.034-.783.665-.856.665-.856v-1.061h.155v5.141c-.063-.012-.151-.05-.23-.161z"
+												fill="url(#last_a)" fill-rule="nonzero"
+												transform="matrix(128.403 0 0 -128.403 2894.53 1160.29)" />
+										</g>
+										<g data-name="education" id="city_education" :class="['city-graphics__svg']"
+											@mouseover="cityOver('education')" @mouseout="cityOut('education')"
+											@click.prevent="cityClick('education')">
+											<linearGradient id="education_a"
+												gradientTransform="matrix(.707107 -.707107 -.707107 -.707107 .146447 .353554)"
+												gradientUnits="userSpaceOnUse" x1="0" x2="1" y1="0" y2="0">
+												<stop offset="0" stop-color="#0b155b" />
+												<stop offset="1" stop-color="#073489" />
+											</linearGradient>
+											<linearGradient id="education_linear" x1="2769.7" y1="1615.36" x2="2769.7"
+												y2="653.659" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#DC1010" stop-opacity="0.650923" />
+												<stop stop-color="#DC1010" stop-opacity="0.650923" />
+												<stop offset="0.179518" stop-color="#DC1010" stop-opacity="0.661823" />
+												<stop offset="0.665313" stop-color="#2C38FF" stop-opacity="0.349814" />
+												<stop offset="0.896991" stop-color="#B292FF" stop-opacity="0.0244234" />
+												<stop offset="1" stop-color="#BB98FF" stop-opacity="0.01" />
+											</linearGradient>
+											<clipPath id="education_b">
+												<path clip-rule="nonzero"
+													d="m2428.17 1281.29h203.333v194.166h-203.333z" />
+											</clipPath>
+											<path d="m2358.63 744.803h362.981v130.197h-362.981z" fill="#0b155b" />
+											<path d="m.212-.419h.576v.839h-.576z" fill="url(#education_a)"
+												transform="matrix(716.469 0 0 -716.469 2181.13 1175.38)" />
+											<path d="m2351.16 647.591h46.483v115.782h-46.483z" fill="#073489"
+												transform="matrix(-1 0 0 1 4748.81 275.036)" />
+											<path d="m2417.34 647.591h46.483v115.782h-46.483z" fill="#073489"
+												transform="matrix(-1 0 0 1 4881.16 275.036)" />
+											<path d="m2483.52 647.591h46.483v115.782h-46.483z" fill="#073489"
+												transform="matrix(-1 0 0 1 5013.52 275.036)" />
+											<path d="m2549.69 647.591h46.483v115.782h-46.483z" fill="#00ace1"
+												transform="matrix(-1 0 0 1 5145.87 275.036)" />
+											<path d="m2616.17 647.924h46.483v115.782h-46.483z" fill="#073489"
+												transform="matrix(-1 0 0 1 5278.83 274.37)" />
+											<path d="m2682.35 647.924h46.483v115.782h-46.483z" fill="#073489"
+												transform="matrix(-1 0 0 1 5411.18 274.37)" />
+											<path d="m2351.16 493.79h46.483v115.782h-46.483z" fill="#ff0300"
+												transform="matrix(-1 0 0 1 4748.81 582.638)" />
+											<g fill="#073489">
+												<path d="m2417.34 493.79h46.483v115.782h-46.483z"
+													transform="matrix(-1 0 0 1 4881.16 582.638)" />
+												<path
+													d="m0 115.782h-46.483v-92.54c0-12.836 10.406-23.242 23.242-23.242s23.241 10.406 23.241 23.242z"
+													fill-rule="nonzero" transform="translate(2397.82 1281.43)" />
+												<path
+													d="m0 115.782h-46.483v-92.54c0-12.836 10.406-23.242 23.242-23.242s23.241 10.406 23.241 23.242z"
+													fill-rule="nonzero" transform="translate(2711.82 1281.43)" />
+												<path d="m2616.17 494.123h46.483v115.782h-46.483z"
+													transform="matrix(-1 0 0 1 5278.83 581.972)" />
+												<path d="m2682.35 494.123h46.483v115.782h-46.483z"
+													transform="matrix(-1 0 0 1 5411.18 581.972)" />
+												<path d="m2428.17 421.373h203.333v40.667h-203.333z"
+													transform="matrix(-1 0 0 1 5059.67 802.587)" />
+											</g>
+											<path d="m2428.17 210.54h203.333v194.166h-203.333z" fill="#00ace1"
+												transform="matrix(-1 0 0 1 5059.67 1070.75)" />
+											<path d="m-412.479 0h412.479" fill="none" stroke="#0058ac"
+												stroke-width=".75" transform="matrix(-1 0 0 1 2333.13 874.8)" />
+											<g clip-path="url(#education_b)" fill="#1bc4ec" fill-rule="nonzero">
+												<path d="m-13.101 189.662h398.073l49.53-105.371-537.805-7.976z"
+													transform="matrix(.492476 -.870326 -.870326 -.492476 2539.8 1570.49)" />
+												<path d="m-137.48 268.28h602.876l7.245-25.434-629.959-3.659z"
+													transform="matrix(.475821 -.879542 -.879542 -.475821 2741.22 1660.7)" />
+											</g>
+											<path d="m-100.336-100.336h200.672" fill="none" stroke="#073489"
+												stroke-width="2" transform="matrix(0 1 1 0 2627.17 1380.95)" />
+											<path
+												d="m0-115.782c.387 9.648.646 19.297.778 28.945.159 9.65.201 19.298.222 28.947-.018 9.648-.061 19.296-.22 28.945-.13 9.648-.39 19.297-.78 28.945-.389-9.648-.649-19.297-.78-28.945-.158-9.649-.201-19.297-.219-28.945.02-9.649.062-19.297.222-28.947.131-9.648.391-19.297.777-28.945"
+												fill="#ff0300" fill-rule="nonzero"
+												transform="translate(2463.82 1192.21)" />
+											<g fill="none">
+												<path
+													d="m0 27.148h-34.052v-27.148h5.585v22.145h8.649v-22.145h5.546v22.145h8.687v-22.145h5.585z"
+													stroke="#00ace1" stroke-width="1.17"
+													transform="translate(2488.04 1230.54)" />
+												<path
+													d="m0 27.148h-5.585v-27.148h5.585v10.704l10.006-10.704h6.826l-11.519 12.449 13.497 14.699h-7.136l-11.674-12.527z"
+													stroke="#00ace1" stroke-width="1.17"
+													transform="translate(2499.64 1230.54)" />
+												<path
+													d="m0 12.721c1.603 1.681 3.606 2.521 6.012 2.521 2.378 0 4.369-.84 5.972-2.521s2.405-3.801 2.405-6.36c0-2.56-.802-4.68-2.405-6.361-1.603-1.68-3.594-2.521-5.972-2.521-2.406 0-4.409.841-6.012 2.521-1.578 1.656-2.366 3.776-2.366 6.361 0 2.586.788 4.706 2.366 6.36zm-8.067-6.36c0-3.982 1.332-7.317 3.995-10.006 2.662-2.74 6.024-4.112 10.084-4.112 4.033 0 7.381 1.372 10.044 4.112 2.689 2.741 4.034 6.076 4.034 10.006 0 3.904-1.345 7.24-4.034 10.006-2.663 2.741-6.011 4.111-10.044 4.111-4.06 0-7.422-1.37-10.084-4.111-2.663-2.74-3.995-6.076-3.995-10.006z"
+													stroke="#00ace1" stroke-width="1.17"
+													transform="translate(2525.82 1237.76)" />
+												<path
+													d="m0 26.567v-5.042c.568.207 1.228.311 1.978.311 1.448 0 2.43-.996 2.948-2.987.516-2.042.814-5.792.891-11.247l.117-7.951h19.159v27.148h-5.546v-22.145h-8.222l-.155 5.508c-.208 6.386-.932 10.768-2.172 13.147-1.268 2.404-3.504 3.607-6.71 3.607-.982 0-1.745-.117-2.288-.349z"
+													stroke="#00ace1" stroke-width="1.17"
+													transform="translate(2547.46 1230.89)" />
+												<path
+													d="m0-13.341-3.994 9.424h7.95zm-8.416 20.322h-5.856l11.634-27.303h5.353l11.635 27.303h-5.934l-2.676-6.283h-11.48z"
+													stroke="#00ace1" stroke-width="1.17"
+													transform="translate(2590.47 1250.71)" />
+												<path d="m-55 55h110" stroke="#0b155b" stroke-width="4"
+													transform="matrix(0 -1 -1 0 2571 697)" />
+											</g>
+											<path d="m0-47.04 70 21.04-70 26z" fill="#ff0300" fill-rule="nonzero"
+												transform="translate(2517 697)" />
+											<path
+												d="m45-45c-24.853 0-45 20.147-45 45s20.147 45 45 45 45-20.147 45-45-20.147-45-45-45"
+												fill="#114493" fill-rule="nonzero"
+												transform="matrix(0 1 1 0 2539 1087)" />
+											<path class="city-graphics__svg-path_minute" d="m0 0h34" fill="none"
+												stroke="#0b155b" stroke-width="2" transform="translate(2539 1132)" />
+											<path class="city-graphics__svg-path_hour" d="m-13.673 11.5h23.346"
+												fill="none" stroke="#0b155b" stroke-width="2"
+												transform="matrix(-.171341 -.985212 -.985212 .171341 2547.99 1116.56)" />
+											<path d="m.568-.072h77.255l-4.989 600.991-73.402-.139z" fill="#0a1447"
+												fill-rule="nonzero" opacity=".88"
+												transform="matrix(.999998 .00188984 .00188984 -.999998 2256.18 1477.78)" />
+											<path d="m2272 744.803h86.608v128.197h-86.608z" fill="#0a1549" />
+											<path
+												:class="['city-graphics__svg-mask',{'city-graphics__svg-mask_visible': (mustOpen.zone&&mustOpen.zone.name=='education'),'city-graphics__svg-mask_hover':hoveredCityName=='education'}]"
+												d="M2335.14 874.467V746.312H2393.74L2514.7 746.312L2719.17 746.312V874.467H2743.65L2750.46 1475H2335.14V874.467Z"
+												fill="url(#education_linear)" />
+											<path
+												d="m93.6 27.511c-19.591-21.814-83.558-30.276-110.319 17.481-42.422 75.708 44.594 135.611 110.319 106.212 34.079-15.245 37.523-46.728 37.315-48.826s-25.176-61.349-37.315-74.867"
+												fill="#073489" fill-rule="nonzero"
+												transform="matrix(.408327 .912836 .912836 -.408327 2641.76 1402.93)" />
+											<path d="m2738.11 1374.63h7.225v94.903h-7.225z" fill="#0b155b" />
+											<path d="m0 14.667 42.612-27-42.612 39.333z" fill="#0b155b"
+												fill-rule="nonzero" transform="translate(2741.72 1386.96)" />
+											<path d="m0 14.667-42.612-27 42.612 39.333z" fill="#0b155b"
+												fill-rule="nonzero" transform="translate(2741.72 1421.57)" />
+											<path
+												d="m0 138.093c-3.941-1.425-7.704-3.342-11.316-5.503-3.611-2.17-7.044-4.651-10.278-7.388-3.214-2.758-6.209-5.792-8.919-9.083-2.711-3.29-5.068-6.88-7.094-10.655-4.072-7.553-6.426-16.013-7.21-24.559-.734-8.568.093-17.192 2.011-25.502 1.961-8.31 5.121-16.43 9.807-23.658 4.67-7.22 10.774-13.527 17.869-18.312 7.06-4.848 14.988-8.248 23.151-10.428 4.091-1.065 8.244-1.859 12.425-2.331 4.181-.464 8.392-.674 12.574-.417-8.354.414-16.59 2.029-24.45 4.604-7.859 2.566-15.324 6.253-21.913 11.09-6.565 4.859-12.234 10.876-16.482 17.807-2.13 3.457-3.969 7.095-5.49 10.87-1.501 3.784-2.692 7.696-3.605 11.679-1.863 7.962-2.719 16.181-2.101 24.292.269 4.056.928 8.085 1.97 12.013.511 1.966 1.144 3.901 1.858 5.805.703 1.908 1.489 3.79 2.387 5.62 3.574 7.332 8.583 13.988 14.544 19.695 2.961 2.88 6.179 5.507 9.56 7.921 1.69 1.208 3.43 2.353 5.213 3.43 1.779 1.085 3.595 2.119 5.489 3.01"
+												fill="#00ace1" fill-rule="nonzero"
+												transform="translate(2705.09 1339.04)" />
+											<path
+												d="m41.548 13.203c-10.236-9.987-46.995-8.145-54.901 17.36-10.676 34.439 23.858 54.274 54.901 37.851 16.096-8.516 12.15-29.497 11.981-30.511-.169-1.015-11.981-24.7-11.981-24.7"
+												fill="#194e9b" fill-rule="nonzero"
+												transform="matrix(.467628 .883925 .883925 -.467628 2772.47 1445.41)" />
+										</g>
+										<g data-name="office" id="city_office" :class="['city-graphics__svg']"
+											@mouseover="cityOver('office')" @mouseout="cityOut('office')"
+											@click.prevent="cityClick('office')">
+											<radialGradient id="office_a" cx="0" cy="0"
+												gradientTransform="matrix(0 91.5 -84.5 0 2033.5 496.803)"
+												gradientUnits="userSpaceOnUse" r="1">
+												<stop offset="0" stop-color="#fff" stop-opacity=".28" />
+												<stop offset=".630208" stop-color="#fff" stop-opacity=".04" />
+												<stop offset=".838542" stop-color="#fff" stop-opacity="0" />
+											</radialGradient>
+											<linearGradient id="office_b">
+												<stop offset="0" stop-color="#0b155b" />
+												<stop offset="1" stop-color="#073489" />
+											</linearGradient>
+											<linearGradient id="office_c" gradientUnits="userSpaceOnUse" x1="2211.25"
+												x2="2347.75" xlink:href="#office_b" y1="778.75" y2="915.25" />
+											<linearGradient id="office_d" gradientUnits="userSpaceOnUse" x1="2254.01"
+												x2="2380.04" xlink:href="#office_b" y1="1421.9" y2="1421.9" />
+											<linearGradient id="office_linear" x1="2328.72" y1="1615.13" x2="2328.72"
+												y2="647.822" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#DC1010" stop-opacity="0.650923" />
+												<stop stop-color="#DC1010" stop-opacity="0.650923" />
+												<stop offset="0.179518" stop-color="#DC1010" stop-opacity="0.661823" />
+												<stop offset="0.665313" stop-color="#2C38FF" stop-opacity="0.349814" />
+												<stop offset="0.896991" stop-color="#B292FF" stop-opacity="0.0244234" />
+												<stop offset="1" stop-color="#BB98FF" stop-opacity="0.01" />
+											</linearGradient>
+											<ellipse cx="2333.5" cy="389.5" fill="#fff" rx="29.5" ry="31.5" />
+											<path d="m1938.5 929.561h394.63v-542.561h-391.63z" fill="#073489" />
+											<path clip-rule="evenodd" d="m1903.23 929.733h406.77v544.267h-406.77z"
+												fill="#073489" fill-rule="evenodd" />
+											<path clip-rule="evenodd" d="m2237.28 1149.21h-58.09v105.5h58.09z"
+												fill="#ff0300" fill-rule="evenodd" />
+											<path d="m1846.79 962.861 91.21.14-2.09-576-89.12-.001z" fill="#0b155b" />
+											<path d="m2108.42 1413.29v-200.68" stroke="#073489" stroke-miterlimit="10"
+												stroke-width="3" />
+											<path d="m2313.63 932.648-410.4-2.911 1.77 543.263h18z" fill="#114493" />
+											<path d="m2333 387-396 .089 4.11 542.911z" fill="#114493" opacity=".47" />
+											<path clip-rule="evenodd" d="m2042.08 1045.27h-58.09v105.5h58.09z"
+												fill="#ff0300" fill-rule="evenodd" />
+											<path clip-rule="evenodd" d="m2046 1473.95h132v-185.99h-132z" fill="#0b155b"
+												fill-rule="evenodd" opacity=".78" />
+											<path d="m2100.65 1287.96-54.65 76.26v109.73h13.58l118.42-170.53v-15.46z"
+												fill="#152472" />
+											<path d="m2108.37 1473.95h22.65l46.98-69.12v-32.05z" fill="#152472" />
+											<path clip-rule="evenodd" d="m2069 714.46h-65.5v108.54h65.5z" fill="#0b155b"
+												fill-rule="evenodd" />
+											<path clip-rule="evenodd" d="m2267 824.297h-65.67v105.5h65.67z"
+												fill="#0b155b" fill-rule="evenodd" />
+											<path clip-rule="evenodd" d="m2069 496.803h-66v108.197h66z" fill="#00ace1"
+												fill-rule="evenodd" />
+											<path clip-rule="evenodd" d="m2266 605h-64.71v108.71h64.71z" fill="#ff0300"
+												fill-rule="evenodd" />
+											<path d="m2314 932-410-2.5" stroke="#0b155b" stroke-miterlimit="10"
+												stroke-width="1.5" />
+											<path d="m1939.5 686 207.97-299h74.58l-282.05 403.195z" fill="#00ace1"
+												opacity=".09" />
+											<path d="m1901.5 1231 207.97-299.005h74.58l-282.05 403.195z" fill="#00ace1"
+												opacity=".09" />
+											<path
+												d="m2192.19 387 35.2-.238 35.21-.09 70.4-.163.49-.002v.493l-.15 73.662-.09 36.831-.25 36.831-.25-36.831-.08-36.831-.16-73.662.49.491-70.4-.163-35.21-.09z"
+												fill="#00ace1" />
+											<path d="m2333.13 929.56-138.13-.474 138-167.437z" fill="#00ace1"
+												opacity=".09" />
+											<ellipse cx="2033.5" cy="496.803" fill="url(#office_a)" rx="84.5"
+												ry="91.5" />
+											<path d="m2333.01 929.992h-214.03l214.03-273z" fill="url(#office_c)"
+												opacity=".42" />
+											<g stroke="#00ace1" stroke-miterlimit="10" stroke-width="1.02">
+												<g opacity=".3">
+													<path d="m1937 387v543" opacity=".3" />
+													<path d="m2003 387v543" opacity=".3" />
+													<path d="m2069 387v543" opacity=".3" />
+													<path d="m2135 387v543" opacity=".3" />
+													<path d="m2201 387v543" opacity=".3" />
+													<path d="m2267 387v543" opacity=".3" />
+													<path d="m2333 387v543" opacity=".3" />
+												</g>
+												<path d="m1937.5 387.5h395" />
+												<g opacity=".5">
+													<path d="m1938 496.5h395" opacity=".5" />
+													<path d="m1938.5 605.5h395" opacity=".5" />
+													<path d="m1939 714.5h395" opacity=".5" />
+													<path d="m1939.5 823.5h395" opacity=".5" />
+												</g>
+												<g opacity=".3">
+													<path d="m1914 931v543" opacity=".3" />
+													<path d="m1980 931v543" opacity=".3" />
+													<path d="m2046 931v543" opacity=".3" />
+													<path d="m2112 931v356" opacity=".3" />
+													<path d="m2178 931v543" opacity=".3" />
+													<path d="m2244 931v543" opacity=".3" />
+													<path d="m2310 931v543" opacity=".3" />
+												</g>
+												<g opacity=".5">
+													<path d="m1915 1040.5h395" opacity=".5" />
+													<path d="m1915.5 1149.5h395" opacity=".5" />
+													<path d="m1916 1258.5h395" opacity=".5" />
+													<path d="m2178 1367.5h131.5" opacity=".5" />
+													<path d="m1914.5 1367.5h131.5" opacity=".5" />
+												</g>
+											</g>
+											<path d="m1810 1474.87 91.21.13-2.09-543.002h-89.12z" fill="#0b155b" />
+											<path
+												:class="['city-graphics__svg-mask',{'city-graphics__svg-mask_visible': (mustOpen.zone&&mustOpen.zone.name=='office'),'city-graphics__svg-mask_hover':hoveredCityName=='office'}]"
+												d="M1905.92 927.681H1939.13V623.886L1943.87 389.179H2330.94V934.305H2310V1473.95H1905.92V927.681Z"
+												fill="url(#office_linear)" />
+											<path
+												d="m2268.88 1382.83c-32.14 32.26-5.54 89.11 17.65 96.67 0 0 71.58-2.02 73.22-2.52 1.64-.51 20.29-7.06 20.29-38.19 0-42.22-33.65-74.49-68.81-74.49-14.62 0-29.49 5.67-42.35 18.53z"
+												fill="url(#office_d)" />
+											<path clip-rule="evenodd" d="m2312.36 1395.53h6.01v78.99h-6.01z"
+												fill="#0b155b" fill-rule="evenodd" />
+											<path d="m2315.37 1418 35.47-22.48-35.47 32.74z" fill="#0b155b" />
+											<path d="m2315.37 1446.81-35.47-22.48 35.47 32.74z" fill="#0b155b" />
+
+										</g>
+										<g data-name="home" id="city_home" :class="['city-graphics__svg']"
+											@mouseover="cityOver('home')" @mouseout="cityOut('home')"
+											@click.prevent="cityClick('home')">
+											<linearGradient id="home_a">
+												<stop offset="0" stop-color="#0b155b" />
+												<stop offset="1" stop-color="#073489" />
+											</linearGradient>
+											<linearGradient id="home_b" gradientTransform="scale(1 -1)"
+												gradientUnits="userSpaceOnUse" x1="0" x2="1" xlink:href="#home_a" y1="0"
+												y2="0" />
+											<linearGradient id="home_c" gradientTransform="matrix(1 0 0 -1 0 -.000007)"
+												gradientUnits="userSpaceOnUse" x1="0" x2="1" xlink:href="#home_a" y1="0"
+												y2="0" />
+											<clipPath id="home_d">
+												<path clip-rule="nonzero" d="m1551 968.96h317.84v160.054h-317.84z" />
+											</clipPath>
+											<linearGradient id="home_linear" x1="1924.18" y1="1616.18" x2="1924.18"
+												y2="648.872" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#DC1010" stop-opacity="0.650923" />
+												<stop stop-color="#DC1010" stop-opacity="0.650923" />
+												<stop offset="0.179518" stop-color="#DC1010" stop-opacity="0.661823" />
+												<stop offset="0.665313" stop-color="#2C38FF" stop-opacity="0.349814" />
+												<stop offset="0.896991" stop-color="#B292FF" stop-opacity="0.0244234" />
+												<stop offset="1" stop-color="#BB98FF" stop-opacity="0.01" />
+											</linearGradient>
+											<path d="m-416-325h89l327 249.96v75.04z" fill="#0a1447" fill-rule="nonzero"
+												transform="matrix(-1 0 0 1 1485 841)" />
+											<path d="m1547 205h23v855.04h-23z" fill="#0a1447"
+												transform="matrix(-1 0 0 1 3117 420.96)" />
+											<path
+												d="m1 .277-.305.042.05.05-.069.069-.102-.101-.08.011-.494-.494.292-.292z"
+												fill="url(#home_b)" fill-rule="nonzero"
+												transform="matrix(673.466 -673.466 -673.466 -673.466 1414.05 1377.14)" />
+											<path d="m1558.16 404.706h62.844v97.917h-62.844z" fill="#073489"
+												transform="matrix(-1 0 0 1 3179.16 778.671)" />
+											<path d="m1644.82 404.706h62.844v97.917h-62.844z" fill="#00ace1"
+												transform="matrix(-1 0 0 1 3352.49 778.671)" />
+											<path d="m1731.49 404.706h62.843v97.917h-62.843z" fill="#073489"
+												transform="matrix(-1 0 0 1 3525.82 778.671)" />
+											<path d="m1818.16 404.706h62.844v97.917h-62.844z" fill="#00ace1"
+												transform="matrix(-1 0 0 1 3699.16 778.671)" />
+											<path d="m1664.53 209.614h86.271v138.261h-86.271z" fill="#ff0300"
+												transform="matrix(-1 0 0 1 3415.34 1128.51)" />
+											<path d="m1551 556.985h73.745v160.055h-73.745z" fill="#00ace1"
+												transform="matrix(-1 0 0 1 3175.75 411.975)" />
+											<path d="m1632.37 556.985h73.744v160.055h-73.744z" fill="#00ace1"
+												transform="matrix(-1 0 0 1 3338.48 411.975)" />
+											<path d="m1713.73 556.985h73.745v160.055h-73.745z" fill="#00ace1"
+												transform="matrix(-1 0 0 1 3501.21 411.975)" />
+											<path d="m1795.1 556.985h73.745v160.055h-73.745z" fill="#00ace1"
+												transform="matrix(-1 0 0 1 3663.94 411.975)" />
+											<path
+												d="m64.072-64.072c-35.386 0-64.072 28.686-64.072 64.072s28.686 64.072 64.072 64.072 64.072-28.686 64.072-64.072-28.686-64.072-64.072-64.072"
+												fill="#ff0300" fill-rule="nonzero"
+												transform="matrix(0 1 1 0 1754.08 776.888)" />
+											<path d="m1559.81 754.713h29.768v63.077h-29.768z" fill="#00ace1"
+												transform="matrix(-1 0 0 1 3149.39 113.497)" />
+											<path d="m-47.355 140.193h462.394" fill="none" stroke="#00ace1"
+												stroke-width="2"
+												transform="matrix(.795175 -.60638 -.60638 -.795175 1635.33 920.906)" />
+											<g clip-path="url(#home_d)" fill="#1bc4ec" fill-rule="nonzero">
+												<path d="m-13.101 189.661h398.073l49.53-105.369-537.805-7.978z"
+													transform="matrix(.492477 -.870325 -.870325 -.492477 1679.74 1290.23)" />
+												<path d="m-137.481 268.281h602.877l7.245-25.435-629.96-3.657z"
+													transform="matrix(.475819 -.879543 -.879543 -.475819 1910.28 1389.92)" />
+											</g>
+											<path d="m1623.29 553.98h8.915v165.159h-8.915z" fill="#0b155b"
+												transform="matrix(-1 0 0 1 3255.49 412.881)" />
+											<path d="m1705.46 553.98h8.914v165.159h-8.914z" fill="#0b155b"
+												transform="matrix(-1 0 0 1 3419.84 412.881)" />
+											<path d="m1787.48 553.98h8.915v165.159h-8.915z" fill="#0b155b"
+												transform="matrix(-1 0 0 1 3583.87 412.881)" />
+
+											<path
+												d="m0 39.923 47.536-.325 47.536-.259.582-.004.003.588.263 70.491-1.37-.667 115.68-90.759 57.935-45.259 58.019-45.153 1.042-.811-.006 1.316-.266 54.462-.375 54.462-.375-54.462-.266-54.462 1.036.504-57.735 45.515-57.818 45.407-115.826 90.574-1.377 1.077.007-1.744.262-70.491.585.584-47.536-.259z"
+												fill="#00ace1" fill-rule="nonzero"
+												transform="translate(1574.17 586.88)" />
+
+											<path d="m-64.072 64.072h128.144" fill="none" stroke="#0b155b"
+												stroke-linecap="round" stroke-width="4"
+												transform="matrix(0 -1 -1 0 1818.16 840.96)" />
+											<path d="m0 0h128.144" fill="none" stroke="#0b155b" stroke-linecap="round"
+												stroke-width="4" transform="translate(1690.01 840.96)" />
+											<path d="m1637.73 336.559h77.774v258.547h-77.774z" fill="#00ace1"
+												opacity=".05" transform="matrix(-1 0 0 1 3353.24 754.335)" />
+											<g fill-rule="nonzero">
+												<path
+													d="m0 142.444c29.097-7.647 55.586-25.64 73.44-52.741 18.137-27.528 24.123-59.535 19.258-89.703z"
+													fill="#114493" transform="translate(1656.81 423.518)" />
+												<path
+													d="m-13.779-7.422c-47.22-.001-85.499 7.385-85.5 16.498 0 9.113 38.28 16.501 85.5 16.502 47.22 0 85.501-7.386 85.501-16.499 0-9.112-38.28-16.5-85.501-16.501"
+													fill="#0a1856"
+													transform="matrix(.550175 -.83505 -.83505 -.550175 1715.77 487.18)" />
+												<path d="m-45.591 30.441h69.529l-63.481-28.362-11.772 11.837z"
+													fill="#114493"
+													transform="matrix(-.701968 -.712208 -.712208 .701968 1681.89 451.685)" />
+												<path
+													d="m5.845-10.852c-3.865 0-7 3.135-7 7.001 0 3.865 3.134 6.999 7 7 3.866 0 7-3.134 7.001-7-.001-3.865-3.134-7-7.001-7.001"
+													fill="#114493"
+													transform="matrix(-.550192 .835038 .835038 .550192 1649.56 453.661)" />
+												<path d="m-49.311 36.963h72.45l-.001-6-71.083-1.016z" fill="#114493"
+													transform="matrix(-.441684 -.897171 -.897171 .441684 1774.69 522.758)" />
+												<path d="m35.601 78.962h8.897l-76.32-70.223-4.063 4.415z" fill="#114493"
+													transform="matrix(-.78274 .622348 .622348 .78274 1700.69 529.5)" />
+												<path
+													d="m10-10c-5.523 0-10 4.478-10 10s4.477 10 10 10 10-4.478 10-10-4.477-10-10-10"
+													fill="#114493" transform="matrix(0 1 1 0 1734 507)" />
+												<path
+													d="m-2.085-.749c-4.12-.001-7.459 1.466-7.459 3.275 0 1.807 3.339 3.274 7.459 3.274 4.12.001 7.459-1.466 7.459-3.275 0-1.807-3.339-3.274-7.459-3.274"
+													fill="#114493"
+													transform="matrix(.771154 -.636649 -.636649 -.771154 1769.42 581.654)" />
+												<path
+													d="m-2.085-.749c-4.12-.001-7.459 1.466-7.459 3.275 0 1.807 3.339 3.274 7.459 3.274 4.12.001 7.459-1.466 7.459-3.275 0-1.807-3.339-3.274-7.459-3.274"
+													fill="#114493"
+													transform="matrix(.771154 -.636649 -.636649 -.771154 1721.42 616.654)" />
+											</g>
+											<path d="m1485 766h28v710h-28z" fill="#0a1447" />
+											<path
+												:class="['city-graphics__svg-mask',{'city-graphics__svg-mask_visible': (mustOpen.zone&&mustOpen.zone.name=='home'),'city-graphics__svg-mask_hover':hoveredCityName=='home'}]"
+												d="M1511.73 811.228L1573.72 764.832V626.572H1621.38H1668.37V697.558L1900.81 516.614L1905.92 1475H1511.73V811.228Z"
+												fill="url(#home_linear)" />
+											<path
+												d="m0 369.8v-63.271c26.547-4.267 49.982-38.25 38.119-116.529-11.507-75.925-43.977-190-43.977-190"
+												fill="none" stroke="#00ace1" transform="translate(1557.63 1105.96)" />
+											<path
+												d="m.034-.054c-.126-.827.121-1.188.401-1.236v-.671h.127v.671c.282.045.53.406.404 1.236-.122.805-.466 2.015-.466 2.015s-.344-1.21-.466-2.015z"
+												fill="url(#home_c)" fill-rule="nonzero"
+												transform="matrix(94.2831 0 0 -94.2831 1504.63 1290.86)" />
+											<path d="m1551.01 278.21h7.225v238.687h-7.225z" fill="#0b155b"
+												transform="matrix(-1 0 0 1 3109.24 890.893)" />
+											<path d="m0 24.763-25.097-39.667 23.667 54.571z" fill="#0b155b"
+												fill-rule="nonzero" transform="translate(1554.62 1242.53)" />
+											<path d="m0 61.906c.333-1 25.333-61.906 25.333-61.906l-25.333 46.906z"
+												fill="#0b155b" fill-rule="nonzero"
+												transform="translate(1557.69 1304.61)" />
+										</g>
+										<g data-name="retail" id="city_retail" :class="['city-graphics__svg']"
+											@mouseover="cityOver('retail')" @mouseout="cityOut('retail')"
+											@click.prevent="cityClick('retail')">
+											<linearGradient id="retail_a">
+												<stop offset="0" stop-color="#0b155b" />
+												<stop offset="1" stop-color="#073489" />
+											</linearGradient>
+											<linearGradient id="retail_b" gradientUnits="userSpaceOnUse" x1="1129"
+												x2="1485" xlink:href="#retail_a" y1="644.96" y2="644.96" />
+											<linearGradient id="retail_c" gradientUnits="userSpaceOnUse" x1="1095.2"
+												x2="1512.67" xlink:href="#retail_a" y1="1108.86" y2="1108.86" />
+											<radialGradient id="retail_d" cx="0" cy="0"
+												gradientTransform="matrix(0 91.5 -84.5 0 1143.5 811.5)"
+												gradientUnits="userSpaceOnUse" r="1">
+												<stop offset="0" stop-color="#fff" stop-opacity=".38" />
+												<stop offset=".791667" stop-color="#fff" stop-opacity=".1" />
+												<stop offset="1" stop-color="#fff" stop-opacity="0" />
+											</radialGradient>
+											<linearGradient id="retail_linear" x1="1532.56" y1="1617.18" x2="1532.56"
+												y2="649.872" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#DC1010" stop-opacity="0.650923" />
+												<stop stop-color="#DC1010" stop-opacity="0.650923" />
+												<stop offset="0.179518" stop-color="#DC1010" stop-opacity="0.661823" />
+												<stop offset="0.665313" stop-color="#2C38FF" stop-opacity="0.349814" />
+												<stop offset="0.896991" stop-color="#B292FF" stop-opacity="0.0244234" />
+												<stop offset="1" stop-color="#BB98FF" stop-opacity="0.01" />
+											</linearGradient>
+											<g clip-rule="evenodd" fill-rule="evenodd">
+												<path d="m1007 1476h132.21v-928.04h-132.21z" fill="#08123a"
+													opacity=".65" />
+												<path d="m1485 548.128h-356v194.02h356z" fill="url(#retail_b)" />
+												<path d="m1512.67 741.9h-417.47v733.92h417.47z" fill="url(#retail_c)" />
+												<path d="m1303.26 581.808h-72.39v160.152h72.39z" fill="#073489" />
+												<path d="m1223.39 581.808h-72.39v160.152h72.39z" fill="#073489" />
+												<path d="m1383.13 581.808h-72.39v160.152h72.39z" fill="#ff0300" />
+												<path d="m1462.99 581.808h-72.39v160.152h72.39z" fill="#073489" />
+												<path d="m1208 1202h-94.83v273.76h94.83z" fill="#073489" />
+												<path d="m1294.62 1202h-86.27v273.76h86.27z" fill="#073489" />
+												<path d="m1389.82 1202h-86.27v273.76h86.27z" fill="#073489" />
+												<path d="m1485 1202h-95v273.76h95z" fill="#073489" />
+												<path d="m1199.44 987.794h-86.27v152.166h86.27z" fill="#073489" />
+												<path d="m1294.62 987.794h-86.27v152.166h86.27z" fill="#ff0300" />
+												<path d="m1389.82 987.794h-86.27v152.166h86.27z" fill="#073489" />
+												<path d="m1485 987.794h-86.27v152.166h86.27z" fill="#073489" />
+												<path d="m1199.44 766.545h-86.27v187.241h86.27z" fill="#00ace1" />
+												<path d="m1294.62 766.545h-86.27v187.241h86.27z" fill="#00ace1" />
+												<path d="m1389.82 766.545h-86.27v187.241h86.27z" fill="#00ace1" />
+												<path d="m1485 766.545h-86.27v187.241h86.27z" fill="#00ace1" />
+											</g>
+											<path d="m1221.98 766.544-105.95 187.241h126.62l102.31-187.241z"
+												fill="#1bc4ec" />
+											<path d="m1411.35 766.545-101.3 187.241h31.15l99.89-187.241z"
+												fill="#1bc4ec" />
+											<path clip-rule="evenodd" d="m1208.36 762.96h-8.91v195h8.91z" fill="#0b155b"
+												fill-rule="evenodd" />
+											<path clip-rule="evenodd" d="m1303.54 762.96h-8.92v195h8.92z" fill="#0b155b"
+												fill-rule="evenodd" />
+											<path clip-rule="evenodd" d="m1399.52 762.96h-8.92v195h8.92z" fill="#0b155b"
+												fill-rule="evenodd" />
+											<path d="m1151.01 581.808h72.39l-72.39 72.465z" fill="#144ba0"
+												opacity=".59" />
+											<path d="m1112.87 1202v274.39h8.39l149.94-274.39z" fill="#144ba0" />
+											<path d="m1383.64 1476.4h106.91v-188.94z" fill="#144ba0" />
+											<path d="m1423.63 1202-148.44 274.4h65.45l146.39-274.4z" fill="#144ba0" />
+											<path
+												d="m1113.17 987.794c.22 6.34.32 12.676.49 19.016l.28 19.02c.16 12.69.14 25.37.23 38.05-.08 12.68-.07 25.36-.23 38.04l-.28 19.02c-.17 6.34-.26 12.68-.49 19.02-.23-6.34-.32-12.68-.49-19.02l-.28-19.02c-.16-12.68-.15-25.36-.23-38.04.08-12.68.07-25.36.23-38.05l.28-19.02c.17-6.34.26-12.676.49-19.016z"
+												fill="#ff0300" />
+											<path clip-rule="evenodd" d="m1314 1328h-11v36h11z" fill="#00ace1"
+												fill-rule="evenodd" />
+											<path clip-rule="evenodd"
+												d="m1148.32 1188.75c-4.89 0-8.95-1.53-12.19-4.59-3.24-3.11-4.86-7.05-4.86-11.78 0-4.8 1.6-8.73 4.81-11.79 3.24-3.06 7.32-4.59 12.24-4.59 3.06 0 5.83.66 8.32 1.98v6.52c-2.43-1.62-5.19-2.43-8.27-2.43-2.97 0-5.48.98-7.52 2.93-1.98 1.92-2.97 4.38-2.97 7.38s1.02 5.47 3.06 7.42c2.01 1.92 4.58 2.88 7.7 2.88 3.44 0 6.32-.92 8.63-2.75v6.53c-2.55 1.53-5.53 2.29-8.95 2.29z"
+												fill-rule="evenodd" fill="none" stroke="#00ace1" stroke-miterlimit="10"
+												stroke-width="1.41" />
+											<path clip-rule="evenodd"
+												d="m1167.31 1188.75c-2.16 0-3.75-.3-4.77-.9v-5.71c1.02.57 2.23.85 3.64.85 1.32 0 2.37-.3 3.15-.9.75-.57 1.56-1.72 2.43-3.46l-11.92-22h7.15l7.97 15.48 6.97-15.48h6.88l-11.6 24.65c-2.34 4.98-5.64 7.47-9.9 7.47z"
+												fill-rule="evenodd" fill="none" stroke="#00ace1" stroke-miterlimit="10"
+												stroke-width="1.41" />
+											<path clip-rule="evenodd"
+												d="m1199.11 1188.12h-6.48v-31.49h26.36v31.49h-6.43v-25.69h-13.45z"
+												fill-rule="evenodd" fill="none" stroke="#00ace1" stroke-miterlimit="10"
+												stroke-width="1.41" />
+											<path clip-rule="evenodd"
+												d="m1249.59 1188.12h-23.62v-31.49h23.12v5.8h-16.64v6.08h13.41v5.71h-13.41v8.1h17.14z"
+												fill-rule="evenodd" fill="none" stroke="#00ace1" stroke-miterlimit="10"
+												stroke-width="1.41" />
+											<path clip-rule="evenodd"
+												d="m1261.24 1162.3v7.82h6.84c1.56 0 2.77-.33 3.64-1.01.87-.67 1.31-1.64 1.31-2.9s-.44-2.23-1.31-2.9c-.87-.68-2.08-1.01-3.64-1.01zm0 25.82h-6.48v-31.49h13.77c3.39 0 6.06.88 8.01 2.65 1.97 1.74 2.96 4.02 2.96 6.84 0 2.85-.99 5.14-2.96 6.88-1.95 1.77-4.62 2.66-8.01 2.66h-7.29z"
+												fill-rule="evenodd" fill="none" stroke="#00ace1" stroke-miterlimit="10"
+												stroke-width="1.41" />
+											<path clip-rule="evenodd"
+												d="m1290.89 1188.12h-6.48v-31.49h6.44l9.13 13.05 9.13-13.05h6.39v31.49h-6.39v-21.55l-7.24 10.12h-3.6l-7.38-10.12z"
+												fill-rule="evenodd" fill="none" stroke="#00ace1" stroke-miterlimit="10"
+												stroke-width="1.41" />
+											<path clip-rule="evenodd"
+												d="m1336.28 1164.54-4.63 10.94h9.22zm-9.76 23.58h-6.8l13.5-31.67h6.21l13.5 31.67h-6.89l-3.1-7.29h-13.32z"
+												fill-rule="evenodd" fill="none" stroke="#00ace1" stroke-miterlimit="10"
+												stroke-width="1.41" />
+											<path clip-rule="evenodd"
+												d="m1363.59 1162.3v7.82h6.84c1.56 0 2.77-.33 3.64-1.01.87-.67 1.31-1.64 1.31-2.9s-.44-2.23-1.31-2.9c-.87-.68-2.08-1.01-3.64-1.01zm0 25.82h-6.48v-31.49h13.77c3.39 0 6.06.88 8.01 2.65 1.97 1.74 2.96 4.02 2.96 6.84 0 2.85-.99 5.14-2.96 6.88-1.95 1.77-4.62 2.66-8.01 2.66h-7.29z"
+												fill-rule="evenodd" fill="none" stroke="#00ace1" stroke-miterlimit="10"
+												stroke-width="1.41" />
+											<path clip-rule="evenodd"
+												d="m1393.24 1188.12h-6.48v-31.49h6.48v12.42l11.61-12.42h7.91l-13.36 14.44 15.66 17.05h-8.28l-13.54-14.53z"
+												fill-rule="evenodd" fill="none" stroke="#00ace1" stroke-miterlimit="10"
+												stroke-width="1.41" />
+											<path clip-rule="evenodd"
+												d="m1442.14 1188.12h-23.62v-31.49h23.13v5.8h-16.65v6.08h13.41v5.71h-13.41v8.1h17.14z"
+												fill-rule="evenodd" fill="none" stroke="#00ace1" stroke-miterlimit="10"
+												stroke-width="1.41" />
+											<path clip-rule="evenodd"
+												d="m1445.2 1162.44v-5.81h26.41v5.81h-9.99v25.68h-6.48v-25.68z"
+												fill-rule="evenodd" fill="none" stroke="#00ace1" stroke-miterlimit="10"
+												stroke-width="1.41" />
+											<path clip-rule="evenodd" d="m1302 1403h-7v74h7z" fill="#0b155b"
+												fill-rule="evenodd" />
+											<ellipse cx="1143.5" cy="811.5" fill="url(#retail_d)" rx="84.5" ry="91.5" />
+											<path
+												:class="['city-graphics__svg-mask',{'city-graphics__svg-mask_visible': (mustOpen.zone&&mustOpen.zone.name=='retail'),'city-graphics__svg-mask_hover':hoveredCityName=='retail'}]"
+												d="M1090.88 744.184H1132.55V548.128H1300.01H1484.65V744.184H1513V1476H1090.88V744.184Z"
+												fill="url(#retail_linear)" />
+											<path
+												d="m1528.98 1295.96c-11.51-75.93-43.98-190-43.98-190s-32.47 114.07-43.97 190c-11.83 78 11.4 112.02 37.83 116.48v63.32h12v-63.27c26.55-4.27 49.98-38.25 38.12-116.53"
+												fill="#073489" />
+											<path
+												d="m1485 1105.96c-6.81 26.59-13.32 53.25-19.58 79.95-6.25 26.71-12.16 53.5-17.3 80.41l-1.83 10.1-.92 5.05-.82 5.07-1.62 10.13c-.46 3.38-.96 6.75-1.33 10.14-.44 3.38-.72 6.77-1.04 10.16-.23 3.4-.49 6.79-.59 10.19-.25 6.8-.2 13.6.27 20.36s1.35 13.5 2.84 20.08c.71 3.3 1.68 6.52 2.72 9.72 1.14 3.16 2.33 6.31 3.87 9.28 2.96 5.99 6.88 11.51 11.85 15.9 4.94 4.41 11.04 7.46 17.56 8.65l1.1.2-.02 1.09c-.15 10.55-.23 21.11-.44 31.66l-.57 31.66-.29-.29 12 .29-12 .28-.28.01-.01-.29-.57-31.66c-.21-10.55-.29-21.11-.44-31.66l1.08 1.28c-7.04-1.07-13.71-4.31-19.1-8.92-5.41-4.62-9.69-10.42-12.89-16.67-1.66-3.11-2.94-6.37-4.16-9.65-1.13-3.32-2.17-6.66-2.94-10.06-1.61-6.79-2.61-13.69-3.13-20.62-.52-6.92-.59-13.86-.36-20.78.09-3.46.34-6.91.56-10.36.32-3.44.59-6.89 1.01-10.31.36-3.44.9-6.85 1.37-10.27l1.67-10.19.85-5.09.93-5.07 1.88-10.14c5.32-26.98 11.6-53.73 18.4-80.33 6.89-26.59 14.23-53.05 22.27-79.3"
+												fill="#ff0300" />
+										</g>
+										<g data-name="health" id="city_health" :class="['city-graphics__svg']"
+											@mouseover="cityOver('health')" @mouseout="cityOut('health')"
+											@click.prevent="cityClick('health')">
+											<linearGradient id="health_a"
+												gradientTransform="matrix(1 0 0 -1 0 -.000007)"
+												gradientUnits="userSpaceOnUse" x1="0" x2="1" y1="0" y2="0">
+												<stop offset="0" stop-color="#0b155b" />
+												<stop offset="1" stop-color="#073489" />
+											</linearGradient>
+											<linearGradient id="health_linear" x1="1113.58" y1="1618.55" x2="1113.58"
+												y2="645.461" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#DC1010" stop-opacity="0.650923" />
+												<stop stop-color="#DC1010" stop-opacity="0.650923" />
+												<stop offset="0.179518" stop-color="#DC1010" stop-opacity="0.661823" />
+												<stop offset="0.665313" stop-color="#2C38FF" stop-opacity="0.349814" />
+												<stop offset="0.896991" stop-color="#B292FF" stop-opacity="0.0244234" />
+												<stop offset="1" stop-color="#BB98FF" stop-opacity="0.01" />
+											</linearGradient>
+											<path d="m698.21 210.239h396.985v889.8h-396.985z" fill="#073489"
+												transform="matrix(-1 0 0 1 1793.4 375.722)" />
+											<path d="m745.21 210.239h302.985v302.985h-302.985z" fill="#0b155b"
+												transform="matrix(-1 0 0 1 1793.4 962.537)" />
+											<path d="m414 210.239h284.21v889.8h-284.21z" fill="#0a1447" opacity=".65"
+												transform="matrix(-1 0 0 1 1112.21 375.722)" />
+											<path d="m725.781 665.597h60.602v108.615h-60.602z" fill="#0b155b"
+												transform="matrix(-1 0 0 1 1512.16 246.191)" />
+											<path d="m814.385 665.597h60.602v108.615h-60.602z" fill="#00ace1"
+												transform="matrix(-1 0 0 1 1689.37 246.191)" />
+											<path d="m902.989 665.597h60.602v108.615h-60.602z" fill="#0b155b"
+												transform="matrix(-1 0 0 1 1866.58 246.191)" />
+											<path d="m991.593 665.597h60.602v108.615h-60.602z" fill="#0b155b"
+												transform="matrix(-1 0 0 1 2043.79 246.191)" />
+											<path d="m722.534 1058.491h352.91v76.496h-352.91z" fill="#0b155b" />
+											<path
+												d="m0-57.25h-50.933v-50.933h-57.25v50.933h-50.932v57.25h50.932v50.933h57.25v-50.933h50.933z"
+												fill="#ff0300" fill-rule="nonzero"
+												transform="translate(968.92 787.21)" />
+											<path d="m1032.03 801.781h16.167v34.258h-16.167z" fill="#00ace1"
+												transform="matrix(-1 0 0 1 2080.22 48.18)" />
+											<path d="m722.534 1020.86h16.167v34.258h-16.167z" fill="#0b155b"
+												transform="matrix(-1 0 0 1 1461.24 -389.972)" />
+											<path d="m-365.622 0h365.622" fill="none" stroke="#ff0300"
+												stroke-width=".75" transform="matrix(-1 0 0 1 726.708 607.96)" />
+											<path
+												d="m0 47.391-.398-45.924-.004-.395.402-.004 42.606-.314 42.606-.206 85.212-.359 170.424-.189 127.818.192 42.605.174 85.212.408 85.212.693-85.212.693-85.212.409-42.605.174-42.606.064-85.212.127-170.424-.189-85.212-.358-42.606-.207-42.606-.314.398-.399z"
+												fill="#00ace1" fill-rule="nonzero"
+												transform="translate(413.5 583.493)" />
+											<g fill="none" stroke="#073489" stroke-width="2">
+												<path d="m0 0h302.305" transform="translate(745.21 1172.78)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1187.2)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1201.63)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1216.06)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1230.49)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1244.91)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1259.34)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1273.77)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1288.2)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1302.63)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1317.05)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1331.48)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1345.91)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1360.34)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1374.77)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1389.19)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1403.62)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1418.05)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1432.48)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1446.9)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1461.33)" />
+												<path d="m0 0h302.305" transform="translate(745.21 1475.76)" />
+											</g>
+											<path d="m941 211.614h106.515v183.386h-106.515z" fill="#ff0300"
+												transform="matrix(-1 0 0 1 1988.52 1079.39)" />
+
+											<path
+												d="m0 109.518c-.142-4.525-.234-9.051-.327-13.577-.098-4.526-.199-9.051-.243-13.576-.094-9.052-.285-18.103-.3-27.155l-.115-27.153.087-27.154.003-.903.895.005c5.05.032 10.1.021 15.15.088l15.151.197c5.05.06 10.1.127 15.151.251 5.049.109 10.1.202 15.15.362-5.05.16-10.101.254-15.15.363-5.051.123-10.101.19-15.151.25l-15.151.197c-5.05.067-10.1.056-15.15.088l.897-.898.088 27.154-.116 27.153c-.014 9.052-.205 18.103-.299 27.155-.044 4.525-.145 9.05-.243 13.576-.093 4.526-.186 9.052-.327 13.577"
+												fill="#00ace1" fill-rule="nonzero"
+												transform="translate(725.781 910.885)" />
+											<path
+												d="m0 107.713c5.05-.159 10.1-.252 15.15-.36 5.051-.122 10.101-.192 15.151-.25l15.151-.197c5.049-.071 10.1-.056 15.15-.089l-.896.896-.092-27.153.117-27.155c.009-9.05.206-18.102.299-27.153.044-4.525.143-9.052.243-13.577.094-4.525.186-9.051.329-13.577.143 4.526.235 9.052.329 13.577.1 4.525.199 9.052.243 13.577.094 9.051.29 18.103.299 27.153l.117 27.155-.091 27.153-.004.902-.893-.006c-5.05-.033-10.101-.018-15.15-.089l-15.151-.197c-5.05-.058-10.1-.127-15.151-.25-5.05-.107-10.1-.201-15.15-.36"
+												fill="#ff0300" fill-rule="nonzero"
+												transform="translate(902.989 912.69)" />
+											<path
+												d="m0-108.615c.387 9.051.646 18.102.777 27.154.16 9.051.202 18.102.223 27.153-.018 9.052-.061 18.103-.22 27.154-.13 9.051-.391 18.103-.78 27.154-.389-9.051-.649-18.103-.78-27.154-.159-9.051-.202-18.102-.219-27.154.02-9.051.062-18.102.222-27.153.131-9.052.391-18.103.777-27.154"
+												fill="#ff0300" fill-rule="nonzero"
+												transform="translate(1052.19 1020.4)" />
+											<path d="m805.799 633.941h77.774v164.675h-77.774z" fill="#00ace1"
+												opacity=".05" transform="matrix(-1 0 0 1 1689.37 253.443)" />
+											<path d="m735 563.087h331.98v51.832h-331.98z" fill="#00ace1" opacity=".05"
+												transform="matrix(1 0 0 -1 0 1686)" />
+											<path d="m748.306 575.635h97.798v25.437h-97.798z" fill="#00afe4"
+												stroke="#0b155b" transform="matrix(-1 0 0 1 1594.41 509.293)" />
+											<path d="m858.115 575.635h136.879v25.437h-136.879z" fill="#00afe4"
+												stroke="#0b155b" transform="matrix(-1 0 0 1 1853.11 509.293)" />
+											<path d="m1007 575.635h47.829v25.437h-47.829z" fill="#00afe4"
+												stroke="#0b155b" transform="matrix(-1 0 0 1 2061.84 509.293)" />
+											<path d="m528.086 1020.86h28.167v34.258h-28.167z" fill="#ff0300"
+												transform="matrix(-1 0 0 1 1084.34 -389.972)" />
+											<rect
+												:class="['city-graphics__svg-mask',{'city-graphics__svg-mask_visible': (mustOpen.zone&&mustOpen.zone.name=='health'),'city-graphics__svg-mask_hover':hoveredCityName=='health'}]"
+												x="698.205" y="585.961" width="396.985" height="890.572"
+												fill="url(#health_linear)" />
+											<path
+												d="m.034-.054c-.126-.827.121-1.188.401-1.236v-.671h.127v.671c.282.045.53.406.404 1.236-.122.805-.466 2.015-.466 2.015s-.344-1.21-.466-2.015z"
+												fill="url(#health_a)" fill-rule="nonzero"
+												transform="matrix(94.2832 0 0 -94.2832 690.928 1290.86)" />
+											<path
+												d="m0-369.8c-6.943 26.557-13.561 53.188-19.937 79.871-3.154 13.35-6.166 26.731-9.133 40.117-2.999 13.381-5.711 26.821-8.321 40.275l-1.822 10.112-.911 5.057-.816 5.069-1.617 10.141c-.459 3.382-.996 6.756-1.362 10.151-.44 3.386-.723 6.786-1.048 10.183-.236 3.402-.494 6.804-.6 10.211-.257 6.812-.218 13.633.255 20.421.474 6.785 1.382 13.538 2.9 20.146.719 3.314 1.702 6.558 2.759 9.767 1.161 3.17 2.343 6.343 3.889 9.339 2.972 6.039 6.942 11.613 11.967 16.049 5.003 4.445 11.191 7.563 17.798 8.725l.725.127-.007.721-.147 15.83-.218 15.83-.218 15.829-.278 15.829-.277-15.829-.218-15.829-.218-15.83-.147-15.83.717.849c-6.949-1.099-13.534-4.277-18.861-8.854-5.353-4.567-9.585-10.32-12.77-16.522-1.649-3.083-2.947-6.326-4.145-9.595-1.108-3.297-2.134-6.626-2.89-10.013-1.592-6.761-2.554-13.643-3.075-20.54-.519-6.901-.598-13.82-.375-20.72.088-3.453.329-6.895.549-10.339.31-3.435.577-6.875 1.002-10.297.358-3.43.858-6.84 1.334-10.254l1.68-10.177.848-5.086.942-5.069 1.884-10.134c5.313-26.962 11.434-53.746 18.251-80.344 6.763-26.612 14.006-53.099 21.911-79.387"
+												fill="#00ace1" fill-rule="nonzero"
+												transform="translate(738.07 1475.76)" />
+											<path d="m734.458 1169.103h7.225v238.687h-7.225z" fill="#0b155b" />
+											<path d="m0 24.763 25.097-39.667-23.667 54.571z" fill="#0b155b"
+												fill-rule="nonzero" transform="translate(738.07 1242.53)" />
+											<path d="m0 61.906c-.333-1-25.333-61.906-25.333-61.906l25.333 46.906z"
+												fill="#0b155b" fill-rule="nonzero" transform="translate(735 1304.61)" />
+										</g>
+										<g data-name="city" id="city_city" :class="['city-graphics__svg']"
+											@mouseover="cityOver('city')" @mouseout="cityOut('city')"
+											@click.prevent="cityClick('city')">
+											<linearGradient id="city_a">
+												<stop offset="0" stop-color="#0b155b" />
+												<stop offset="1" stop-color="#073489" />
+											</linearGradient>
+											<linearGradient id="city_b"
+												gradientTransform="matrix(-.707107 .707107 .707107 .707107 .853554 -.353554)"
+												gradientUnits="userSpaceOnUse" x1="0" x2="1" xlink:href="#city_a" y1="0"
+												y2="0" />
+											<linearGradient id="city_c" gradientTransform="matrix(1 0 0 -1 0 .024075)"
+												gradientUnits="userSpaceOnUse" x1="0" x2="1" xlink:href="#city_a" y1="0"
+												y2="0" />
+											<clipPath id="city_d">
+												<path clip-rule="nonzero"
+													d="m163.5 561.96v558h80l320-153.865v-224.135l-320-180z" />
+											</clipPath>
+											<linearGradient id="city_linear" x1="675.579" y1="1625.39" x2="675.579"
+												y2="604.391" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#DC1010" stop-opacity="0.650923" />
+												<stop stop-color="#DC1010" stop-opacity="0.650923" />
+												<stop offset="0.179518" stop-color="#DC1010" stop-opacity="0.661823" />
+												<stop offset="0.665313" stop-color="#2C38FF" stop-opacity="0.349814" />
+												<stop offset="0.896991" stop-color="#B292FF" stop-opacity="0.0244234" />
+												<stop offset="1" stop-color="#BB98FF" stop-opacity="0.01" />
+											</linearGradient>
+											<path d="m-.167-.187h1.187v.521h-.893z" fill="url(#city_b)"
+												fill-rule="nonzero"
+												transform="matrix(0 790.98 790.98 0 391.5 669.777)" />
+											<path d="m58.875 537.96h184.625v938.614h-184.625z" fill="#0a1447"
+												opacity=".92" />
+											<path d="m122.141 373.907h58.093v105.5h-58.093z" fill="#ff0300"
+												transform="matrix(-1 0 0 1 302.375 832.686)" />
+											<path
+												d="m41.815-41.814c-23.094 0-41.815 18.721-41.815 41.814 0 23.094 18.721 41.815 41.815 41.815 23.093 0 41.814-18.721 41.814-41.815 0-23.093-18.721-41.814-41.814-41.814"
+												fill="#ff0300" fill-rule="nonzero"
+												transform="matrix(0 1 1 0 542.355 1114.64)" />
+											<path d="m300.73 315.234h43.498v98.995h-43.498z" fill="#00ace1"
+												transform="matrix(-1 0 0 1 644.958 956.537)" />
+											<path
+												d="m52.801 15.519c-11.051-12.305-47.136-17.078-62.232 9.861-23.932 42.707 25.156 76.499 62.232 59.915 19.224-8.599 21.168-26.36 21.05-27.543-.117-1.183-14.202-34.608-21.05-42.233"
+												fill="#073489" fill-rule="nonzero"
+												transform="matrix(.408322 .912838 .912838 -.408322 93.5795 1437.08)" />
+											<path d="m399.559 210.239h142.796v185.99h-142.796z" fill="#073489"
+												opacity=".65" transform="matrix(1 0 0 -1 0 1686)" />
+											<path d="m578.813 285.979h51.586v43.727h-51.586z" fill="#073489"
+												opacity=".65" transform="matrix(-1 0 0 1 1209.21 1070.32)" />
+											<g fill-rule="nonzero">
+												<path
+													d="m0 151.333c-11.388-6.109-22.713-12.33-34.071-18.492l-33.969-18.673c-22.636-12.468-45.184-25.092-67.781-37.63l-67.554-38.034-33.697-19.16c-11.197-6.45-22.428-12.841-33.595-19.344 11.389 6.107 22.714 12.328 34.073 18.488l33.969 18.674 67.779 37.632c22.515 12.685 45.078 25.282 67.553 38.037l33.698 19.16c11.197 6.449 22.428 12.84 33.595 19.342"
+													fill="#00ace1" transform="translate(514.166 537.961)" />
+												<path
+													d="m0 261.334c-.338-10.889-.484-21.778-.731-32.667l-.417-32.667c-.275-21.777-.313-43.555-.351-65.333.034-21.777.073-43.556.345-65.333l.419-32.667c.249-10.889.395-21.777.735-32.667.34 10.89.486 21.778.735 32.667l.419 32.667c.272 21.777.311 43.556.345 65.333-.038 21.778-.076 43.556-.351 65.333l-.417 32.667c-.247 10.889-.393 21.778-.731 32.667"
+													fill="#00ace1" transform="translate(243.5 1119.96)" />
+											</g>
+
+											<g clip-path="url(#city_d)">
+												<path d="m0-558h-80v558h80l320-153.865v-224.135z" fill="#00ace1"
+													fill-rule="nonzero" transform="translate(243.5 1119.96)" />
+												<path d="m536.217 1018.7h32.999v32.999h-32.999z" fill="#ff0300"
+													transform="matrix(-1 0 0 1 1105.43 -384.397)" />
+												<path d="m-13.101 189.662h398.074l49.529-105.371-537.805-7.975z"
+													fill="#1bc4ec" fill-rule="nonzero"
+													transform="matrix(.492474 -.870327 -.870327 -.492474 330.929 1044.32)" />
+												<path d="m-137.48 268.28h602.876l7.245-25.434-629.959-3.659z"
+													fill="#1bc4ec" fill-rule="nonzero"
+													transform="matrix(.475821 -.879542 -.879542 -.475821 543.041 1170.62)" />
+												<path d="m-143.482 263.611h602.876l5.413-10.694-629.959-3.66z"
+													fill="#1bc4ec" fill-rule="nonzero"
+													transform="matrix(.475821 -.879542 -.879542 -.475821 627.553 1240.45)" />
+												<path d="m151.187 566.04h92.313v568.153h-92.313z" fill="#1bc4ec"
+													transform="matrix(-1 0 0 1 394.687 -14.233)" />
+												<g fill="none" stroke="#0b155b" stroke-width="8">
+													<path d="m0 0h427.313" transform="translate(151.187 775.96)" />
+													<path d="m0 0h427.313" transform="translate(151.187 920.96)" />
+													<path d="m-291-291h582" transform="matrix(0 1 1 0 534.5 842.628)" />
+													<path d="m-249-249h498"
+														transform="matrix(0 1 1 0 597.727 856.96)" />
+													<path d="m-198.288-198.288h396.576"
+														transform="matrix(0 1 1 0 653.743 865.589)" />
+												</g>
+											</g>
+											<path
+												d="m0-228.688 30.066 16.55 30.023 16.626 29.991 16.683c10.003 5.55 19.99 11.127 29.961 16.735l.443.249.002.512.122 40.333-.113 40.333c-.003 13.445-.182 26.889-.292 40.333-.049 6.723-.134 13.445-.247 20.167l-.343 20.167-.343-20.167c-.113-6.722-.199-13.444-.247-20.167-.11-13.444-.29-26.888-.293-40.333l-.112-40.333.122-40.333.445.76c-9.965-5.618-19.913-11.266-29.845-16.942l-29.816-16.994-29.783-17.051z"
+												fill="#ff0300" fill-rule="nonzero" transform="translate(534.387 933)" />
+											<path d="m598.745 812.91h20.003v42.387h-20.003z" fill="#ff0300"
+												transform="matrix(-1 0 0 1 1217.49 17.793)" />
+											<path
+												d="m31.482-31.484c-17.387 0-31.481 14.096-31.481 31.483 0 17.388 14.094 31.483 31.481 31.483 17.388 0 31.483-14.095 31.483-31.483 0-17.387-14.095-31.483-31.483-31.483"
+												fill="#00ace1" fill-rule="nonzero" opacity=".05"
+												transform="matrix(0 1 1 0 604.607 1346.68)" />
+											<path d="m459.266 223.364h14.382v153.118h-14.382z" fill="#ff0300"
+												transform="matrix(-1 0 0 1 932.914 1086.15)" />
+											<path
+												d="m11-11c-6.075 0-11 4.925-11 11s4.925 11 11 11 11-4.925 11-11-4.925-11-11-11"
+												fill="#00ace1" fill-rule="nonzero"
+												transform="matrix(0 1 1 0 604 1367)" />
+											<path d="m-43-43h86" fill="none" stroke="#144ba0" stroke-width="3"
+												transform="matrix(0 1 1 0 585 1156)" />
+											<path d="m-86 0h86" fill="none" stroke="#144ba0" stroke-width="3"
+												transform="matrix(-1 0 0 1 499 1156)" />
+											<path
+												:class="['city-graphics__svg-mask',{'city-graphics__svg-mask_visible': (mustOpen.zone&&mustOpen.zone.name=='city'),'city-graphics__svg-mask_hover':hoveredCityName=='city'}]"
+												d="M244.999 541.961L656.514 779.45V1476.38H57.2988V541.961H244.999Z"
+												fill="url(#city_linear)" />
+											<path
+												d="m.086.298c-.21-.283.008-.685.187-.742.112-.036.525.021.538.025.013.005.189.108.189.348 0 .313-.264.575-.539.575-.132 0-.266-.061-.375-.206z"
+												fill="url(#city_c)"
+												transform="matrix(155.407 0 0 -155.407 157.988 1404.79)" />
+
+											<path
+												d="m0-17.227c10.844-11.978 24.47-21.684 39.831-27.276 7.674-2.787 15.866-4.252 24.069-4.188 8.208.054 16.392 1.775 23.981 4.879 3.807 1.551 7.399 3.514 10.924 5.558l2.622 1.578c.866.539 1.701 1.128 2.553 1.69 1.721 1.101 3.329 2.363 4.972 3.573 6.44 5.012 12.276 10.852 17.024 17.498 9.51 13.224 15.302 29.235 15.595 45.443-.458-8.077-2.399-16.004-5.245-23.517-2.833-7.528-6.749-14.627-11.568-21.029-4.845-6.384-10.544-12.101-16.907-16.961-1.622-1.175-3.205-2.401-4.902-3.469-.84-.545-1.662-1.117-2.515-1.639l-2.586-1.531c-3.479-1.983-7.02-3.883-10.721-5.355-7.369-3.024-15.273-4.787-23.251-4.89-7.982-.16-15.939 1.322-23.537 3.828-7.605 2.528-14.825 6.207-21.563 10.605-6.762 4.368-13.097 9.446-18.776 15.203"
+												fill="#00ace1" fill-rule="nonzero"
+												transform="translate(169.395 1374.52)" />
+											<path d="m232.08 1374.63h7.225v94.903h-7.225z" fill="#0b155b" />
+											<path d="m0 14.667 42.612-27-42.612 39.333z" fill="#0b155b"
+												fill-rule="nonzero" transform="translate(235.692 1386.96)" />
+											<path d="m0 14.667-42.612-27 42.612 39.333z" fill="#0b155b"
+												fill-rule="nonzero" transform="translate(235.692 1421.57)" />
+										</g>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+					<section :class="['zones', 'city__zones', {'zones_visible': zonesVisible}]">
+						<div class="zones__inner" data-lax-zones data-lax-horizontal data-lax-anchor="self"
+							data-scrollize-parent="horizontal" data-lax-preset="zones">
+							<template>
+								<zone v-for="(zone,index) in zones" :key="zone.id" :data="zone" :index="index"
+									:slide-index="getSlideIndex(zone)" />
+							</template>
+							<article class="footer zones__footer page__section d-md-none" data-scrollize-elem>
+								<div class="container-fluid footer__container">
+									<div class="row">
+										<div class="col-11 col-md-7 offset-1">
+											<p class="footer__title">Над проектом работали:</p>
+										</div>
+									</div>
+									<div class="row footer__row-bottom">
+										<div class="col-11 col-md-5 offset-1 col-xl-4">
+											<p class="person footer__person">
+												<b class="person__job">Идея:</b>
+												<span class="person__name">Петр Рязанов, Денис Боков</span>
+											</p>
+											<p class="person footer__person">
+												<b class="person__job">Контент-менеджер:</b>
+												<span class="person__name">Дмитрий Петренко</span>
+											</p>
+											<p class="person footer__person">
+												<b class="person__job">Корректоры:</b>
+												<span class="person__name">Виталий Балашов, Елена Лукьянова</span>
+											</p>
+											<p class="person footer__person">
+												<b class="person__job">Дизайнер:</b>
+												<span class="person__name">Диана Ногманова</span>
+											</p>
+										</div>
+										<div class="col-11 offset-1 offset-md-0 col-md-5 col-xl-3">
+											<p class="person footer__person">
+												<b class="person__job">Аккаунт-менеджер:</b>
+												<span class="person__name">Юлия Соколовская</span>
+											</p>
+											<p class="person footer__person">
+												<b class="person__job">Продюсер:</b>
+												<span class="person__name">Калерия Андреева</span>
+											</p>
+											<p class="person footer__person">
+												<b class="person__job">Арт-директор:</b>
+												<span class="person__name">Андрей Альбиков</span>
+											</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-11 col-md-8 col-xl-7 offset-1">
+											<p class="footer__copy">&copy;&nbsp;ТАСС, 2020</p>
+											<p class="footer__text">ТАСС информационное агентство (свидетельство
+												о&nbsp;регистрации СМИ
+												&#8470;&nbsp;03247 выдано 2&nbsp;апреля 1999&nbsp;г. Государственным
+												комитетом Российской
+												Федерации по&nbsp;печати). Отдельные публикации могут содержать
+												информацию,
+												не&nbsp;предназначенную для пользователей до&nbsp;16&nbsp;лет.</p>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+					</section>
+				</div>
+			</div>
+		</article>
+		<article class="footer page__section page__footer footer_hidden d-none d-md-block" data-scrollize-elem>
+			<div class="container-fluid footer__container">
+				<div class="row">
+					<div class="col-11 col-md-7 offset-1">
+						<p class="footer__title">Над проектом работали:</p>
+					</div>
+				</div>
+				<div class="row footer__row-bottom">
+					<div class="col-11 col-md-5 offset-1 col-xl-4">
+						<p class="person footer__person">
+							<b class="person__job">Идея:</b>
+							<span class="person__name">Петр Рязанов, Денис Боков</span>
+						</p>
+						<p class="person footer__person">
+							<b class="person__job">Контент-менеджер:</b>
+							<span class="person__name">Дмитрий Петренко</span>
+						</p>
+						<p class="person footer__person">
+							<b class="person__job">Корректоры:</b>
+							<span class="person__name">Виталий Балашов, Елена Лукьянова</span>
+						</p>
+						<p class="person footer__person">
+							<b class="person__job">Дизайнер:</b>
+							<span class="person__name">Диана Ногманова</span>
+						</p>
+					</div>
+					<div class="col-11 offset-1 offset-md-0 col-md-5 col-xl-3">
+						<p class="person footer__person">
+							<b class="person__job">Аккаунт-менеджер:</b>
+							<span class="person__name">Юлия Соколовская</span>
+						</p>
+						<p class="person footer__person">
+							<b class="person__job">Продюсер:</b>
+							<span class="person__name">Калерия Андреева</span>
+						</p>
+						<p class="person footer__person">
+							<b class="person__job">Арт-директор:</b>
+							<span class="person__name">Андрей Альбиков</span>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-11 col-md-8 col-xl-7 offset-1">
+						<p class="footer__copy">&copy;&nbsp;ТАСС, 2020</p>
+						<p class="footer__text">ТАСС информационное агентство (свидетельство о&nbsp;регистрации СМИ
+							&#8470;&nbsp;03247 выдано 2&nbsp;апреля 1999&nbsp;г. Государственным комитетом Российской
+							Федерации по&nbsp;печати). Отдельные публикации могут содержать информацию,
+							не&nbsp;предназначенную для пользователей до&nbsp;16&nbsp;лет.</p>
+					</div>
+				</div>
+			</div>
+		</article>
+	</main>
+	<div class="rotate-device">
+		<svg class="rotate-device__icon" role="img" width="36" height="37" viewBox="0 0 36 37">
+			<use xlink:href="/images/sprites.svg#rotate"></use>
+		</svg>
+		<p class="rotate-device__text">Переверните, пожалуйста, устройство</p>
+	</div>
+	<div class="swipe-device">
+		<svg class="swipe-device__icon" role="img" width="29" height="40" viewBox="0 0 29 40">
+			<use xlink:href="/images/sprites.svg#swipe"></use>
+		</svg>
+	</div>
+	<script type="text/x-template" id="zoneTemplate">
+
+	<article :style="{'z-index':index}" :data-length="zone.tech.length" :data-name="data.name" :class="['zone', 'zones__zone',{'zone_transition':transition}]">
+		<div :class="['zone-image','zone__image','zone-image_'+zone.name]">
+			<img :src="zone.image" alt="" class="zone-image__image">
+		</div>
+		<div class="container-fluid zone__container">
+			<div class="row zone__row-head">
+				<div class="col-12 offset-0 col-md-6 offset-md-1">
+					<button class="zone__back d-none d-md-block" @click="toCity">
+						<svg class="zone__back-icon" role="img" width="20" height="17"
+						viewBox="0 0 20 17">
+						<use xlink:href="/images/sprites.svg#arrow"></use>
+					</svg> Вернуться в город
+					</button>
+					<p :class="['zone__title',{'zone__title_hidden':zoneInfoExpanded}]">{{zone.title}}</p>
+				</div>
+			</div>
+			<div class="row zone__row-content">
+				<div class="col-12 col-md-8 offset-md-3 col-lg-6 offset-lg-5 col-xl-4 offset-xl-7 zone__col-content">
+					<div :class="['zone-info', 'zone__zone-info',{'zone-info_expand':zoneInfoExpanded}]">
+						<div class="zone-info__button" @click="zoneInfoExpanded=!zoneInfoExpanded">
+							<div :class="['zone-info__button-icon',{'zone-info__button-icon_rotate':zoneInfoExpanded}]">
+								<svg class="zone-info__button-image" role="img" width="8" height="4"
+								viewBox="0 0 8 4">
+									<use xlink:href="/images/sprites.svg#expand"></use>
+								</svg>
+							</div>
+						</div>
+						<div class="zone-info__wrapper">
+							<div class="zone-info__items" :style="{width:itemsWidth+'%', transform: 'translateZ(0) translateX('+ itemsTranslate+'%' +')'}">
+								<div data-wheel-ignore class="zone-info__item" :style="{width: itemWidth + '%' }" v-for="(technology, index) in zone.tech" :key="technology.id">
+									<p class="zone-info__head">Описание технологии</p>
+									<p class="zone-info__title" v-html="technology.title"></p>
+									<p class="zone-info__text" v-html="technology.text"></p>
+								</div>
+							</div>
+						</div>
+						<footer class="zone-info__footer">
+							<ul class="zone-pag">
+								<li class="zone-pag__item" v-for="(technology, index) in zone.tech" :key="technology.id">
+									<button :class="['zone-pag__button', {'zone-pag__button_active':slide==index}]" @click="setSlide(index)">
+										<span class="zone-pag__number">{{'0'+(index+1)}}</span>
+									</button>
+								</li>
+								<span :style="{transform: 'translateX('+ lineTranslate +'px)' }" class="zone-pag__line"></span>
+							</ul>
+							<ul class="zone-buttons">
+								<li class="zone-buttons__item">
+									<button class="zone-buttons__button" @click="prevSlide">
+										<svg class="zone-buttons__icon" role="img" width="17" height="9"
+											viewBox="0 0 17 9">
+											<use xlink:href="/images/sprites.svg#arrow-left"></use>
+										</svg>
+									</button>
+								</li>
+								<li class="zone-buttons__item">
+									<button class="zone-buttons__button" @click="nextSlide">
+										<svg class="zone-buttons__icon" role="img" width="17" height="9"
+											viewBox="0 0 17 9">
+											<use xlink:href="/images/sprites.svg#arrow-right"></use>
+										</svg>
+									</button>
+								</li>
+							</ul>
+						</footer>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+	</script>
+	<script src='/scripts/data.min.js'></script>
+	<script src='/scripts/vue.min.js'></script>
+	<script src='/scripts/lottie.min.js'></script>
+	<script src='/scripts/lax.min.js'></script>
+	<script src='/scripts/anime.min.js'></script>
+	<script src='/scripts/app.min.js'></script>
+	<script src='/scripts/common.min.js'></script>
+</body>
+
+</html>

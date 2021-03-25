@@ -1,0 +1,142 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: $geometria;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+* {
+
+    @include desktop {
+        &::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        &::-webkit-scrollbar:horizontal {
+            height: 4px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background-color: $city_mask;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            border-radius: 4px;
+            background-color: mix($city_mask, $dark);
+        }
+    }
+}
+
+[data-custom-scroll] {
+    ::-webkit-scrollbar {
+        width: 0;
+    }
+}
+
+button {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.page {
+    height: 100%;
+    opacity: 0;
+    background-color: $body-bg;
+
+    &__section,
+    &__main {
+        height: 100%;
+    }
+
+}
+
+.rotate-device {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity $time, visibility $time;
+    background-color: $rotate-bg;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: $white;
+    font-size: 0.625rem;
+
+    @include mobile-landscape {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    &__icon {
+        width: 3.5em;
+        height: 3.6em;
+        margin-bottom: 2.4em;
+    }
+
+    &__text {
+        font-family: $noah;
+        font-size: 1.4em;
+    }
+}
+
+.swipe-device {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity $city-time, visibility $city-time;
+    background-color: rgba($rotate-bg, .8);
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: $white;
+
+    @include mobile {
+        font-size: 0.625rem;
+
+        &_visible {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+
+    @include tablet {
+        font-size: 1.2rem;
+
+        &_visible {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+
+    &__icon {
+        width: 2.9em;
+        height: 4em;
+    }
+}

@@ -1,0 +1,1879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1970px" height="1164px" viewBox="0 0 1970 1164" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>bg (1)</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1970" height="1164"></rect>
+        <linearGradient x1="0%" y1="32.5440491%" x2="106.060344%" y2="68.6721124%" id="linearGradient-3">
+            <stop stop-color="#001A6C" offset="0%"></stop>
+            <stop stop-color="#07297B" offset="89.6237812%"></stop>
+            <stop stop-color="#082677" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-4" points="0.0005 0.085 2.3155 0.085 2.3155 2.4005 0.0005 2.4005"></polygon>
+        <polygon id="path-6" points="0.8022 0.085 3.1172 0.085 3.1172 2.4005 0.8022 2.4005"></polygon>
+        <polygon id="path-8" points="0.6035 0.085 2.9185 0.085 2.9185 2.4005 0.6035 2.4005"></polygon>
+        <polygon id="path-10" points="0.4048 0.085 2.7198 0.085 2.7198 2.4005 0.4048 2.4005"></polygon>
+        <polygon id="path-12" points="0.2065 0.085 2.5215 0.085 2.5215 2.4005 0.2065 2.4005"></polygon>
+        <polygon id="path-14" points="0.0078 0.085 2.3228 0.085 2.3228 2.4005 0.0078 2.4005"></polygon>
+        <polygon id="path-16" points="0.8095 0.085 3.1245 0.085 3.1245 2.4005 0.8095 2.4005"></polygon>
+        <polygon id="path-18" points="0.6108 0.085 2.9258 0.085 2.9258 2.4005 0.6108 2.4005"></polygon>
+        <polygon id="path-20" points="0.0005 0.6841 2.3155 0.6841 2.3155 3 0.0005 3"></polygon>
+        <polygon id="path-22" points="0.8022 0.6841 3.1172 0.6841 3.1172 3 0.8022 3"></polygon>
+        <polygon id="path-24" points="0.6035 0.6841 2.9185 0.6841 2.9185 3 0.6035 3"></polygon>
+        <polygon id="path-26" points="0.4048 0.6841 2.7198 0.6841 2.7198 3 0.4048 3"></polygon>
+        <polygon id="path-28" points="0.2065 0.6841 2.5215 0.6841 2.5215 3 0.2065 3"></polygon>
+        <polygon id="path-30" points="0.0078 0.6841 2.3228 0.6841 2.3228 3 0.0078 3"></polygon>
+        <polygon id="path-32" points="0.8095 0.6841 3.1245 0.6841 3.1245 3 0.8095 3"></polygon>
+        <polygon id="path-34" points="0.6108 0.6841 2.9258 0.6841 2.9258 3 0.6108 3"></polygon>
+        <polygon id="path-36" points="0.0005 0.085 2.3155 0.085 2.3155 2.4005 0.0005 2.4005"></polygon>
+        <polygon id="path-38" points="0.8022 0.085 3.1172 0.085 3.1172 2.4005 0.8022 2.4005"></polygon>
+        <polygon id="path-40" points="0.6035 0.085 2.9185 0.085 2.9185 2.4005 0.6035 2.4005"></polygon>
+        <polygon id="path-42" points="0.4048 0.085 2.7198 0.085 2.7198 2.4005 0.4048 2.4005"></polygon>
+        <polygon id="path-44" points="0.2065 0.085 2.5215 0.085 2.5215 2.4005 0.2065 2.4005"></polygon>
+        <polygon id="path-46" points="0.0078 0.085 2.3228 0.085 2.3228 2.4005 0.0078 2.4005"></polygon>
+        <polygon id="path-48" points="0.8095 0.085 3.1245 0.085 3.1245 2.4005 0.8095 2.4005"></polygon>
+        <polygon id="path-50" points="0.6108 0.085 2.9258 0.085 2.9258 2.4005 0.6108 2.4005"></polygon>
+        <polygon id="path-52" points="0.0005 0.6841 2.3155 0.6841 2.3155 3 0.0005 3"></polygon>
+        <polygon id="path-54" points="0.8022 0.6841 3.1172 0.6841 3.1172 3 0.8022 3"></polygon>
+        <polygon id="path-56" points="0.6035 0.6841 2.9185 0.6841 2.9185 3 0.6035 3"></polygon>
+        <polygon id="path-58" points="0.4048 0.6841 2.7198 0.6841 2.7198 3 0.4048 3"></polygon>
+        <polygon id="path-60" points="0.2065 0.6841 2.5215 0.6841 2.5215 3 0.2065 3"></polygon>
+        <polygon id="path-62" points="0.0078 0.6841 2.3228 0.6841 2.3228 3 0.0078 3"></polygon>
+        <polygon id="path-64" points="0.8095 0.6841 3.1245 0.6841 3.1245 3 0.8095 3"></polygon>
+        <polygon id="path-66" points="0.6108 0.6841 2.9258 0.6841 2.9258 3 0.6108 3"></polygon>
+        <polygon id="path-68" points="0.0005 0.085 2.3155 0.085 2.3155 2.4005 0.0005 2.4005"></polygon>
+        <polygon id="path-70" points="0.8022 0.085 3.1172 0.085 3.1172 2.4005 0.8022 2.4005"></polygon>
+        <polygon id="path-72" points="0.6035 0.085 2.9185 0.085 2.9185 2.4005 0.6035 2.4005"></polygon>
+        <polygon id="path-74" points="0.4048 0.085 2.7198 0.085 2.7198 2.4005 0.4048 2.4005"></polygon>
+        <polygon id="path-76" points="0.2065 0.085 2.5215 0.085 2.5215 2.4005 0.2065 2.4005"></polygon>
+        <polygon id="path-78" points="0.0078 0.085 2.3228 0.085 2.3228 2.4005 0.0078 2.4005"></polygon>
+        <polygon id="path-80" points="0.8095 0.085 3.1245 0.085 3.1245 2.4005 0.8095 2.4005"></polygon>
+        <polygon id="path-82" points="0.6108 0.085 2.9258 0.085 2.9258 2.4005 0.6108 2.4005"></polygon>
+        <polygon id="path-84" points="0.0005 0.6841 2.3155 0.6841 2.3155 3 0.0005 3"></polygon>
+        <polygon id="path-86" points="0.8022 0.6841 3.1172 0.6841 3.1172 3 0.8022 3"></polygon>
+        <polygon id="path-88" points="0.6035 0.6841 2.9185 0.6841 2.9185 3 0.6035 3"></polygon>
+        <polygon id="path-90" points="0.4048 0.6841 2.7198 0.6841 2.7198 3 0.4048 3"></polygon>
+        <polygon id="path-92" points="0.2065 0.6841 2.5215 0.6841 2.5215 3 0.2065 3"></polygon>
+        <polygon id="path-94" points="0.0078 0.6841 2.3228 0.6841 2.3228 3 0.0078 3"></polygon>
+        <polygon id="path-96" points="0.8095 0.6841 3.1245 0.6841 3.1245 3 0.8095 3"></polygon>
+        <polygon id="path-98" points="0.6108 0.6841 2.9258 0.6841 2.9258 3 0.6108 3"></polygon>
+        <polygon id="path-100"
+            points="0.000203225806 0.477266667 20.3300323 0.477266667 20.3300323 13.7332667 0.000203225806 13.7332667">
+        </polygon>
+        <polygon id="path-102"
+            points="0.000203225806 0.115466667 20.3300323 0.115466667 20.3300323 13.3659667 0.000203225806 13.3659667">
+        </polygon>
+        <polygon id="path-104"
+            points="0.000203225806 0.408766667 20.3300323 0.408766667 20.3300323 13.6652667 0.000203225806 13.6652667">
+        </polygon>
+        <polygon id="path-106"
+            points="0.000203225806 0.477266667 20.3300323 0.477266667 20.3300323 13.7332667 0.000203225806 13.7332667">
+        </polygon>
+        <polygon id="path-108"
+            points="0.000203225806 0.115466667 20.3300323 0.115466667 20.3300323 13.3659667 0.000203225806 13.3659667">
+        </polygon>
+        <polygon id="path-110"
+            points="0.000203225806 0.408766667 20.3300323 0.408766667 20.3300323 13.6652667 0.000203225806 13.6652667">
+        </polygon>
+        <polygon id="path-112" points="0.000203225806 0.0751075 20.3300323 0.0751075 20.3300323 13 0.000203225806 13">
+        </polygon>
+        <polygon id="path-114" points="0.000203225806 0.0751075 20.3300323 0.0751075 20.3300323 13 0.000203225806 13">
+        </polygon>
+        <polygon id="path-116" points="0.000203225806 0.0751075 20.3300323 0.0751075 20.3300323 13 0.000203225806 13">
+        </polygon>
+        <polygon id="path-118" points="0.000203225806 0.0751075 20.3300323 0.0751075 20.3300323 13 0.000203225806 13">
+        </polygon>
+        <polygon id="path-120" points="0.000203225806 0.0751075 20.3300323 0.0751075 20.3300323 13 0.000203225806 13">
+        </polygon>
+        <linearGradient x1="90.6781413%" y1="50%" x2="0%" y2="50%" id="linearGradient-122">
+            <stop stop-color="#091174" offset="0%"></stop>
+            <stop stop-color="#5080FA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-8.53123858%" y1="45.7084813%" x2="155.228375%" y2="61.6604533%" id="linearGradient-123">
+            <stop stop-color="#C136FF" offset="0%"></stop>
+            <stop stop-color="#FF3636" offset="4.81802191%"></stop>
+            <stop stop-color="#F34DFF" stop-opacity="0.394612715" offset="34.4145904%"></stop>
+            <stop stop-color="#BE05BC" stop-opacity="0.0910249886" offset="58.0553209%"></stop>
+            <stop stop-color="#BE05BC" stop-opacity="0.0882320804" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-124"
+            points="0.0004375 0.290571429 13.815375 0.290571429 13.815375 11.8907143 0.0004375 11.8907143"></polygon>
+        <polygon id="path-126"
+            points="0.0004375 0.782166667 13.815375 0.782166667 13.815375 12.5116333 0.0004375 12.5116333"></polygon>
+        <polygon id="path-128" points="0.0004375 0.399428571 13.815375 0.399428571 13.815375 12 0.0004375 12"></polygon>
+        <polygon id="path-130"
+            points="0.0004375 0.431773333 13.815375 0.431773333 13.815375 12.16124 0.0004375 12.16124"></polygon>
+        <polygon id="path-132"
+            points="0.0004375 0.782166667 13.815375 0.782166667 13.815375 12.5116333 0.0004375 12.5116333"></polygon>
+        <polygon id="path-134" points="0.0004375 0.399428571 13.815375 0.399428571 13.815375 12 0.0004375 12"></polygon>
+        <polygon id="path-136" points="0.0005 0.085 2.3155 0.085 2.3155 2.4005 0.0005 2.4005"></polygon>
+        <polygon id="path-138" points="0.8022 0.085 3.1172 0.085 3.1172 2.4005 0.8022 2.4005"></polygon>
+        <polygon id="path-140" points="0.6035 0.085 2.9185 0.085 2.9185 2.4005 0.6035 2.4005"></polygon>
+        <polygon id="path-142" points="0.4048 0.085 2.7198 0.085 2.7198 2.4005 0.4048 2.4005"></polygon>
+        <polygon id="path-144" points="0.0005 0.6841 2.3155 0.6841 2.3155 3 0.0005 3"></polygon>
+        <polygon id="path-146" points="0.8022 0.6841 3.1172 0.6841 3.1172 3 0.8022 3"></polygon>
+        <polygon id="path-148" points="0.6035 0.6841 2.9185 0.6841 2.9185 3 0.6035 3"></polygon>
+        <polygon id="path-150" points="0.4048 0.6841 2.7198 0.6841 2.7198 3 0.4048 3"></polygon>
+        <polygon id="path-152" points="0.0005 0.085 2.3155 0.085 2.3155 2.4005 0.0005 2.4005"></polygon>
+        <polygon id="path-154" points="0.8022 0.085 3.1172 0.085 3.1172 2.4005 0.8022 2.4005"></polygon>
+        <polygon id="path-156" points="0.6035 0.085 2.9185 0.085 2.9185 2.4005 0.6035 2.4005"></polygon>
+        <polygon id="path-158" points="0.4048 0.085 2.7198 0.085 2.7198 2.4005 0.4048 2.4005"></polygon>
+        <polygon id="path-160" points="0.0005 0.6841 2.3155 0.6841 2.3155 3 0.0005 3"></polygon>
+        <polygon id="path-162" points="0.8022 0.6841 3.1172 0.6841 3.1172 3 0.8022 3"></polygon>
+        <polygon id="path-164" points="0.6035 0.6841 2.9185 0.6841 2.9185 3 0.6035 3"></polygon>
+        <polygon id="path-166" points="0.4048 0.6841 2.7198 0.6841 2.7198 3 0.4048 3"></polygon>
+        <polygon id="path-168" points="0 0 105 0 105 17 0 17"></polygon>
+        <polygon id="path-170"
+            points="0.000132463738 0.740783961 43.9748372 0.740783961 43.9748372 85.6853659 0.000132463738 85.6853659">
+        </polygon>
+        <polygon id="path-172"
+            points="-0.000162269934 0.726671562 26.8654154 0.726671562 26.8654154 51.3760988 -0.000162269934 51.3760988">
+        </polygon>
+        <polygon id="path-174"
+            points="0.000165579672 0.930286834 54.9685465 0.930286834 54.9685465 107.604878 0.000165579672 107.604878">
+        </polygon>
+        <polygon id="path-176"
+            points="-0.000204339917 0.908339453 33.8305231 0.908339453 33.8305231 64.2201235 -0.000204339917 64.2201235">
+        </polygon>
+        <polygon id="path-178" points="0.0002 0.433 1.1997 0.433 1.1997 9.1002 0.0002 9.1002"></polygon>
+        <polygon id="path-180" points="0.4001 0.3326 1.6001 0.3326 1.6001 9 0.4001 9"></polygon>
+        <polygon id="path-182" points="0.0002 0.433 1.1997 0.433 1.1997 9.1002 0.0002 9.1002"></polygon>
+        <polygon id="path-184" points="0.4001 0.3326 1.6001 0.3326 1.6001 9 0.4001 9"></polygon>
+        <polygon id="path-186"
+            points="5.55238862e-05 0.05656 15.5962353 0.05656 15.5962353 13.5264267 5.55238862e-05 13.5264267">
+        </polygon>
+        <polygon id="path-188"
+            points="5.55238862e-05 0.53004 15.5962353 0.53004 15.5962353 13.9999067 5.55238862e-05 13.9999067">
+        </polygon>
+        <polygon id="path-190"
+            points="0.0004124226 0.16548 15.5962353 0.16548 15.5962353 13.6353467 0.0004124226 13.6353467"></polygon>
+        <polygon id="path-192"
+            points="0.0004124226 0.253866667 15.5962353 0.253866667 15.5962353 13.7237333 0.0004124226 13.7237333">
+        </polygon>
+        <polygon id="path-194"
+            points="0.0004124226 0.234266667 15.5962353 0.234266667 15.5962353 13.7036667 0.0004124226 13.7036667">
+        </polygon>
+        <polygon id="path-196"
+            points="0.0004124226 0.32228 15.5962353 0.32228 15.5962353 13.7921467 0.0004124226 13.7921467"></polygon>
+        <polygon id="path-198" points="0 0 106 0 106 18 0 18"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bg-(1)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="path-2"></g>
+            <g id="Group-81" opacity="0.198683966" mask="url(#mask-2)">
+                <g transform="translate(1512.000000, 251.000000)">
+                    <g id="Group-3" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(0.000000, 0.915400)">
+                        <g id="Fill-1-Clipped">
+                            <g>
+                                <mask id="mask-5" fill="white">
+                                    <use xlink:href="#path-4"></use>
+                                </mask>
+                                <g id="path-4"></g>
+                                <path
+                                    d="M2.3155,1.2425 C2.3155,1.8815 1.7975,2.4005 1.1575,2.4005 C0.5185,2.4005 0.0005,1.8815 0.0005,1.2425 C0.0005,0.6025 0.5185,0.0845 1.1575,0.0845 C1.7975,0.0845 2.3155,0.6025 2.3155,1.2425"
+                                    id="Fill-1" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-5)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-6" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(6.000000, 0.915400)">
+                        <g id="Fill-4-Clipped">
+                            <g>
+                                <mask id="mask-7" fill="white">
+                                    <use xlink:href="#path-6"></use>
+                                </mask>
+                                <g id="path-6"></g>
+                                <path
+                                    d="M3.1172,1.2425 C3.1172,1.8815 2.5982,2.4005 1.9592,2.4005 C1.3202,2.4005 0.8022,1.8815 0.8022,1.2425 C0.8022,0.6025 1.3202,0.0845 1.9592,0.0845 C2.5982,0.0845 3.1172,0.6025 3.1172,1.2425"
+                                    id="Fill-4" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-7)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-9" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(13.000000, 0.915400)">
+                        <g id="Fill-7-Clipped">
+                            <g>
+                                <mask id="mask-9" fill="white">
+                                    <use xlink:href="#path-8"></use>
+                                </mask>
+                                <g id="path-8"></g>
+                                <path
+                                    d="M2.9185,1.2425 C2.9185,1.8815 2.3995,2.4005 1.7605,2.4005 C1.1215,2.4005 0.6035,1.8815 0.6035,1.2425 C0.6035,0.6025 1.1215,0.0845 1.7605,0.0845 C2.3995,0.0845 2.9185,0.6025 2.9185,1.2425"
+                                    id="Fill-7" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-9)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-12" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(20.000000, 0.915400)">
+                        <g id="Fill-10-Clipped">
+                            <g>
+                                <mask id="mask-11" fill="white">
+                                    <use xlink:href="#path-10"></use>
+                                </mask>
+                                <g id="path-10"></g>
+                                <path
+                                    d="M2.7198,1.2425 C2.7198,1.8815 2.2018,2.4005 1.5628,2.4005 C0.9228,2.4005 0.4048,1.8815 0.4048,1.2425 C0.4048,0.6025 0.9228,0.0845 1.5628,0.0845 C2.2018,0.0845 2.7198,0.6025 2.7198,1.2425"
+                                    id="Fill-10" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-11)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-15" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(27.000000, 0.915400)">
+                        <g id="Fill-13-Clipped">
+                            <g>
+                                <mask id="mask-13" fill="white">
+                                    <use xlink:href="#path-12"></use>
+                                </mask>
+                                <g id="path-12"></g>
+                                <path
+                                    d="M2.5215,1.2425 C2.5215,1.8815 2.0025,2.4005 1.3635,2.4005 C0.7245,2.4005 0.2065,1.8815 0.2065,1.2425 C0.2065,0.6025 0.7245,0.0845 1.3635,0.0845 C2.0025,0.0845 2.5215,0.6025 2.5215,1.2425"
+                                    id="Fill-13" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-13)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-18" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(34.000000, 0.915400)">
+                        <g id="Fill-16-Clipped">
+                            <g>
+                                <mask id="mask-15" fill="white">
+                                    <use xlink:href="#path-14"></use>
+                                </mask>
+                                <g id="path-14"></g>
+                                <path
+                                    d="M2.3228,1.2425 C2.3228,1.8815 1.8048,2.4005 1.1648,2.4005 C0.5258,2.4005 0.0078,1.8815 0.0078,1.2425 C0.0078,0.6025 0.5258,0.0845 1.1648,0.0845 C1.8048,0.0845 2.3228,0.6025 2.3228,1.2425"
+                                    id="Fill-16" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-15)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-21" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(40.000000, 0.915400)">
+                        <g id="Fill-19-Clipped">
+                            <g>
+                                <mask id="mask-17" fill="white">
+                                    <use xlink:href="#path-16"></use>
+                                </mask>
+                                <g id="path-16"></g>
+                                <path
+                                    d="M3.1245,1.2425 C3.1245,1.8815 2.6055,2.4005 1.9665,2.4005 C1.3275,2.4005 0.8095,1.8815 0.8095,1.2425 C0.8095,0.6025 1.3275,0.0845 1.9665,0.0845 C2.6055,0.0845 3.1245,0.6025 3.1245,1.2425"
+                                    id="Fill-19" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-17)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-24" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(47.000000, 0.915400)">
+                        <g id="Fill-22-Clipped">
+                            <g>
+                                <mask id="mask-19" fill="white">
+                                    <use xlink:href="#path-18"></use>
+                                </mask>
+                                <g id="path-18"></g>
+                                <path
+                                    d="M2.9258,1.2425 C2.9258,1.8815 2.4078,2.4005 1.7678,2.4005 C1.1288,2.4005 0.6108,1.8815 0.6108,1.2425 C0.6108,0.6025 1.1288,0.0845 1.7678,0.0845 C2.4078,0.0845 2.9258,0.6025 2.9258,1.2425"
+                                    id="Fill-22" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-19)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <path
+                        d="M2.3155,9.3576 C2.3155,9.9976 1.7975,10.5156 1.1575,10.5156 C0.5185,10.5156 0.0005,9.9976 0.0005,9.3576 C0.0005,8.7186 0.5185,8.1996 1.1575,8.1996 C1.7975,8.1996 2.3155,8.7186 2.3155,9.3576"
+                        id="Fill-25" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M9.1172,9.3576 C9.1172,9.9976 8.5982,10.5156 7.9592,10.5156 C7.3202,10.5156 6.8022,9.9976 6.8022,9.3576 C6.8022,8.7186 7.3202,8.1996 7.9592,8.1996 C8.5982,8.1996 9.1172,8.7186 9.1172,9.3576"
+                        id="Fill-27" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M15.9185,9.3576 C15.9185,9.9976 15.3995,10.5156 14.7605,10.5156 C14.1215,10.5156 13.6035,9.9976 13.6035,9.3576 C13.6035,8.7186 14.1215,8.1996 14.7605,8.1996 C15.3995,8.1996 15.9185,8.7186 15.9185,9.3576"
+                        id="Fill-29" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M22.7198,9.3576 C22.7198,9.9976 22.2018,10.5156 21.5628,10.5156 C20.9228,10.5156 20.4048,9.9976 20.4048,9.3576 C20.4048,8.7186 20.9228,8.1996 21.5628,8.1996 C22.2018,8.1996 22.7198,8.7186 22.7198,9.3576"
+                        id="Fill-31" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M29.5215,9.3576 C29.5215,9.9976 29.0025,10.5156 28.3635,10.5156 C27.7245,10.5156 27.2065,9.9976 27.2065,9.3576 C27.2065,8.7186 27.7245,8.1996 28.3635,8.1996 C29.0025,8.1996 29.5215,8.7186 29.5215,9.3576"
+                        id="Fill-33" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M36.3228,9.3576 C36.3228,9.9976 35.8048,10.5156 35.1648,10.5156 C34.5258,10.5156 34.0078,9.9976 34.0078,9.3576 C34.0078,8.7186 34.5258,8.1996 35.1648,8.1996 C35.8048,8.1996 36.3228,8.7186 36.3228,9.3576"
+                        id="Fill-35" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M43.1245,9.3576 C43.1245,9.9976 42.6055,10.5156 41.9665,10.5156 C41.3275,10.5156 40.8095,9.9976 40.8095,9.3576 C40.8095,8.7186 41.3275,8.1996 41.9665,8.1996 C42.6055,8.1996 43.1245,8.7186 43.1245,9.3576"
+                        id="Fill-37" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M49.9258,9.3576 C49.9258,9.9976 49.4078,10.5156 48.7678,10.5156 C48.1288,10.5156 47.6108,9.9976 47.6108,9.3576 C47.6108,8.7186 48.1288,8.1996 48.7678,8.1996 C49.4078,8.1996 49.9258,8.7186 49.9258,9.3576"
+                        id="Fill-39" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M2.3155,16.5578 C2.3155,17.1968 1.7975,17.7158 1.1575,17.7158 C0.5185,17.7158 0.0005,17.1968 0.0005,16.5578 C0.0005,15.9178 0.5185,15.3998 1.1575,15.3998 C1.7975,15.3998 2.3155,15.9178 2.3155,16.5578"
+                        id="Fill-41" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M9.1172,16.5578 C9.1172,17.1968 8.5982,17.7158 7.9592,17.7158 C7.3202,17.7158 6.8022,17.1968 6.8022,16.5578 C6.8022,15.9178 7.3202,15.3998 7.9592,15.3998 C8.5982,15.3998 9.1172,15.9178 9.1172,16.5578"
+                        id="Fill-43" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M15.9185,16.5578 C15.9185,17.1968 15.3995,17.7158 14.7605,17.7158 C14.1215,17.7158 13.6035,17.1968 13.6035,16.5578 C13.6035,15.9178 14.1215,15.3998 14.7605,15.3998 C15.3995,15.3998 15.9185,15.9178 15.9185,16.5578"
+                        id="Fill-45" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M22.7198,16.5578 C22.7198,17.1968 22.2018,17.7158 21.5628,17.7158 C20.9228,17.7158 20.4048,17.1968 20.4048,16.5578 C20.4048,15.9178 20.9228,15.3998 21.5628,15.3998 C22.2018,15.3998 22.7198,15.9178 22.7198,16.5578"
+                        id="Fill-47" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M29.5215,16.5578 C29.5215,17.1968 29.0025,17.7158 28.3635,17.7158 C27.7245,17.7158 27.2065,17.1968 27.2065,16.5578 C27.2065,15.9178 27.7245,15.3998 28.3635,15.3998 C29.0025,15.3998 29.5215,15.9178 29.5215,16.5578"
+                        id="Fill-49" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M36.3228,16.5578 C36.3228,17.1968 35.8048,17.7158 35.1648,17.7158 C34.5258,17.7158 34.0078,17.1968 34.0078,16.5578 C34.0078,15.9178 34.5258,15.3998 35.1648,15.3998 C35.8048,15.3998 36.3228,15.9178 36.3228,16.5578"
+                        id="Fill-51" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M43.1245,16.5578 C43.1245,17.1968 42.6055,17.7158 41.9665,17.7158 C41.3275,17.7158 40.8095,17.1968 40.8095,16.5578 C40.8095,15.9178 41.3275,15.3998 41.9665,15.3998 C42.6055,15.3998 43.1245,15.9178 43.1245,16.5578"
+                        id="Fill-53" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M49.9258,16.5578 C49.9258,17.1968 49.4078,17.7158 48.7678,17.7158 C48.1288,17.7158 47.6108,17.1968 47.6108,16.5578 C47.6108,15.9178 48.1288,15.3998 48.7678,15.3998 C49.4078,15.3998 49.9258,15.9178 49.9258,16.5578"
+                        id="Fill-55" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <g id="Group-59" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(0.000000, 21.915400)">
+                        <g id="Fill-57-Clipped">
+                            <g>
+                                <mask id="mask-21" fill="white">
+                                    <use xlink:href="#path-20"></use>
+                                </mask>
+                                <g id="path-20"></g>
+                                <path
+                                    d="M2.3155,1.8421 C2.3155,2.4821 1.7975,3.0001 1.1575,3.0001 C0.5185,3.0001 0.0005,2.4821 0.0005,1.8421 C0.0005,1.2031 0.5185,0.6841 1.1575,0.6841 C1.7975,0.6841 2.3155,1.2031 2.3155,1.8421"
+                                    id="Fill-57" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-21)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-62" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(6.000000, 21.915400)">
+                        <g id="Fill-60-Clipped">
+                            <g>
+                                <mask id="mask-23" fill="white">
+                                    <use xlink:href="#path-22"></use>
+                                </mask>
+                                <g id="path-22"></g>
+                                <path
+                                    d="M3.1172,1.8421 C3.1172,2.4821 2.5982,3.0001 1.9592,3.0001 C1.3202,3.0001 0.8022,2.4821 0.8022,1.8421 C0.8022,1.2031 1.3202,0.6841 1.9592,0.6841 C2.5982,0.6841 3.1172,1.2031 3.1172,1.8421"
+                                    id="Fill-60" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-23)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-65" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(13.000000, 21.915400)">
+                        <g id="Fill-63-Clipped">
+                            <g>
+                                <mask id="mask-25" fill="white">
+                                    <use xlink:href="#path-24"></use>
+                                </mask>
+                                <g id="path-24"></g>
+                                <path
+                                    d="M2.9185,1.8421 C2.9185,2.4821 2.3995,3.0001 1.7605,3.0001 C1.1215,3.0001 0.6035,2.4821 0.6035,1.8421 C0.6035,1.2031 1.1215,0.6841 1.7605,0.6841 C2.3995,0.6841 2.9185,1.2031 2.9185,1.8421"
+                                    id="Fill-63" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-25)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-68" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(20.000000, 21.915400)">
+                        <g id="Fill-66-Clipped">
+                            <g>
+                                <mask id="mask-27" fill="white">
+                                    <use xlink:href="#path-26"></use>
+                                </mask>
+                                <g id="path-26"></g>
+                                <path
+                                    d="M2.7198,1.8421 C2.7198,2.4821 2.2018,3.0001 1.5628,3.0001 C0.9228,3.0001 0.4048,2.4821 0.4048,1.8421 C0.4048,1.2031 0.9228,0.6841 1.5628,0.6841 C2.2018,0.6841 2.7198,1.2031 2.7198,1.8421"
+                                    id="Fill-66" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-27)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-71" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(27.000000, 21.915400)">
+                        <g id="Fill-69-Clipped">
+                            <g>
+                                <mask id="mask-29" fill="white">
+                                    <use xlink:href="#path-28"></use>
+                                </mask>
+                                <g id="path-28"></g>
+                                <path
+                                    d="M2.5215,1.8421 C2.5215,2.4821 2.0025,3.0001 1.3635,3.0001 C0.7245,3.0001 0.2065,2.4821 0.2065,1.8421 C0.2065,1.2031 0.7245,0.6841 1.3635,0.6841 C2.0025,0.6841 2.5215,1.2031 2.5215,1.8421"
+                                    id="Fill-69" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-29)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-74" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(34.000000, 21.915400)">
+                        <g id="Fill-72-Clipped">
+                            <g>
+                                <mask id="mask-31" fill="white">
+                                    <use xlink:href="#path-30"></use>
+                                </mask>
+                                <g id="path-30"></g>
+                                <path
+                                    d="M2.3228,1.8421 C2.3228,2.4821 1.8048,3.0001 1.1648,3.0001 C0.5258,3.0001 0.0078,2.4821 0.0078,1.8421 C0.0078,1.2031 0.5258,0.6841 1.1648,0.6841 C1.8048,0.6841 2.3228,1.2031 2.3228,1.8421"
+                                    id="Fill-72" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-31)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-77" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(40.000000, 21.915400)">
+                        <g id="Fill-75-Clipped">
+                            <g>
+                                <mask id="mask-33" fill="white">
+                                    <use xlink:href="#path-32"></use>
+                                </mask>
+                                <g id="path-32"></g>
+                                <path
+                                    d="M3.1245,1.8421 C3.1245,2.4821 2.6055,3.0001 1.9665,3.0001 C1.3275,3.0001 0.8095,2.4821 0.8095,1.8421 C0.8095,1.2031 1.3275,0.6841 1.9665,0.6841 C2.6055,0.6841 3.1245,1.2031 3.1245,1.8421"
+                                    id="Fill-75" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-33)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-80" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(47.000000, 21.915400)">
+                        <g id="Fill-78-Clipped">
+                            <g>
+                                <mask id="mask-35" fill="white">
+                                    <use xlink:href="#path-34"></use>
+                                </mask>
+                                <g id="path-34"></g>
+                                <path
+                                    d="M2.9258,1.8421 C2.9258,2.4821 2.4078,3.0001 1.7678,3.0001 C1.1288,3.0001 0.6108,2.4821 0.6108,1.8421 C0.6108,1.2031 1.1288,0.6841 1.7678,0.6841 C2.4078,0.6841 2.9258,1.2031 2.9258,1.8421"
+                                    id="Fill-78" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-35)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-81" opacity="0.198683966" mask="url(#mask-2)">
+                <g transform="translate(125.000000, 22.000000)">
+                    <g id="Group-3" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(0.000000, 0.915400)">
+                        <g id="Fill-1-Clipped">
+                            <g>
+                                <mask id="mask-37" fill="white">
+                                    <use xlink:href="#path-36"></use>
+                                </mask>
+                                <g id="path-36"></g>
+                                <path
+                                    d="M2.3155,1.2425 C2.3155,1.8815 1.7975,2.4005 1.1575,2.4005 C0.5185,2.4005 0.0005,1.8815 0.0005,1.2425 C0.0005,0.6025 0.5185,0.0845 1.1575,0.0845 C1.7975,0.0845 2.3155,0.6025 2.3155,1.2425"
+                                    id="Fill-1" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-37)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-6" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(6.000000, 0.915400)">
+                        <g id="Fill-4-Clipped">
+                            <g>
+                                <mask id="mask-39" fill="white">
+                                    <use xlink:href="#path-38"></use>
+                                </mask>
+                                <g id="path-38"></g>
+                                <path
+                                    d="M3.1172,1.2425 C3.1172,1.8815 2.5982,2.4005 1.9592,2.4005 C1.3202,2.4005 0.8022,1.8815 0.8022,1.2425 C0.8022,0.6025 1.3202,0.0845 1.9592,0.0845 C2.5982,0.0845 3.1172,0.6025 3.1172,1.2425"
+                                    id="Fill-4" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-39)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-9" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(13.000000, 0.915400)">
+                        <g id="Fill-7-Clipped">
+                            <g>
+                                <mask id="mask-41" fill="white">
+                                    <use xlink:href="#path-40"></use>
+                                </mask>
+                                <g id="path-40"></g>
+                                <path
+                                    d="M2.9185,1.2425 C2.9185,1.8815 2.3995,2.4005 1.7605,2.4005 C1.1215,2.4005 0.6035,1.8815 0.6035,1.2425 C0.6035,0.6025 1.1215,0.0845 1.7605,0.0845 C2.3995,0.0845 2.9185,0.6025 2.9185,1.2425"
+                                    id="Fill-7" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-41)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-12" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(20.000000, 0.915400)">
+                        <g id="Fill-10-Clipped">
+                            <g>
+                                <mask id="mask-43" fill="white">
+                                    <use xlink:href="#path-42"></use>
+                                </mask>
+                                <g id="path-42"></g>
+                                <path
+                                    d="M2.7198,1.2425 C2.7198,1.8815 2.2018,2.4005 1.5628,2.4005 C0.9228,2.4005 0.4048,1.8815 0.4048,1.2425 C0.4048,0.6025 0.9228,0.0845 1.5628,0.0845 C2.2018,0.0845 2.7198,0.6025 2.7198,1.2425"
+                                    id="Fill-10" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-43)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-15" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(27.000000, 0.915400)">
+                        <g id="Fill-13-Clipped">
+                            <g>
+                                <mask id="mask-45" fill="white">
+                                    <use xlink:href="#path-44"></use>
+                                </mask>
+                                <g id="path-44"></g>
+                                <path
+                                    d="M2.5215,1.2425 C2.5215,1.8815 2.0025,2.4005 1.3635,2.4005 C0.7245,2.4005 0.2065,1.8815 0.2065,1.2425 C0.2065,0.6025 0.7245,0.0845 1.3635,0.0845 C2.0025,0.0845 2.5215,0.6025 2.5215,1.2425"
+                                    id="Fill-13" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-45)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-18" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(34.000000, 0.915400)">
+                        <g id="Fill-16-Clipped">
+                            <g>
+                                <mask id="mask-47" fill="white">
+                                    <use xlink:href="#path-46"></use>
+                                </mask>
+                                <g id="path-46"></g>
+                                <path
+                                    d="M2.3228,1.2425 C2.3228,1.8815 1.8048,2.4005 1.1648,2.4005 C0.5258,2.4005 0.0078,1.8815 0.0078,1.2425 C0.0078,0.6025 0.5258,0.0845 1.1648,0.0845 C1.8048,0.0845 2.3228,0.6025 2.3228,1.2425"
+                                    id="Fill-16" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-47)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-21" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(40.000000, 0.915400)">
+                        <g id="Fill-19-Clipped">
+                            <g>
+                                <mask id="mask-49" fill="white">
+                                    <use xlink:href="#path-48"></use>
+                                </mask>
+                                <g id="path-48"></g>
+                                <path
+                                    d="M3.1245,1.2425 C3.1245,1.8815 2.6055,2.4005 1.9665,2.4005 C1.3275,2.4005 0.8095,1.8815 0.8095,1.2425 C0.8095,0.6025 1.3275,0.0845 1.9665,0.0845 C2.6055,0.0845 3.1245,0.6025 3.1245,1.2425"
+                                    id="Fill-19" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-49)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-24" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(47.000000, 0.915400)">
+                        <g id="Fill-22-Clipped">
+                            <g>
+                                <mask id="mask-51" fill="white">
+                                    <use xlink:href="#path-50"></use>
+                                </mask>
+                                <g id="path-50"></g>
+                                <path
+                                    d="M2.9258,1.2425 C2.9258,1.8815 2.4078,2.4005 1.7678,2.4005 C1.1288,2.4005 0.6108,1.8815 0.6108,1.2425 C0.6108,0.6025 1.1288,0.0845 1.7678,0.0845 C2.4078,0.0845 2.9258,0.6025 2.9258,1.2425"
+                                    id="Fill-22" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-51)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <path
+                        d="M2.3155,9.3576 C2.3155,9.9976 1.7975,10.5156 1.1575,10.5156 C0.5185,10.5156 0.0005,9.9976 0.0005,9.3576 C0.0005,8.7186 0.5185,8.1996 1.1575,8.1996 C1.7975,8.1996 2.3155,8.7186 2.3155,9.3576"
+                        id="Fill-25" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M9.1172,9.3576 C9.1172,9.9976 8.5982,10.5156 7.9592,10.5156 C7.3202,10.5156 6.8022,9.9976 6.8022,9.3576 C6.8022,8.7186 7.3202,8.1996 7.9592,8.1996 C8.5982,8.1996 9.1172,8.7186 9.1172,9.3576"
+                        id="Fill-27" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M15.9185,9.3576 C15.9185,9.9976 15.3995,10.5156 14.7605,10.5156 C14.1215,10.5156 13.6035,9.9976 13.6035,9.3576 C13.6035,8.7186 14.1215,8.1996 14.7605,8.1996 C15.3995,8.1996 15.9185,8.7186 15.9185,9.3576"
+                        id="Fill-29" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M22.7198,9.3576 C22.7198,9.9976 22.2018,10.5156 21.5628,10.5156 C20.9228,10.5156 20.4048,9.9976 20.4048,9.3576 C20.4048,8.7186 20.9228,8.1996 21.5628,8.1996 C22.2018,8.1996 22.7198,8.7186 22.7198,9.3576"
+                        id="Fill-31" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M29.5215,9.3576 C29.5215,9.9976 29.0025,10.5156 28.3635,10.5156 C27.7245,10.5156 27.2065,9.9976 27.2065,9.3576 C27.2065,8.7186 27.7245,8.1996 28.3635,8.1996 C29.0025,8.1996 29.5215,8.7186 29.5215,9.3576"
+                        id="Fill-33" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M36.3228,9.3576 C36.3228,9.9976 35.8048,10.5156 35.1648,10.5156 C34.5258,10.5156 34.0078,9.9976 34.0078,9.3576 C34.0078,8.7186 34.5258,8.1996 35.1648,8.1996 C35.8048,8.1996 36.3228,8.7186 36.3228,9.3576"
+                        id="Fill-35" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M43.1245,9.3576 C43.1245,9.9976 42.6055,10.5156 41.9665,10.5156 C41.3275,10.5156 40.8095,9.9976 40.8095,9.3576 C40.8095,8.7186 41.3275,8.1996 41.9665,8.1996 C42.6055,8.1996 43.1245,8.7186 43.1245,9.3576"
+                        id="Fill-37" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M49.9258,9.3576 C49.9258,9.9976 49.4078,10.5156 48.7678,10.5156 C48.1288,10.5156 47.6108,9.9976 47.6108,9.3576 C47.6108,8.7186 48.1288,8.1996 48.7678,8.1996 C49.4078,8.1996 49.9258,8.7186 49.9258,9.3576"
+                        id="Fill-39" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M2.3155,16.5578 C2.3155,17.1968 1.7975,17.7158 1.1575,17.7158 C0.5185,17.7158 0.0005,17.1968 0.0005,16.5578 C0.0005,15.9178 0.5185,15.3998 1.1575,15.3998 C1.7975,15.3998 2.3155,15.9178 2.3155,16.5578"
+                        id="Fill-41" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M9.1172,16.5578 C9.1172,17.1968 8.5982,17.7158 7.9592,17.7158 C7.3202,17.7158 6.8022,17.1968 6.8022,16.5578 C6.8022,15.9178 7.3202,15.3998 7.9592,15.3998 C8.5982,15.3998 9.1172,15.9178 9.1172,16.5578"
+                        id="Fill-43" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M15.9185,16.5578 C15.9185,17.1968 15.3995,17.7158 14.7605,17.7158 C14.1215,17.7158 13.6035,17.1968 13.6035,16.5578 C13.6035,15.9178 14.1215,15.3998 14.7605,15.3998 C15.3995,15.3998 15.9185,15.9178 15.9185,16.5578"
+                        id="Fill-45" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M22.7198,16.5578 C22.7198,17.1968 22.2018,17.7158 21.5628,17.7158 C20.9228,17.7158 20.4048,17.1968 20.4048,16.5578 C20.4048,15.9178 20.9228,15.3998 21.5628,15.3998 C22.2018,15.3998 22.7198,15.9178 22.7198,16.5578"
+                        id="Fill-47" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M29.5215,16.5578 C29.5215,17.1968 29.0025,17.7158 28.3635,17.7158 C27.7245,17.7158 27.2065,17.1968 27.2065,16.5578 C27.2065,15.9178 27.7245,15.3998 28.3635,15.3998 C29.0025,15.3998 29.5215,15.9178 29.5215,16.5578"
+                        id="Fill-49" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M36.3228,16.5578 C36.3228,17.1968 35.8048,17.7158 35.1648,17.7158 C34.5258,17.7158 34.0078,17.1968 34.0078,16.5578 C34.0078,15.9178 34.5258,15.3998 35.1648,15.3998 C35.8048,15.3998 36.3228,15.9178 36.3228,16.5578"
+                        id="Fill-51" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M43.1245,16.5578 C43.1245,17.1968 42.6055,17.7158 41.9665,17.7158 C41.3275,17.7158 40.8095,17.1968 40.8095,16.5578 C40.8095,15.9178 41.3275,15.3998 41.9665,15.3998 C42.6055,15.3998 43.1245,15.9178 43.1245,16.5578"
+                        id="Fill-53" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M49.9258,16.5578 C49.9258,17.1968 49.4078,17.7158 48.7678,17.7158 C48.1288,17.7158 47.6108,17.1968 47.6108,16.5578 C47.6108,15.9178 48.1288,15.3998 48.7678,15.3998 C49.4078,15.3998 49.9258,15.9178 49.9258,16.5578"
+                        id="Fill-55" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <g id="Group-59" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(0.000000, 21.915400)">
+                        <g id="Fill-57-Clipped">
+                            <g>
+                                <mask id="mask-53" fill="white">
+                                    <use xlink:href="#path-52"></use>
+                                </mask>
+                                <g id="path-52"></g>
+                                <path
+                                    d="M2.3155,1.8421 C2.3155,2.4821 1.7975,3.0001 1.1575,3.0001 C0.5185,3.0001 0.0005,2.4821 0.0005,1.8421 C0.0005,1.2031 0.5185,0.6841 1.1575,0.6841 C1.7975,0.6841 2.3155,1.2031 2.3155,1.8421"
+                                    id="Fill-57" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-53)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-62" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(6.000000, 21.915400)">
+                        <g id="Fill-60-Clipped">
+                            <g>
+                                <mask id="mask-55" fill="white">
+                                    <use xlink:href="#path-54"></use>
+                                </mask>
+                                <g id="path-54"></g>
+                                <path
+                                    d="M3.1172,1.8421 C3.1172,2.4821 2.5982,3.0001 1.9592,3.0001 C1.3202,3.0001 0.8022,2.4821 0.8022,1.8421 C0.8022,1.2031 1.3202,0.6841 1.9592,0.6841 C2.5982,0.6841 3.1172,1.2031 3.1172,1.8421"
+                                    id="Fill-60" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-55)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-65" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(13.000000, 21.915400)">
+                        <g id="Fill-63-Clipped">
+                            <g>
+                                <mask id="mask-57" fill="white">
+                                    <use xlink:href="#path-56"></use>
+                                </mask>
+                                <g id="path-56"></g>
+                                <path
+                                    d="M2.9185,1.8421 C2.9185,2.4821 2.3995,3.0001 1.7605,3.0001 C1.1215,3.0001 0.6035,2.4821 0.6035,1.8421 C0.6035,1.2031 1.1215,0.6841 1.7605,0.6841 C2.3995,0.6841 2.9185,1.2031 2.9185,1.8421"
+                                    id="Fill-63" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-57)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-68" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(20.000000, 21.915400)">
+                        <g id="Fill-66-Clipped">
+                            <g>
+                                <mask id="mask-59" fill="white">
+                                    <use xlink:href="#path-58"></use>
+                                </mask>
+                                <g id="path-58"></g>
+                                <path
+                                    d="M2.7198,1.8421 C2.7198,2.4821 2.2018,3.0001 1.5628,3.0001 C0.9228,3.0001 0.4048,2.4821 0.4048,1.8421 C0.4048,1.2031 0.9228,0.6841 1.5628,0.6841 C2.2018,0.6841 2.7198,1.2031 2.7198,1.8421"
+                                    id="Fill-66" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-59)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-71" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(27.000000, 21.915400)">
+                        <g id="Fill-69-Clipped">
+                            <g>
+                                <mask id="mask-61" fill="white">
+                                    <use xlink:href="#path-60"></use>
+                                </mask>
+                                <g id="path-60"></g>
+                                <path
+                                    d="M2.5215,1.8421 C2.5215,2.4821 2.0025,3.0001 1.3635,3.0001 C0.7245,3.0001 0.2065,2.4821 0.2065,1.8421 C0.2065,1.2031 0.7245,0.6841 1.3635,0.6841 C2.0025,0.6841 2.5215,1.2031 2.5215,1.8421"
+                                    id="Fill-69" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-61)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-74" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(34.000000, 21.915400)">
+                        <g id="Fill-72-Clipped">
+                            <g>
+                                <mask id="mask-63" fill="white">
+                                    <use xlink:href="#path-62"></use>
+                                </mask>
+                                <g id="path-62"></g>
+                                <path
+                                    d="M2.3228,1.8421 C2.3228,2.4821 1.8048,3.0001 1.1648,3.0001 C0.5258,3.0001 0.0078,2.4821 0.0078,1.8421 C0.0078,1.2031 0.5258,0.6841 1.1648,0.6841 C1.8048,0.6841 2.3228,1.2031 2.3228,1.8421"
+                                    id="Fill-72" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-63)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-77" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(40.000000, 21.915400)">
+                        <g id="Fill-75-Clipped">
+                            <g>
+                                <mask id="mask-65" fill="white">
+                                    <use xlink:href="#path-64"></use>
+                                </mask>
+                                <g id="path-64"></g>
+                                <path
+                                    d="M3.1245,1.8421 C3.1245,2.4821 2.6055,3.0001 1.9665,3.0001 C1.3275,3.0001 0.8095,2.4821 0.8095,1.8421 C0.8095,1.2031 1.3275,0.6841 1.9665,0.6841 C2.6055,0.6841 3.1245,1.2031 3.1245,1.8421"
+                                    id="Fill-75" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-65)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-80" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(47.000000, 21.915400)">
+                        <g id="Fill-78-Clipped">
+                            <g>
+                                <mask id="mask-67" fill="white">
+                                    <use xlink:href="#path-66"></use>
+                                </mask>
+                                <g id="path-66"></g>
+                                <path
+                                    d="M2.9258,1.8421 C2.9258,2.4821 2.4078,3.0001 1.7678,3.0001 C1.1288,3.0001 0.6108,2.4821 0.6108,1.8421 C0.6108,1.2031 1.1288,0.6841 1.7678,0.6841 C2.4078,0.6841 2.9258,1.2031 2.9258,1.8421"
+                                    id="Fill-78" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-67)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-81" opacity="0.198683966" mask="url(#mask-2)">
+                <g transform="translate(374.000000, 1015.000000)">
+                    <g id="Group-3" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(0.000000, 0.915400)">
+                        <g id="Fill-1-Clipped">
+                            <g>
+                                <mask id="mask-69" fill="white">
+                                    <use xlink:href="#path-68"></use>
+                                </mask>
+                                <g id="path-68"></g>
+                                <path
+                                    d="M2.3155,1.2425 C2.3155,1.8815 1.7975,2.4005 1.1575,2.4005 C0.5185,2.4005 0.0005,1.8815 0.0005,1.2425 C0.0005,0.6025 0.5185,0.0845 1.1575,0.0845 C1.7975,0.0845 2.3155,0.6025 2.3155,1.2425"
+                                    id="Fill-1" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-69)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-6" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(6.000000, 0.915400)">
+                        <g id="Fill-4-Clipped">
+                            <g>
+                                <mask id="mask-71" fill="white">
+                                    <use xlink:href="#path-70"></use>
+                                </mask>
+                                <g id="path-70"></g>
+                                <path
+                                    d="M3.1172,1.2425 C3.1172,1.8815 2.5982,2.4005 1.9592,2.4005 C1.3202,2.4005 0.8022,1.8815 0.8022,1.2425 C0.8022,0.6025 1.3202,0.0845 1.9592,0.0845 C2.5982,0.0845 3.1172,0.6025 3.1172,1.2425"
+                                    id="Fill-4" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-71)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-9" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(13.000000, 0.915400)">
+                        <g id="Fill-7-Clipped">
+                            <g>
+                                <mask id="mask-73" fill="white">
+                                    <use xlink:href="#path-72"></use>
+                                </mask>
+                                <g id="path-72"></g>
+                                <path
+                                    d="M2.9185,1.2425 C2.9185,1.8815 2.3995,2.4005 1.7605,2.4005 C1.1215,2.4005 0.6035,1.8815 0.6035,1.2425 C0.6035,0.6025 1.1215,0.0845 1.7605,0.0845 C2.3995,0.0845 2.9185,0.6025 2.9185,1.2425"
+                                    id="Fill-7" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-73)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-12" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(20.000000, 0.915400)">
+                        <g id="Fill-10-Clipped">
+                            <g>
+                                <mask id="mask-75" fill="white">
+                                    <use xlink:href="#path-74"></use>
+                                </mask>
+                                <g id="path-74"></g>
+                                <path
+                                    d="M2.7198,1.2425 C2.7198,1.8815 2.2018,2.4005 1.5628,2.4005 C0.9228,2.4005 0.4048,1.8815 0.4048,1.2425 C0.4048,0.6025 0.9228,0.0845 1.5628,0.0845 C2.2018,0.0845 2.7198,0.6025 2.7198,1.2425"
+                                    id="Fill-10" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-75)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-15" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(27.000000, 0.915400)">
+                        <g id="Fill-13-Clipped">
+                            <g>
+                                <mask id="mask-77" fill="white">
+                                    <use xlink:href="#path-76"></use>
+                                </mask>
+                                <g id="path-76"></g>
+                                <path
+                                    d="M2.5215,1.2425 C2.5215,1.8815 2.0025,2.4005 1.3635,2.4005 C0.7245,2.4005 0.2065,1.8815 0.2065,1.2425 C0.2065,0.6025 0.7245,0.0845 1.3635,0.0845 C2.0025,0.0845 2.5215,0.6025 2.5215,1.2425"
+                                    id="Fill-13" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-77)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-18" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(34.000000, 0.915400)">
+                        <g id="Fill-16-Clipped">
+                            <g>
+                                <mask id="mask-79" fill="white">
+                                    <use xlink:href="#path-78"></use>
+                                </mask>
+                                <g id="path-78"></g>
+                                <path
+                                    d="M2.3228,1.2425 C2.3228,1.8815 1.8048,2.4005 1.1648,2.4005 C0.5258,2.4005 0.0078,1.8815 0.0078,1.2425 C0.0078,0.6025 0.5258,0.0845 1.1648,0.0845 C1.8048,0.0845 2.3228,0.6025 2.3228,1.2425"
+                                    id="Fill-16" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-79)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-21" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(40.000000, 0.915400)">
+                        <g id="Fill-19-Clipped">
+                            <g>
+                                <mask id="mask-81" fill="white">
+                                    <use xlink:href="#path-80"></use>
+                                </mask>
+                                <g id="path-80"></g>
+                                <path
+                                    d="M3.1245,1.2425 C3.1245,1.8815 2.6055,2.4005 1.9665,2.4005 C1.3275,2.4005 0.8095,1.8815 0.8095,1.2425 C0.8095,0.6025 1.3275,0.0845 1.9665,0.0845 C2.6055,0.0845 3.1245,0.6025 3.1245,1.2425"
+                                    id="Fill-19" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-81)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-24" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(47.000000, 0.915400)">
+                        <g id="Fill-22-Clipped">
+                            <g>
+                                <mask id="mask-83" fill="white">
+                                    <use xlink:href="#path-82"></use>
+                                </mask>
+                                <g id="path-82"></g>
+                                <path
+                                    d="M2.9258,1.2425 C2.9258,1.8815 2.4078,2.4005 1.7678,2.4005 C1.1288,2.4005 0.6108,1.8815 0.6108,1.2425 C0.6108,0.6025 1.1288,0.0845 1.7678,0.0845 C2.4078,0.0845 2.9258,0.6025 2.9258,1.2425"
+                                    id="Fill-22" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-83)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <path
+                        d="M2.3155,9.3576 C2.3155,9.9976 1.7975,10.5156 1.1575,10.5156 C0.5185,10.5156 0.0005,9.9976 0.0005,9.3576 C0.0005,8.7186 0.5185,8.1996 1.1575,8.1996 C1.7975,8.1996 2.3155,8.7186 2.3155,9.3576"
+                        id="Fill-25" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M9.1172,9.3576 C9.1172,9.9976 8.5982,10.5156 7.9592,10.5156 C7.3202,10.5156 6.8022,9.9976 6.8022,9.3576 C6.8022,8.7186 7.3202,8.1996 7.9592,8.1996 C8.5982,8.1996 9.1172,8.7186 9.1172,9.3576"
+                        id="Fill-27" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M15.9185,9.3576 C15.9185,9.9976 15.3995,10.5156 14.7605,10.5156 C14.1215,10.5156 13.6035,9.9976 13.6035,9.3576 C13.6035,8.7186 14.1215,8.1996 14.7605,8.1996 C15.3995,8.1996 15.9185,8.7186 15.9185,9.3576"
+                        id="Fill-29" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M22.7198,9.3576 C22.7198,9.9976 22.2018,10.5156 21.5628,10.5156 C20.9228,10.5156 20.4048,9.9976 20.4048,9.3576 C20.4048,8.7186 20.9228,8.1996 21.5628,8.1996 C22.2018,8.1996 22.7198,8.7186 22.7198,9.3576"
+                        id="Fill-31" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M29.5215,9.3576 C29.5215,9.9976 29.0025,10.5156 28.3635,10.5156 C27.7245,10.5156 27.2065,9.9976 27.2065,9.3576 C27.2065,8.7186 27.7245,8.1996 28.3635,8.1996 C29.0025,8.1996 29.5215,8.7186 29.5215,9.3576"
+                        id="Fill-33" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M36.3228,9.3576 C36.3228,9.9976 35.8048,10.5156 35.1648,10.5156 C34.5258,10.5156 34.0078,9.9976 34.0078,9.3576 C34.0078,8.7186 34.5258,8.1996 35.1648,8.1996 C35.8048,8.1996 36.3228,8.7186 36.3228,9.3576"
+                        id="Fill-35" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M43.1245,9.3576 C43.1245,9.9976 42.6055,10.5156 41.9665,10.5156 C41.3275,10.5156 40.8095,9.9976 40.8095,9.3576 C40.8095,8.7186 41.3275,8.1996 41.9665,8.1996 C42.6055,8.1996 43.1245,8.7186 43.1245,9.3576"
+                        id="Fill-37" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M49.9258,9.3576 C49.9258,9.9976 49.4078,10.5156 48.7678,10.5156 C48.1288,10.5156 47.6108,9.9976 47.6108,9.3576 C47.6108,8.7186 48.1288,8.1996 48.7678,8.1996 C49.4078,8.1996 49.9258,8.7186 49.9258,9.3576"
+                        id="Fill-39" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M2.3155,16.5578 C2.3155,17.1968 1.7975,17.7158 1.1575,17.7158 C0.5185,17.7158 0.0005,17.1968 0.0005,16.5578 C0.0005,15.9178 0.5185,15.3998 1.1575,15.3998 C1.7975,15.3998 2.3155,15.9178 2.3155,16.5578"
+                        id="Fill-41" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M9.1172,16.5578 C9.1172,17.1968 8.5982,17.7158 7.9592,17.7158 C7.3202,17.7158 6.8022,17.1968 6.8022,16.5578 C6.8022,15.9178 7.3202,15.3998 7.9592,15.3998 C8.5982,15.3998 9.1172,15.9178 9.1172,16.5578"
+                        id="Fill-43" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M15.9185,16.5578 C15.9185,17.1968 15.3995,17.7158 14.7605,17.7158 C14.1215,17.7158 13.6035,17.1968 13.6035,16.5578 C13.6035,15.9178 14.1215,15.3998 14.7605,15.3998 C15.3995,15.3998 15.9185,15.9178 15.9185,16.5578"
+                        id="Fill-45" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M22.7198,16.5578 C22.7198,17.1968 22.2018,17.7158 21.5628,17.7158 C20.9228,17.7158 20.4048,17.1968 20.4048,16.5578 C20.4048,15.9178 20.9228,15.3998 21.5628,15.3998 C22.2018,15.3998 22.7198,15.9178 22.7198,16.5578"
+                        id="Fill-47" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M29.5215,16.5578 C29.5215,17.1968 29.0025,17.7158 28.3635,17.7158 C27.7245,17.7158 27.2065,17.1968 27.2065,16.5578 C27.2065,15.9178 27.7245,15.3998 28.3635,15.3998 C29.0025,15.3998 29.5215,15.9178 29.5215,16.5578"
+                        id="Fill-49" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M36.3228,16.5578 C36.3228,17.1968 35.8048,17.7158 35.1648,17.7158 C34.5258,17.7158 34.0078,17.1968 34.0078,16.5578 C34.0078,15.9178 34.5258,15.3998 35.1648,15.3998 C35.8048,15.3998 36.3228,15.9178 36.3228,16.5578"
+                        id="Fill-51" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M43.1245,16.5578 C43.1245,17.1968 42.6055,17.7158 41.9665,17.7158 C41.3275,17.7158 40.8095,17.1968 40.8095,16.5578 C40.8095,15.9178 41.3275,15.3998 41.9665,15.3998 C42.6055,15.3998 43.1245,15.9178 43.1245,16.5578"
+                        id="Fill-53" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M49.9258,16.5578 C49.9258,17.1968 49.4078,17.7158 48.7678,17.7158 C48.1288,17.7158 47.6108,17.1968 47.6108,16.5578 C47.6108,15.9178 48.1288,15.3998 48.7678,15.3998 C49.4078,15.3998 49.9258,15.9178 49.9258,16.5578"
+                        id="Fill-55" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <g id="Group-59" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(0.000000, 21.915400)">
+                        <g id="Fill-57-Clipped">
+                            <g>
+                                <mask id="mask-85" fill="white">
+                                    <use xlink:href="#path-84"></use>
+                                </mask>
+                                <g id="path-84"></g>
+                                <path
+                                    d="M2.3155,1.8421 C2.3155,2.4821 1.7975,3.0001 1.1575,3.0001 C0.5185,3.0001 0.0005,2.4821 0.0005,1.8421 C0.0005,1.2031 0.5185,0.6841 1.1575,0.6841 C1.7975,0.6841 2.3155,1.2031 2.3155,1.8421"
+                                    id="Fill-57" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-85)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-62" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(6.000000, 21.915400)">
+                        <g id="Fill-60-Clipped">
+                            <g>
+                                <mask id="mask-87" fill="white">
+                                    <use xlink:href="#path-86"></use>
+                                </mask>
+                                <g id="path-86"></g>
+                                <path
+                                    d="M3.1172,1.8421 C3.1172,2.4821 2.5982,3.0001 1.9592,3.0001 C1.3202,3.0001 0.8022,2.4821 0.8022,1.8421 C0.8022,1.2031 1.3202,0.6841 1.9592,0.6841 C2.5982,0.6841 3.1172,1.2031 3.1172,1.8421"
+                                    id="Fill-60" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-87)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-65" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(13.000000, 21.915400)">
+                        <g id="Fill-63-Clipped">
+                            <g>
+                                <mask id="mask-89" fill="white">
+                                    <use xlink:href="#path-88"></use>
+                                </mask>
+                                <g id="path-88"></g>
+                                <path
+                                    d="M2.9185,1.8421 C2.9185,2.4821 2.3995,3.0001 1.7605,3.0001 C1.1215,3.0001 0.6035,2.4821 0.6035,1.8421 C0.6035,1.2031 1.1215,0.6841 1.7605,0.6841 C2.3995,0.6841 2.9185,1.2031 2.9185,1.8421"
+                                    id="Fill-63" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-89)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-68" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(20.000000, 21.915400)">
+                        <g id="Fill-66-Clipped">
+                            <g>
+                                <mask id="mask-91" fill="white">
+                                    <use xlink:href="#path-90"></use>
+                                </mask>
+                                <g id="path-90"></g>
+                                <path
+                                    d="M2.7198,1.8421 C2.7198,2.4821 2.2018,3.0001 1.5628,3.0001 C0.9228,3.0001 0.4048,2.4821 0.4048,1.8421 C0.4048,1.2031 0.9228,0.6841 1.5628,0.6841 C2.2018,0.6841 2.7198,1.2031 2.7198,1.8421"
+                                    id="Fill-66" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-91)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-71" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(27.000000, 21.915400)">
+                        <g id="Fill-69-Clipped">
+                            <g>
+                                <mask id="mask-93" fill="white">
+                                    <use xlink:href="#path-92"></use>
+                                </mask>
+                                <g id="path-92"></g>
+                                <path
+                                    d="M2.5215,1.8421 C2.5215,2.4821 2.0025,3.0001 1.3635,3.0001 C0.7245,3.0001 0.2065,2.4821 0.2065,1.8421 C0.2065,1.2031 0.7245,0.6841 1.3635,0.6841 C2.0025,0.6841 2.5215,1.2031 2.5215,1.8421"
+                                    id="Fill-69" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-93)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-74" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(34.000000, 21.915400)">
+                        <g id="Fill-72-Clipped">
+                            <g>
+                                <mask id="mask-95" fill="white">
+                                    <use xlink:href="#path-94"></use>
+                                </mask>
+                                <g id="path-94"></g>
+                                <path
+                                    d="M2.3228,1.8421 C2.3228,2.4821 1.8048,3.0001 1.1648,3.0001 C0.5258,3.0001 0.0078,2.4821 0.0078,1.8421 C0.0078,1.2031 0.5258,0.6841 1.1648,0.6841 C1.8048,0.6841 2.3228,1.2031 2.3228,1.8421"
+                                    id="Fill-72" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-95)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-77" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(40.000000, 21.915400)">
+                        <g id="Fill-75-Clipped">
+                            <g>
+                                <mask id="mask-97" fill="white">
+                                    <use xlink:href="#path-96"></use>
+                                </mask>
+                                <g id="path-96"></g>
+                                <path
+                                    d="M3.1245,1.8421 C3.1245,2.4821 2.6055,3.0001 1.9665,3.0001 C1.3275,3.0001 0.8095,2.4821 0.8095,1.8421 C0.8095,1.2031 1.3275,0.6841 1.9665,0.6841 C2.6055,0.6841 3.1245,1.2031 3.1245,1.8421"
+                                    id="Fill-75" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-97)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-80" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(47.000000, 21.915400)">
+                        <g id="Fill-78-Clipped">
+                            <g>
+                                <mask id="mask-99" fill="white">
+                                    <use xlink:href="#path-98"></use>
+                                </mask>
+                                <g id="path-98"></g>
+                                <path
+                                    d="M2.9258,1.8421 C2.9258,2.4821 2.4078,3.0001 1.7678,3.0001 C1.1288,3.0001 0.6108,2.4821 0.6108,1.8421 C0.6108,1.2031 1.1288,0.6841 1.7678,0.6841 C2.4078,0.6841 2.9258,1.2031 2.9258,1.8421"
+                                    id="Fill-78" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-99)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-13" mask="url(#mask-2)">
+                <g transform="translate(155.000000, 1060.000000)">
+                    <g id="Group-3" transform="translate(0.000000, 25.000000)">
+                        <g id="Fill-1-Clipped">
+                            <g>
+                                <mask id="mask-101" fill="white">
+                                    <use xlink:href="#path-100"></use>
+                                </mask>
+                                <g id="path-100"></g>
+                                <path
+                                    d="M1.3083,10.4806 L3.30465484,12.4459333 L9.78213871,6.07193333 C9.99349355,5.86326667 10.3362677,5.86326667 10.5483,6.07193333 L17.0257839,12.4459333 L19.0214613,10.4806 L10.1648806,1.7646 L1.3083,10.4806 Z M17.0257839,13.7332667 C16.8814935,13.7332667 16.7439774,13.6766 16.6423645,13.5772667 L10.1648806,7.20326667 L3.68807419,13.5772667 C3.58646129,13.6766 3.44826774,13.7332667 3.30465484,13.7332667 C3.16104194,13.7332667 3.02352581,13.6766 2.92123548,13.5772667 L0.158719355,10.8579333 C-0.0526354839,10.6492667 -0.0526354839,10.3119333 0.158719355,10.1039333 L9.78213871,0.633266667 C9.99349355,0.425266667 10.3362677,0.425266667 10.5483,0.633266667 L20.1710419,10.1039333 C20.3830742,10.3119333 20.3830742,10.6492667 20.1710419,10.8579333 L17.4085258,13.5772667 C17.3069129,13.6766 17.1693968,13.7332667 17.0257839,13.7332667 L17.0257839,13.7332667 Z"
+                                    id="Fill-1" fill="#662B72" fill-rule="nonzero" mask="url(#mask-101)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-6" transform="translate(0.000000, 13.000000)">
+                        <g id="Fill-4-Clipped">
+                            <g>
+                                <mask id="mask-103" fill="white">
+                                    <use xlink:href="#path-102"></use>
+                                </mask>
+                                <g id="path-102"></g>
+                                <path
+                                    d="M1.3083,10.1134667 L3.30465484,12.0781333 L9.78213871,5.70413333 C9.99349355,5.49613333 10.3362677,5.49613333 10.5483,5.70413333 L17.0257839,12.0781333 L19.0214613,10.1134667 L10.1648806,1.3968 L1.3083,10.1134667 Z M17.0257839,13.3654667 C16.8869129,13.3654667 16.7480419,13.3134667 16.6423645,13.2094667 L10.1648806,6.83546667 L3.68807419,13.2094667 C3.47604194,13.4181333 3.13326774,13.4181333 2.92123548,13.2094667 L0.158719355,10.4908 C0.0571064516,10.3908 0.000203225806,10.2548 0.000203225806,10.1134667 C0.000203225806,9.97213333 0.0571064516,9.83613333 0.158719355,9.7368 L9.78213871,0.265466667 C9.98536452,0.0654666667 10.3450742,0.0654666667 10.5483,0.265466667 L20.1710419,9.7368 C20.3830742,9.9448 20.3830742,10.2821333 20.1710419,10.4908 L17.4085258,13.2094667 C17.3028484,13.3134667 17.1639774,13.3654667 17.0257839,13.3654667 L17.0257839,13.3654667 Z"
+                                    id="Fill-4" fill="#662B72" fill-rule="nonzero" mask="url(#mask-103)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-9">
+                        <g id="Fill-7-Clipped">
+                            <g>
+                                <mask id="mask-105" fill="white">
+                                    <use xlink:href="#path-104"></use>
+                                </mask>
+                                <g id="path-104"></g>
+                                <path
+                                    d="M1.3083,10.4126 L3.30465484,12.3779333 L9.78213871,6.00393333 C9.99349355,5.79526667 10.3362677,5.79526667 10.5483,6.00393333 L17.0257839,12.3779333 L19.0214613,10.4126 L10.1648806,1.6966 L1.3083,10.4126 Z M17.0257839,13.6652667 C16.8814935,13.6652667 16.7439774,13.6086 16.6423645,13.5092667 L10.1648806,7.1346 L3.68807419,13.5092667 C3.58646129,13.6086 3.44826774,13.6652667 3.30465484,13.6652667 C3.16104194,13.6652667 3.02352581,13.6086 2.92123548,13.5092667 L0.158719355,10.7892667 C-0.0526354839,10.5812667 -0.0526354839,10.2439333 0.158719355,10.0352667 L9.78213871,0.565266667 C9.99349355,0.3566 10.3362677,0.3566 10.5483,0.565266667 L20.1710419,10.0352667 C20.3830742,10.2439333 20.3830742,10.5812667 20.1710419,10.7892667 L17.4085258,13.5092667 C17.3069129,13.6086 17.1693968,13.6652667 17.0257839,13.6652667 L17.0257839,13.6652667 Z"
+                                    id="Fill-7" fill="#662B72" fill-rule="nonzero" mask="url(#mask-105)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-13" mask="url(#mask-2)">
+                <g transform="translate(1527.000000, 41.000000)">
+                    <g id="Group-3" transform="translate(0.000000, 25.000000)">
+                        <g id="Fill-1-Clipped">
+                            <g>
+                                <mask id="mask-107" fill="white">
+                                    <use xlink:href="#path-106"></use>
+                                </mask>
+                                <g id="path-106"></g>
+                                <path
+                                    d="M1.3083,10.4806 L3.30465484,12.4459333 L9.78213871,6.07193333 C9.99349355,5.86326667 10.3362677,5.86326667 10.5483,6.07193333 L17.0257839,12.4459333 L19.0214613,10.4806 L10.1648806,1.7646 L1.3083,10.4806 Z M17.0257839,13.7332667 C16.8814935,13.7332667 16.7439774,13.6766 16.6423645,13.5772667 L10.1648806,7.20326667 L3.68807419,13.5772667 C3.58646129,13.6766 3.44826774,13.7332667 3.30465484,13.7332667 C3.16104194,13.7332667 3.02352581,13.6766 2.92123548,13.5772667 L0.158719355,10.8579333 C-0.0526354839,10.6492667 -0.0526354839,10.3119333 0.158719355,10.1039333 L9.78213871,0.633266667 C9.99349355,0.425266667 10.3362677,0.425266667 10.5483,0.633266667 L20.1710419,10.1039333 C20.3830742,10.3119333 20.3830742,10.6492667 20.1710419,10.8579333 L17.4085258,13.5772667 C17.3069129,13.6766 17.1693968,13.7332667 17.0257839,13.7332667 L17.0257839,13.7332667 Z"
+                                    id="Fill-1" fill="#662B72" fill-rule="nonzero" mask="url(#mask-107)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-6" transform="translate(0.000000, 13.000000)">
+                        <g id="Fill-4-Clipped">
+                            <g>
+                                <mask id="mask-109" fill="white">
+                                    <use xlink:href="#path-108"></use>
+                                </mask>
+                                <g id="path-108"></g>
+                                <path
+                                    d="M1.3083,10.1134667 L3.30465484,12.0781333 L9.78213871,5.70413333 C9.99349355,5.49613333 10.3362677,5.49613333 10.5483,5.70413333 L17.0257839,12.0781333 L19.0214613,10.1134667 L10.1648806,1.3968 L1.3083,10.1134667 Z M17.0257839,13.3654667 C16.8869129,13.3654667 16.7480419,13.3134667 16.6423645,13.2094667 L10.1648806,6.83546667 L3.68807419,13.2094667 C3.47604194,13.4181333 3.13326774,13.4181333 2.92123548,13.2094667 L0.158719355,10.4908 C0.0571064516,10.3908 0.000203225806,10.2548 0.000203225806,10.1134667 C0.000203225806,9.97213333 0.0571064516,9.83613333 0.158719355,9.7368 L9.78213871,0.265466667 C9.98536452,0.0654666667 10.3450742,0.0654666667 10.5483,0.265466667 L20.1710419,9.7368 C20.3830742,9.9448 20.3830742,10.2821333 20.1710419,10.4908 L17.4085258,13.2094667 C17.3028484,13.3134667 17.1639774,13.3654667 17.0257839,13.3654667 L17.0257839,13.3654667 Z"
+                                    id="Fill-4" fill="#662B72" fill-rule="nonzero" mask="url(#mask-109)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-9">
+                        <g id="Fill-7-Clipped">
+                            <g>
+                                <mask id="mask-111" fill="white">
+                                    <use xlink:href="#path-110"></use>
+                                </mask>
+                                <g id="path-110"></g>
+                                <path
+                                    d="M1.3083,10.4126 L3.30465484,12.3779333 L9.78213871,6.00393333 C9.99349355,5.79526667 10.3362677,5.79526667 10.5483,6.00393333 L17.0257839,12.3779333 L19.0214613,10.4126 L10.1648806,1.6966 L1.3083,10.4126 Z M17.0257839,13.6652667 C16.8814935,13.6652667 16.7439774,13.6086 16.6423645,13.5092667 L10.1648806,7.1346 L3.68807419,13.5092667 C3.58646129,13.6086 3.44826774,13.6652667 3.30465484,13.6652667 C3.16104194,13.6652667 3.02352581,13.6086 2.92123548,13.5092667 L0.158719355,10.7892667 C-0.0526354839,10.5812667 -0.0526354839,10.2439333 0.158719355,10.0352667 L9.78213871,0.565266667 C9.99349355,0.3566 10.3362677,0.3566 10.5483,0.565266667 L20.1710419,10.0352667 C20.3830742,10.2439333 20.3830742,10.5812667 20.1710419,10.7892667 L17.4085258,13.5092667 C17.3069129,13.6086 17.1693968,13.6652667 17.0257839,13.6652667 L17.0257839,13.6652667 Z"
+                                    id="Fill-7" fill="#662B72" fill-rule="nonzero" mask="url(#mask-111)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-12" transform="translate(0.000000, 39.000000)">
+                        <g id="Fill-10-Clipped">
+                            <g>
+                                <mask id="mask-113" fill="white">
+                                    <use xlink:href="#path-112"></use>
+                                </mask>
+                                <g id="path-112"></g>
+                                <path
+                                    d="M1.3083,9.828845 L3.30465484,11.744395 L9.78213871,5.529745 C9.99349355,5.326945 10.3362677,5.326945 10.5483,5.529745 L17.0257839,11.744395 L19.0214613,9.828845 L10.1648806,1.330095 L1.3083,9.828845 Z M17.0257839,13.000195 C16.8814935,13.000195 16.7439774,12.944945 16.6423645,12.847445 L10.1648806,6.632795 L3.68807419,12.847445 C3.58646129,12.944945 3.44826774,13.000195 3.30465484,13.000195 C3.16104194,13.000195 3.02352581,12.944945 2.92123548,12.847445 L0.158719355,10.196095 C-0.0526354839,9.993295 -0.0526354839,9.664395 0.158719355,9.460945 L9.78213871,0.227695 C9.99349355,0.024245 10.3362677,0.024245 10.5483,0.227695 L20.1710419,9.460945 C20.3830742,9.664395 20.3830742,9.993295 20.1710419,10.196095 L17.4085258,12.847445 C17.3069129,12.944945 17.1693968,13.000195 17.0257839,13.000195 L17.0257839,13.000195 Z"
+                                    id="Fill-10" fill="#662B72" fill-rule="nonzero" mask="url(#mask-113)"></path>
+                            </g>
+                        </g>
+                        <g id="Fill-1-Clipped">
+                            <g>
+                                <mask id="mask-115" fill="white">
+                                    <use xlink:href="#path-114"></use>
+                                </mask>
+                                <g id="path-114"></g>
+                                <path
+                                    d="M1.3083,-3.5194 L3.30465484,-1.55406667 L9.78213871,-7.92806667 C9.99349355,-8.13673333 10.3362677,-8.13673333 10.5483,-7.92806667 L17.0257839,-1.55406667 L19.0214613,-3.5194 L10.1648806,-12.2354 L1.3083,-3.5194 Z M17.0257839,-0.266733333 C16.8814935,-0.266733333 16.7439774,-0.3234 16.6423645,-0.422733333 L10.1648806,-6.79673333 L3.68807419,-0.422733333 C3.58646129,-0.3234 3.44826774,-0.266733333 3.30465484,-0.266733333 C3.16104194,-0.266733333 3.02352581,-0.3234 2.92123548,-0.422733333 L0.158719355,-3.14206667 C-0.0526354839,-3.35073333 -0.0526354839,-3.68806667 0.158719355,-3.89606667 L9.78213871,-13.3667333 C9.99349355,-13.5747333 10.3362677,-13.5747333 10.5483,-13.3667333 L20.1710419,-3.89606667 C20.3830742,-3.68806667 20.3830742,-3.35073333 20.1710419,-3.14206667 L17.4085258,-0.422733333 C17.3069129,-0.3234 17.1693968,-0.266733333 17.0257839,-0.266733333 L17.0257839,-0.266733333 Z"
+                                    id="Fill-1" fill="#662B72" fill-rule="nonzero" mask="url(#mask-115)"></path>
+                            </g>
+                        </g>
+                        <g id="Fill-4-Clipped">
+                            <g>
+                                <mask id="mask-117" fill="white">
+                                    <use xlink:href="#path-116"></use>
+                                </mask>
+                                <g id="path-116"></g>
+                                <path
+                                    d="M1.3083,-15.8865333 L3.30465484,-13.9218667 L9.78213871,-20.2958667 C9.99349355,-20.5038667 10.3362677,-20.5038667 10.5483,-20.2958667 L17.0257839,-13.9218667 L19.0214613,-15.8865333 L10.1648806,-24.6032 L1.3083,-15.8865333 Z M17.0257839,-12.6345333 C16.8869129,-12.6345333 16.7480419,-12.6865333 16.6423645,-12.7905333 L10.1648806,-19.1645333 L3.68807419,-12.7905333 C3.47604194,-12.5818667 3.13326774,-12.5818667 2.92123548,-12.7905333 L0.158719355,-15.5092 C0.0571064516,-15.6092 0.000203225806,-15.7452 0.000203225806,-15.8865333 C0.000203225806,-16.0278667 0.0571064516,-16.1638667 0.158719355,-16.2632 L9.78213871,-25.7345333 C9.98536452,-25.9345333 10.3450742,-25.9345333 10.5483,-25.7345333 L20.1710419,-16.2632 C20.3830742,-16.0552 20.3830742,-15.7178667 20.1710419,-15.5092 L17.4085258,-12.7905333 C17.3028484,-12.6865333 17.1639774,-12.6345333 17.0257839,-12.6345333 L17.0257839,-12.6345333 Z"
+                                    id="Fill-4" fill="#662B72" fill-rule="nonzero" mask="url(#mask-117)"></path>
+                            </g>
+                        </g>
+                        <g id="Fill-7-Clipped">
+                            <g>
+                                <mask id="mask-119" fill="white">
+                                    <use xlink:href="#path-118"></use>
+                                </mask>
+                                <g id="path-118"></g>
+                                <path
+                                    d="M1.3083,-28.5874 L3.30465484,-26.6220667 L9.78213871,-32.9960667 C9.99349355,-33.2047333 10.3362677,-33.2047333 10.5483,-32.9960667 L17.0257839,-26.6220667 L19.0214613,-28.5874 L10.1648806,-37.3034 L1.3083,-28.5874 Z M17.0257839,-25.3347333 C16.8814935,-25.3347333 16.7439774,-25.3914 16.6423645,-25.4907333 L10.1648806,-31.8654 L3.68807419,-25.4907333 C3.58646129,-25.3914 3.44826774,-25.3347333 3.30465484,-25.3347333 C3.16104194,-25.3347333 3.02352581,-25.3914 2.92123548,-25.4907333 L0.158719355,-28.2107333 C-0.0526354839,-28.4187333 -0.0526354839,-28.7560667 0.158719355,-28.9647333 L9.78213871,-38.4347333 C9.99349355,-38.6434 10.3362677,-38.6434 10.5483,-38.4347333 L20.1710419,-28.9647333 C20.3830742,-28.7560667 20.3830742,-28.4187333 20.1710419,-28.2107333 L17.4085258,-25.4907333 C17.3069129,-25.3914 17.1693968,-25.3347333 17.0257839,-25.3347333 L17.0257839,-25.3347333 Z"
+                                    id="Fill-7" fill="#662B72" fill-rule="nonzero" mask="url(#mask-119)"></path>
+                            </g>
+                        </g>
+                        <g id="Fill-10-Clipped">
+                            <g>
+                                <mask id="mask-121" fill="white">
+                                    <use xlink:href="#path-120"></use>
+                                </mask>
+                                <g id="path-120"></g>
+                                <path
+                                    d="M1.3083,9.828845 L3.30465484,11.744395 L9.78213871,5.529745 C9.99349355,5.326945 10.3362677,5.326945 10.5483,5.529745 L17.0257839,11.744395 L19.0214613,9.828845 L10.1648806,1.330095 L1.3083,9.828845 Z M17.0257839,13.000195 C16.8814935,13.000195 16.7439774,12.944945 16.6423645,12.847445 L10.1648806,6.632795 L3.68807419,12.847445 C3.58646129,12.944945 3.44826774,13.000195 3.30465484,13.000195 C3.16104194,13.000195 3.02352581,12.944945 2.92123548,12.847445 L0.158719355,10.196095 C-0.0526354839,9.993295 -0.0526354839,9.664395 0.158719355,9.460945 L9.78213871,0.227695 C9.99349355,0.024245 10.3362677,0.024245 10.5483,0.227695 L20.1710419,9.460945 C20.3830742,9.664395 20.3830742,9.993295 20.1710419,10.196095 L17.4085258,12.847445 C17.3069129,12.944945 17.1693968,13.000195 17.0257839,13.000195 L17.0257839,13.000195 Z"
+                                    id="Fill-10" fill="#662B72" fill-rule="nonzero" mask="url(#mask-121)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <path
+                d="M140,982 L140.000489,981.980562 C123.332551,981.397047 110,967.749876 110,951 C110,934.250124 123.332551,920.602953 140.000489,920.019438 L140,920 L290,920 L290,982 L140,982 Z"
+                id="Combined-Shape" fill="url(#linearGradient-122)" fill-rule="nonzero" opacity="0.148158482"
+                mask="url(#mask-2)"></path>
+            <path
+                d="M519,982 L519.000489,981.980562 C502.332551,981.397047 489,967.749876 489,951 C489,934.250124 502.332551,920.602953 519.000489,920.019438 L519,920 L669,920 L669,982 L519,982 Z"
+                id="Combined-Shape" fill="url(#linearGradient-123)" fill-rule="nonzero" opacity="0.148158482"
+                mask="url(#mask-2)"></path>
+            <path
+                d="M898,982 L898.000489,981.980562 C881.332551,981.397047 868,967.749876 868,951 C868,934.250124 881.332551,920.602953 898.000489,920.019438 L898,920 L1048,920 L1048,982 L898,982 Z"
+                id="Combined-Shape" fill="url(#linearGradient-122)" fill-rule="nonzero" opacity="0.148158482"
+                mask="url(#mask-2)"></path>
+            <path
+                d="M1277,982 L1277.00049,981.980562 C1260.33255,981.397047 1247,967.749876 1247,951 C1247,934.250124 1260.33255,920.602953 1277.00049,920.019438 L1277,920 L1427,920 L1427,982 L1277,982 Z"
+                id="Combined-Shape" fill="url(#linearGradient-123)" fill-rule="nonzero" opacity="0.228097098"
+                mask="url(#mask-2)"></path>
+            <path
+                d="M1656,982 L1656.00049,981.980562 C1639.33255,981.397047 1626,967.749876 1626,951 C1626,934.250124 1639.33255,920.602953 1656.00049,920.019438 L1656,920 L1806,920 L1806,982 L1656,982 Z"
+                id="Combined-Shape" fill="url(#linearGradient-122)" fill-rule="nonzero" opacity="0.148158482"
+                mask="url(#mask-2)"></path>
+            <path
+                d="M140,247 L140.000489,246.980562 C123.332551,246.397047 110,232.749876 110,216 C110,199.250124 123.332551,185.602953 140.000489,185.019438 L140,185 L290,185 L290,247 L140,247 Z"
+                id="Combined-Shape" fill="url(#linearGradient-122)" fill-rule="nonzero" opacity="0.148158482"
+                mask="url(#mask-2)"></path>
+            <path
+                d="M518,247 L518.000489,246.980562 C501.332551,246.397047 488,232.749876 488,216 C488,199.250124 501.332551,185.602953 518.000489,185.019438 L518,185 L668,185 L668,247 L518,247 Z"
+                id="Combined-Shape" fill="url(#linearGradient-123)" fill-rule="nonzero" opacity="0.148158482"
+                mask="url(#mask-2)"></path>
+            <path
+                d="M896,247 L896.000489,246.980562 C879.332551,246.397047 866,232.749876 866,216 C866,199.250124 879.332551,185.602953 896.000489,185.019438 L896,185 L1046,185 L1046,247 L896,247 Z"
+                id="Combined-Shape" fill="url(#linearGradient-122)" fill-rule="nonzero" opacity="0.148158482"
+                mask="url(#mask-2)"></path>
+            <path
+                d="M1652,247 L1652.00049,246.980562 C1635.33255,246.397047 1622,232.749876 1622,216 C1622,199.250124 1635.33255,185.602953 1652.00049,185.019438 L1652,185 L1802,185 L1802,247 L1652,247 Z"
+                id="Combined-Shape" fill="url(#linearGradient-122)" fill-rule="nonzero" opacity="0.148158482"
+                mask="url(#mask-2)"></path>
+            <path
+                d="M1274,247 L1274.00049,246.980562 C1257.33255,246.397047 1244,232.749876 1244,216 C1244,199.250124 1257.33255,185.602953 1274.00049,185.019438 L1274,185 L1424,185 L1424,247 L1274,247 Z"
+                id="Combined-Shape" fill="url(#linearGradient-123)" fill-rule="nonzero" opacity="0.148158482"
+                mask="url(#mask-2)"></path>
+            <g id="Group-11" mask="url(#mask-2)" fill-rule="nonzero">
+                <g transform="translate(150.000000, 481.000000)">
+                    <path d="M0,10 C0,4.51470588 4.28897059,0 9.5,0 C14.7110294,0 19,4.51470588 19,10 L0,10 Z"
+                        id="Fill-1" fill="#542C62"></path>
+                    <path d="M0,25 C0,19.5147059 4.28897059,15 9.5,15 C14.7110294,15 19,19.5147059 19,25 L0,25 Z"
+                        id="Fill-3" fill="#542D62"></path>
+                    <path d="M0,41 C0,35.5147059 4.28897059,31 9.5,31 C14.7110294,31 19,35.5147059 19,41 L0,41 Z"
+                        id="Fill-5" fill="#542C61"></path>
+                    <path d="M0,58 C0,52.5147059 4.28897059,48 9.5,48 C14.7110294,48 19,52.5147059 19,58 L0,58 Z"
+                        id="Fill-7" fill="#542C61"></path>
+                    <path d="M0,75 C0,69.5147059 4.28897059,65 9.5,65 C14.7110294,65 19,69.5147059 19,75 L0,75 Z"
+                        id="Fill-9" fill="#542C61"></path>
+                </g>
+            </g>
+            <g id="Group-19" mask="url(#mask-2)">
+                <g transform="translate(1836.000000, 528.000000)">
+                    <g id="Group-3">
+                        <g id="Fill-1-Clipped">
+                            <g>
+                                <mask id="mask-125" fill="white">
+                                    <use xlink:href="#path-124"></use>
+                                </mask>
+                                <g id="path-124"></g>
+                                <path
+                                    d="M13.8158125,11.8907143 L0.0004375,11.8907143 L6.8525625,0.290142857 C9.1739375,4.15757143 11.4953125,8.02414286 13.8158125,11.8907143"
+                                    id="Fill-1" fill="#5A4997" fill-rule="nonzero" mask="url(#mask-125)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-6" transform="translate(0.000000, 10.000000)">
+                        <g id="Fill-4-Clipped">
+                            <g>
+                                <mask id="mask-127" fill="white">
+                                    <use xlink:href="#path-126"></use>
+                                </mask>
+                                <g id="path-126"></g>
+                                <path
+                                    d="M13.8158125,12.5116333 L0.0004375,12.5116333 C2.2841875,8.60123333 4.5688125,4.69256667 6.8525625,0.782166667 C9.1739375,4.69256667 11.4953125,8.60123333 13.8158125,12.5116333"
+                                    id="Fill-4" fill="#5A4997" fill-rule="nonzero" mask="url(#mask-127)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-9" transform="translate(0.000000, 21.000000)">
+                        <g id="Fill-7-Clipped">
+                            <g>
+                                <mask id="mask-129" fill="white">
+                                    <use xlink:href="#path-128"></use>
+                                </mask>
+                                <g id="path-128"></g>
+                                <path
+                                    d="M13.8158125,12 L0.0004375,12 L6.8525625,0.399428571 C9.1739375,4.26685714 11.4953125,8.13342857 13.8158125,12"
+                                    id="Fill-7" fill="#5A4997" fill-rule="nonzero" mask="url(#mask-129)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-12" transform="translate(0.000000, 31.000000)">
+                        <g id="Fill-10-Clipped">
+                            <g>
+                                <mask id="mask-131" fill="white">
+                                    <use xlink:href="#path-130"></use>
+                                </mask>
+                                <g id="path-130"></g>
+                                <path
+                                    d="M13.8158125,12.16124 L0.0004375,12.16124 L6.8525625,0.431773333 C9.1739375,4.34217333 11.4953125,8.25170667 13.8158125,12.16124"
+                                    id="Fill-10" fill="#5A4997" fill-rule="nonzero" mask="url(#mask-131)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-15" transform="translate(0.000000, 40.000000)">
+                        <g id="Fill-13-Clipped">
+                            <g>
+                                <mask id="mask-133" fill="white">
+                                    <use xlink:href="#path-132"></use>
+                                </mask>
+                                <g id="path-132"></g>
+                                <path
+                                    d="M13.8158125,12.5116333 L0.0004375,12.5116333 C2.2841875,8.60123333 4.5688125,4.69256667 6.8525625,0.782166667 C9.1739375,4.69256667 11.4953125,8.60123333 13.8158125,12.5116333"
+                                    id="Fill-13" fill="#5A4997" fill-rule="nonzero" mask="url(#mask-133)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-18" transform="translate(0.000000, 51.000000)">
+                        <g id="Fill-16-Clipped">
+                            <g>
+                                <mask id="mask-135" fill="white">
+                                    <use xlink:href="#path-134"></use>
+                                </mask>
+                                <g id="path-134"></g>
+                                <path
+                                    d="M13.8158125,12 L0.0004375,12 L6.8525625,0.399428571 C9.1739375,4.26685714 11.4953125,8.13342857 13.8158125,12"
+                                    id="Fill-16" fill="#5A4997" fill-rule="nonzero" mask="url(#mask-135)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-81" opacity="0.198683966" mask="url(#mask-2)">
+                <g transform="translate(1898.000000, 335.000000)">
+                    <g id="Group-3" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(0.000000, 0.915400)">
+                        <g id="Fill-1-Clipped">
+                            <g>
+                                <mask id="mask-137" fill="white">
+                                    <use xlink:href="#path-136"></use>
+                                </mask>
+                                <g id="path-136"></g>
+                                <path
+                                    d="M2.3155,1.2425 C2.3155,1.8815 1.7975,2.4005 1.1575,2.4005 C0.5185,2.4005 0.0005,1.8815 0.0005,1.2425 C0.0005,0.6025 0.5185,0.0845 1.1575,0.0845 C1.7975,0.0845 2.3155,0.6025 2.3155,1.2425"
+                                    id="Fill-1" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-137)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-6" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(6.000000, 0.915400)">
+                        <g id="Fill-4-Clipped">
+                            <g>
+                                <mask id="mask-139" fill="white">
+                                    <use xlink:href="#path-138"></use>
+                                </mask>
+                                <g id="path-138"></g>
+                                <path
+                                    d="M3.1172,1.2425 C3.1172,1.8815 2.5982,2.4005 1.9592,2.4005 C1.3202,2.4005 0.8022,1.8815 0.8022,1.2425 C0.8022,0.6025 1.3202,0.0845 1.9592,0.0845 C2.5982,0.0845 3.1172,0.6025 3.1172,1.2425"
+                                    id="Fill-4" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-139)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-9" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(13.000000, 0.915400)">
+                        <g id="Fill-7-Clipped">
+                            <g>
+                                <mask id="mask-141" fill="white">
+                                    <use xlink:href="#path-140"></use>
+                                </mask>
+                                <g id="path-140"></g>
+                                <path
+                                    d="M2.9185,1.2425 C2.9185,1.8815 2.3995,2.4005 1.7605,2.4005 C1.1215,2.4005 0.6035,1.8815 0.6035,1.2425 C0.6035,0.6025 1.1215,0.0845 1.7605,0.0845 C2.3995,0.0845 2.9185,0.6025 2.9185,1.2425"
+                                    id="Fill-7" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-141)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-12" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(20.000000, 0.915400)">
+                        <g id="Fill-10-Clipped">
+                            <g>
+                                <mask id="mask-143" fill="white">
+                                    <use xlink:href="#path-142"></use>
+                                </mask>
+                                <g id="path-142"></g>
+                                <path
+                                    d="M2.7198,1.2425 C2.7198,1.8815 2.2018,2.4005 1.5628,2.4005 C0.9228,2.4005 0.4048,1.8815 0.4048,1.2425 C0.4048,0.6025 0.9228,0.0845 1.5628,0.0845 C2.2018,0.0845 2.7198,0.6025 2.7198,1.2425"
+                                    id="Fill-10" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-143)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <path
+                        d="M2.3155,9.3576 C2.3155,9.9976 1.7975,10.5156 1.1575,10.5156 C0.5185,10.5156 0.0005,9.9976 0.0005,9.3576 C0.0005,8.7186 0.5185,8.1996 1.1575,8.1996 C1.7975,8.1996 2.3155,8.7186 2.3155,9.3576"
+                        id="Fill-25" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M9.1172,9.3576 C9.1172,9.9976 8.5982,10.5156 7.9592,10.5156 C7.3202,10.5156 6.8022,9.9976 6.8022,9.3576 C6.8022,8.7186 7.3202,8.1996 7.9592,8.1996 C8.5982,8.1996 9.1172,8.7186 9.1172,9.3576"
+                        id="Fill-27" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M15.9185,9.3576 C15.9185,9.9976 15.3995,10.5156 14.7605,10.5156 C14.1215,10.5156 13.6035,9.9976 13.6035,9.3576 C13.6035,8.7186 14.1215,8.1996 14.7605,8.1996 C15.3995,8.1996 15.9185,8.7186 15.9185,9.3576"
+                        id="Fill-29" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M22.7198,9.3576 C22.7198,9.9976 22.2018,10.5156 21.5628,10.5156 C20.9228,10.5156 20.4048,9.9976 20.4048,9.3576 C20.4048,8.7186 20.9228,8.1996 21.5628,8.1996 C22.2018,8.1996 22.7198,8.7186 22.7198,9.3576"
+                        id="Fill-31" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M2.3155,16.5578 C2.3155,17.1968 1.7975,17.7158 1.1575,17.7158 C0.5185,17.7158 0.0005,17.1968 0.0005,16.5578 C0.0005,15.9178 0.5185,15.3998 1.1575,15.3998 C1.7975,15.3998 2.3155,15.9178 2.3155,16.5578"
+                        id="Fill-41" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M9.1172,16.5578 C9.1172,17.1968 8.5982,17.7158 7.9592,17.7158 C7.3202,17.7158 6.8022,17.1968 6.8022,16.5578 C6.8022,15.9178 7.3202,15.3998 7.9592,15.3998 C8.5982,15.3998 9.1172,15.9178 9.1172,16.5578"
+                        id="Fill-43" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M15.9185,16.5578 C15.9185,17.1968 15.3995,17.7158 14.7605,17.7158 C14.1215,17.7158 13.6035,17.1968 13.6035,16.5578 C13.6035,15.9178 14.1215,15.3998 14.7605,15.3998 C15.3995,15.3998 15.9185,15.9178 15.9185,16.5578"
+                        id="Fill-45" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M22.7198,16.5578 C22.7198,17.1968 22.2018,17.7158 21.5628,17.7158 C20.9228,17.7158 20.4048,17.1968 20.4048,16.5578 C20.4048,15.9178 20.9228,15.3998 21.5628,15.3998 C22.2018,15.3998 22.7198,15.9178 22.7198,16.5578"
+                        id="Fill-47" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <g id="Group-59" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(0.000000, 21.915400)">
+                        <g id="Fill-57-Clipped">
+                            <g>
+                                <mask id="mask-145" fill="white">
+                                    <use xlink:href="#path-144"></use>
+                                </mask>
+                                <g id="path-144"></g>
+                                <path
+                                    d="M2.3155,1.8421 C2.3155,2.4821 1.7975,3.0001 1.1575,3.0001 C0.5185,3.0001 0.0005,2.4821 0.0005,1.8421 C0.0005,1.2031 0.5185,0.6841 1.1575,0.6841 C1.7975,0.6841 2.3155,1.2031 2.3155,1.8421"
+                                    id="Fill-57" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-145)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-62" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(6.000000, 21.915400)">
+                        <g id="Fill-60-Clipped">
+                            <g>
+                                <mask id="mask-147" fill="white">
+                                    <use xlink:href="#path-146"></use>
+                                </mask>
+                                <g id="path-146"></g>
+                                <path
+                                    d="M3.1172,1.8421 C3.1172,2.4821 2.5982,3.0001 1.9592,3.0001 C1.3202,3.0001 0.8022,2.4821 0.8022,1.8421 C0.8022,1.2031 1.3202,0.6841 1.9592,0.6841 C2.5982,0.6841 3.1172,1.2031 3.1172,1.8421"
+                                    id="Fill-60" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-147)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-65" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(13.000000, 21.915400)">
+                        <g id="Fill-63-Clipped">
+                            <g>
+                                <mask id="mask-149" fill="white">
+                                    <use xlink:href="#path-148"></use>
+                                </mask>
+                                <g id="path-148"></g>
+                                <path
+                                    d="M2.9185,1.8421 C2.9185,2.4821 2.3995,3.0001 1.7605,3.0001 C1.1215,3.0001 0.6035,2.4821 0.6035,1.8421 C0.6035,1.2031 1.1215,0.6841 1.7605,0.6841 C2.3995,0.6841 2.9185,1.2031 2.9185,1.8421"
+                                    id="Fill-63" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-149)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-68" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(20.000000, 21.915400)">
+                        <g id="Fill-66-Clipped">
+                            <g>
+                                <mask id="mask-151" fill="white">
+                                    <use xlink:href="#path-150"></use>
+                                </mask>
+                                <g id="path-150"></g>
+                                <path
+                                    d="M2.7198,1.8421 C2.7198,2.4821 2.2018,3.0001 1.5628,3.0001 C0.9228,3.0001 0.4048,2.4821 0.4048,1.8421 C0.4048,1.2031 0.9228,0.6841 1.5628,0.6841 C2.2018,0.6841 2.7198,1.2031 2.7198,1.8421"
+                                    id="Fill-66" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-151)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-81" opacity="0.198683966" mask="url(#mask-2)">
+                <g transform="translate(1898.000000, 946.000000)">
+                    <g id="Group-3" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(0.000000, 0.915400)">
+                        <g id="Fill-1-Clipped">
+                            <g>
+                                <mask id="mask-153" fill="white">
+                                    <use xlink:href="#path-152"></use>
+                                </mask>
+                                <g id="path-152"></g>
+                                <path
+                                    d="M2.3155,1.2425 C2.3155,1.8815 1.7975,2.4005 1.1575,2.4005 C0.5185,2.4005 0.0005,1.8815 0.0005,1.2425 C0.0005,0.6025 0.5185,0.0845 1.1575,0.0845 C1.7975,0.0845 2.3155,0.6025 2.3155,1.2425"
+                                    id="Fill-1" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-153)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-6" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(6.000000, 0.915400)">
+                        <g id="Fill-4-Clipped">
+                            <g>
+                                <mask id="mask-155" fill="white">
+                                    <use xlink:href="#path-154"></use>
+                                </mask>
+                                <g id="path-154"></g>
+                                <path
+                                    d="M3.1172,1.2425 C3.1172,1.8815 2.5982,2.4005 1.9592,2.4005 C1.3202,2.4005 0.8022,1.8815 0.8022,1.2425 C0.8022,0.6025 1.3202,0.0845 1.9592,0.0845 C2.5982,0.0845 3.1172,0.6025 3.1172,1.2425"
+                                    id="Fill-4" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-155)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-9" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(13.000000, 0.915400)">
+                        <g id="Fill-7-Clipped">
+                            <g>
+                                <mask id="mask-157" fill="white">
+                                    <use xlink:href="#path-156"></use>
+                                </mask>
+                                <g id="path-156"></g>
+                                <path
+                                    d="M2.9185,1.2425 C2.9185,1.8815 2.3995,2.4005 1.7605,2.4005 C1.1215,2.4005 0.6035,1.8815 0.6035,1.2425 C0.6035,0.6025 1.1215,0.0845 1.7605,0.0845 C2.3995,0.0845 2.9185,0.6025 2.9185,1.2425"
+                                    id="Fill-7" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-157)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-12" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(20.000000, 0.915400)">
+                        <g id="Fill-10-Clipped">
+                            <g>
+                                <mask id="mask-159" fill="white">
+                                    <use xlink:href="#path-158"></use>
+                                </mask>
+                                <g id="path-158"></g>
+                                <path
+                                    d="M2.7198,1.2425 C2.7198,1.8815 2.2018,2.4005 1.5628,2.4005 C0.9228,2.4005 0.4048,1.8815 0.4048,1.2425 C0.4048,0.6025 0.9228,0.0845 1.5628,0.0845 C2.2018,0.0845 2.7198,0.6025 2.7198,1.2425"
+                                    id="Fill-10" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-159)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <path
+                        d="M2.3155,9.3576 C2.3155,9.9976 1.7975,10.5156 1.1575,10.5156 C0.5185,10.5156 0.0005,9.9976 0.0005,9.3576 C0.0005,8.7186 0.5185,8.1996 1.1575,8.1996 C1.7975,8.1996 2.3155,8.7186 2.3155,9.3576"
+                        id="Fill-25" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M9.1172,9.3576 C9.1172,9.9976 8.5982,10.5156 7.9592,10.5156 C7.3202,10.5156 6.8022,9.9976 6.8022,9.3576 C6.8022,8.7186 7.3202,8.1996 7.9592,8.1996 C8.5982,8.1996 9.1172,8.7186 9.1172,9.3576"
+                        id="Fill-27" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M15.9185,9.3576 C15.9185,9.9976 15.3995,10.5156 14.7605,10.5156 C14.1215,10.5156 13.6035,9.9976 13.6035,9.3576 C13.6035,8.7186 14.1215,8.1996 14.7605,8.1996 C15.3995,8.1996 15.9185,8.7186 15.9185,9.3576"
+                        id="Fill-29" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M22.7198,9.3576 C22.7198,9.9976 22.2018,10.5156 21.5628,10.5156 C20.9228,10.5156 20.4048,9.9976 20.4048,9.3576 C20.4048,8.7186 20.9228,8.1996 21.5628,8.1996 C22.2018,8.1996 22.7198,8.7186 22.7198,9.3576"
+                        id="Fill-31" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M2.3155,16.5578 C2.3155,17.1968 1.7975,17.7158 1.1575,17.7158 C0.5185,17.7158 0.0005,17.1968 0.0005,16.5578 C0.0005,15.9178 0.5185,15.3998 1.1575,15.3998 C1.7975,15.3998 2.3155,15.9178 2.3155,16.5578"
+                        id="Fill-41" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M9.1172,16.5578 C9.1172,17.1968 8.5982,17.7158 7.9592,17.7158 C7.3202,17.7158 6.8022,17.1968 6.8022,16.5578 C6.8022,15.9178 7.3202,15.3998 7.9592,15.3998 C8.5982,15.3998 9.1172,15.9178 9.1172,16.5578"
+                        id="Fill-43" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M15.9185,16.5578 C15.9185,17.1968 15.3995,17.7158 14.7605,17.7158 C14.1215,17.7158 13.6035,17.1968 13.6035,16.5578 C13.6035,15.9178 14.1215,15.3998 14.7605,15.3998 C15.3995,15.3998 15.9185,15.9178 15.9185,16.5578"
+                        id="Fill-45" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path
+                        d="M22.7198,16.5578 C22.7198,17.1968 22.2018,17.7158 21.5628,17.7158 C20.9228,17.7158 20.4048,17.1968 20.4048,16.5578 C20.4048,15.9178 20.9228,15.3998 21.5628,15.3998 C22.2018,15.3998 22.7198,15.9178 22.7198,16.5578"
+                        id="Fill-47" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <g id="Group-59" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(0.000000, 21.915400)">
+                        <g id="Fill-57-Clipped">
+                            <g>
+                                <mask id="mask-161" fill="white">
+                                    <use xlink:href="#path-160"></use>
+                                </mask>
+                                <g id="path-160"></g>
+                                <path
+                                    d="M2.3155,1.8421 C2.3155,2.4821 1.7975,3.0001 1.1575,3.0001 C0.5185,3.0001 0.0005,2.4821 0.0005,1.8421 C0.0005,1.2031 0.5185,0.6841 1.1575,0.6841 C1.7975,0.6841 2.3155,1.2031 2.3155,1.8421"
+                                    id="Fill-57" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-161)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-62" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(6.000000, 21.915400)">
+                        <g id="Fill-60-Clipped">
+                            <g>
+                                <mask id="mask-163" fill="white">
+                                    <use xlink:href="#path-162"></use>
+                                </mask>
+                                <g id="path-162"></g>
+                                <path
+                                    d="M3.1172,1.8421 C3.1172,2.4821 2.5982,3.0001 1.9592,3.0001 C1.3202,3.0001 0.8022,2.4821 0.8022,1.8421 C0.8022,1.2031 1.3202,0.6841 1.9592,0.6841 C2.5982,0.6841 3.1172,1.2031 3.1172,1.8421"
+                                    id="Fill-60" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-163)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-65" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(13.000000, 21.915400)">
+                        <g id="Fill-63-Clipped">
+                            <g>
+                                <mask id="mask-165" fill="white">
+                                    <use xlink:href="#path-164"></use>
+                                </mask>
+                                <g id="path-164"></g>
+                                <path
+                                    d="M2.9185,1.8421 C2.9185,2.4821 2.3995,3.0001 1.7605,3.0001 C1.1215,3.0001 0.6035,2.4821 0.6035,1.8421 C0.6035,1.2031 1.1215,0.6841 1.7605,0.6841 C2.3995,0.6841 2.9185,1.2031 2.9185,1.8421"
+                                    id="Fill-63" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-165)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-68" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(20.000000, 21.915400)">
+                        <g id="Fill-66-Clipped">
+                            <g>
+                                <mask id="mask-167" fill="white">
+                                    <use xlink:href="#path-166"></use>
+                                </mask>
+                                <g id="path-166"></g>
+                                <path
+                                    d="M2.7198,1.8421 C2.7198,2.4821 2.2018,3.0001 1.5628,3.0001 C0.9228,3.0001 0.4048,2.4821 0.4048,1.8421 C0.4048,1.2031 0.9228,0.6841 1.5628,0.6841 C2.2018,0.6841 2.7198,1.2031 2.7198,1.8421"
+                                    id="Fill-66" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-167)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-3" opacity="0.203497024" mask="url(#mask-2)">
+                <g transform="translate(1091.000000, 1012.000000)" id="Fill-1-Clipped">
+                    <g>
+                        <g>
+                            <mask id="mask-169" fill="white">
+                                <use xlink:href="#path-168"></use>
+                            </mask>
+                            <g id="path-168"></g>
+                            <path
+                                d="M27.2773223,5.53777826 C27.4318628,5.53777826 27.5864032,5.58884091 27.712783,5.69029434 L39.8788943,15.4587141 L52.047753,5.69029434 C52.3011993,5.48671561 52.6659148,5.48671561 52.9193611,5.69029434 L65.0930277,15.4587141 L77.2632601,5.69029434 C77.5160196,5.48671561 77.8807351,5.48671561 78.1341814,5.68962246 L90.3119691,15.4580423 L103.346254,5.00229229 L101.443003,2.731348 L90.7481166,11.3105455 C90.4939834,11.5141242 90.1299548,11.5134524 89.8765085,11.3105455 L77.6980339,1.54145382 L65.5284884,11.3098736 C65.2757289,11.5134524 64.9110134,11.5134524 64.6568802,11.3098736 L52.4839005,1.54145382 L40.3143549,11.3092018 C40.0615954,11.5127805 39.6961931,11.5127805 39.4434336,11.3092018 L27.2773223,1.54145382 L15.1118978,11.3092018 C14.8584515,11.5127805 14.4930492,11.5127805 14.2402897,11.3092018 L3.55845357,2.73201988 L1.6531415,5.00229229 L14.6757503,15.4587141 L26.8418616,5.69029434 C26.9682414,5.58884091 27.1227819,5.53777826 27.2773223,5.53777826 M39.8788943,17 C39.7243538,17 39.5698134,16.9489373 39.4434336,16.8474839 L27.2773223,7.07906411 L15.1118978,16.8474839 C14.8584515,17.0503908 14.4930492,17.0503908 14.2402897,16.8474839 L0.250601029,5.61437224 C0.109797505,5.5014969 0.0205074657,5.33823079 0.00333630423,5.16085526 C-0.0145217037,4.98347973 0.0397391665,4.80677608 0.155816218,4.66904129 L2.9320496,1.36004703 C3.04812665,1.22231224 3.2143435,1.13496823 3.39567096,1.11749943 C3.57837212,1.10137438 3.75832589,1.15378079 3.89844257,1.267328 L14.6757503,9.92043198 L26.8418616,0.15268405 C27.0946211,-0.0508946833 27.4600235,-0.0508946833 27.712783,0.15268405 L39.8788943,9.92110385 L52.047753,0.153355927 C52.3011993,-0.0502228063 52.6659148,-0.0502228063 52.9193611,0.153355927 L65.0930277,9.92177573 L77.2618864,0.153355927 C77.5153328,-0.0502228063 77.8800482,-0.0495509293 78.1334946,0.15268405 L90.3119691,9.92177573 L101.103014,1.26665613 C101.244504,1.15378079 101.423771,1.10003063 101.606472,1.11749943 C101.7878,1.13496823 101.954703,1.22231224 102.070094,1.36004703 L104.844266,4.66971317 C105.084663,4.95660465 105.042078,5.37988716 104.748795,5.61504412 L90.7481166,16.846812 C90.4946703,17.049047 90.1299548,17.049047 89.8765085,16.846812 L77.6987208,7.07839224 L65.5284884,16.846812 C65.2757289,17.0503908 64.9110134,17.0503908 64.6568802,16.846812 L52.4839005,7.07839224 L40.3143549,16.8474839 C40.1879752,16.9489373 40.0334347,17 39.8788943,17"
+                                id="Fill-1" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-169)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-9" mask="url(#mask-2)">
+                <g transform="translate(1090.000000, 64.000000)">
+                    <g id="Group-3" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Fill-1-Clipped">
+                            <g>
+                                <mask id="mask-171" fill="white">
+                                    <use xlink:href="#path-170"></use>
+                                </mask>
+                                <g id="path-170"></g>
+                                <path
+                                    d="M39.8392221,2.37537768 C39.8233151,1.49062646 40.5152686,0.765289878 41.3981058,0.741377683 C42.2729895,0.717465488 43.0047105,1.41888988 43.0206174,2.29567037 C43.0444779,3.18042159 42.3445709,3.90575817 41.4696872,3.92967037 L41.4299198,3.92967037 C40.570943,3.92967037 39.8630826,3.23621671 39.8392221,2.37537768 M33.5480128,3.25215817 C33.388943,2.39131915 33.9615942,1.56236305 34.8285244,1.40294841 C35.6954547,1.24353378 36.5226174,1.8253972 36.6737337,2.68623622 C36.8328035,3.55504598 36.2601523,4.38400207 35.3932221,4.54341671 C35.2977802,4.55935817 35.2023384,4.5673289 35.1068965,4.5673289 C34.3513151,4.5673289 33.6832221,4.02531915 33.5480128,3.25215817 M27.4635942,5.10933866 C27.1693151,4.28038256 27.606757,3.37171915 28.4418733,3.0847728 C29.269036,2.79782646 30.1757337,3.23621671 30.4620593,4.0651728 C30.7563384,4.8941289 30.3188965,5.80279232 29.482786,6.08973866 C29.316757,6.15350451 29.1338267,6.18538744 28.9668035,6.18538744 C28.306664,6.18538744 27.6942453,5.77090939 27.4635942,5.10933866 M21.745036,7.89909476 C21.3314547,7.12593378 21.6257337,6.15350451 22.3972221,5.73902646 C23.1687105,5.32454841 24.139036,5.61946549 24.5526174,6.39262646 C24.9661988,7.16578744 24.6719198,8.13821671 23.9004314,8.55269476 C23.6618267,8.68022646 23.4073151,8.74399232 23.1528035,8.74399232 C22.5801523,8.74399232 22.0313616,8.43313378 21.745036,7.89909476 M16.5275477,11.5417191 C16.0026174,10.8402948 16.1378267,9.83598256 16.8377337,9.30991427 C17.5376407,8.77587524 18.5397802,8.91934841 19.0647105,9.6207728 C19.5975942,10.3221972 19.4623849,11.3185387 18.7624779,11.8525777 C18.4681988,12.0677874 18.1331581,12.171407 17.8001058,12.171407 C17.314943,12.171407 16.8456872,11.9561972 16.5275477,11.5417191 M11.9383849,15.9495338 C11.3021058,15.3357874 11.2861988,14.3314752 11.8986174,13.6938167 C12.511036,13.0641289 13.5211291,13.0481874 14.1494547,13.653963 C14.7857337,14.2677094 14.8016407,15.2799923 14.1892221,15.9096801 C13.879036,16.2364801 13.4575012,16.3958948 13.0439198,16.3958948 C12.6462453,16.3958948 12.2485709,16.2524216 11.9383849,15.9495338 M8.08094302,21.0189191 C7.36512907,20.5087923 7.19015233,19.5204216 7.69122209,18.795085 C8.20024535,18.0777191 9.1944314,17.902363 9.91024535,18.4124899 C10.6260593,18.914646 10.801036,19.9109874 10.2999663,20.6283533 C9.98978023,21.0747143 9.49666395,21.3058655 8.99559419,21.3058655 C8.67745465,21.3058655 8.35931512,21.2181874 8.08094302,21.0189191 M5.05066395,26.6223435 C4.2632686,26.2397484 3.93717558,25.2832606 4.32689651,24.4861874 C4.71661744,23.697085 5.67103605,23.3782557 6.4584314,23.7608509 C7.24582674,24.1514167 7.57191977,25.1079045 7.18219884,25.897007 C6.90382674,26.4629289 6.33912907,26.7897289 5.75057093,26.7897289 C5.51991977,26.7897289 5.28131512,26.7339338 5.05066395,26.6223435 M2.93503605,32.640246 C2.09991977,32.3772118 1.62271047,31.4844899 1.88517558,30.647563 C2.1476407,29.8026655 3.0384314,29.3323923 3.87354767,29.5954265 C4.71661744,29.8504899 5.18587326,30.7432118 4.92340814,31.5881094 C4.71661744,32.2735923 4.08829186,32.7119826 3.40429186,32.7119826 C3.25317558,32.7119826 3.09410581,32.6880704 2.93503605,32.640246 M1.78178023,38.9052411 C0.91485,38.7777094 0.310384884,37.9726655 0.437640698,37.1038557 C0.556943023,36.2270752 1.36819884,35.6212996 2.23512907,35.7488313 C3.11001279,35.876363 3.70652442,36.681407 3.58722209,37.5581874 C3.46791977,38.3472899 2.79187326,38.9211826 2.0124314,38.9211826 C1.94085,38.9211826 1.86131512,38.9132118 1.78178023,38.9052411 M0.000198837209,43.6956509 C-0.00775465116,42.8188704 0.700105814,42.1015045 1.57498953,42.085563 C2.45782674,42.0775923 3.1736407,42.7869874 3.18159419,43.6637679 C3.19750116,44.5405484 2.4896407,45.265885 1.61475698,45.2738557 C0.723966279,45.2738557 0.016105814,44.5724313 0.000198837209,43.6956509 M0.588756977,50.287446 C0.445594186,49.4186362 1.02619884,48.5976509 1.89312907,48.4541777 C2.7600593,48.3027338 3.5792686,48.8925679 3.7224314,49.7613777 C3.87354767,50.6301874 3.28498953,51.4511728 2.4180593,51.594646 C2.32957674,51.6105874 2.24308256,51.6185582 2.15559419,51.6185582 C1.3920593,51.6185582 0.716012791,51.0685777 0.588756977,50.287446 M2.18740814,56.7118557 C1.90903605,55.8749289 2.3544314,54.9742362 3.18954767,54.6952606 C4.02466395,54.4083143 4.92340814,54.862646 5.20178023,55.6995728 C5.48015233,56.5285289 5.03475698,57.4371923 4.1996407,57.7161679 C4.03261744,57.771963 3.86559419,57.7958752 3.69857093,57.7958752 C3.03047791,57.7958752 2.41010581,57.3734265 2.18740814,56.7118557 M4.77229186,62.8014948 C4.36666395,62.020363 4.66889651,61.0559045 5.44833837,60.6493972 C6.22778023,60.2428899 7.19015233,60.5457777 7.59578023,61.3269094 C8.00140814,62.1080411 7.69917558,63.0724996 6.91973372,63.479007 C6.68112907,63.5985679 6.42661744,63.654363 6.1800593,63.654363 C5.60740814,63.654363 5.05066395,63.3435045 4.77229186,62.8014948 M8.26387326,68.4128899 C7.74689651,67.7034948 7.89801279,66.7071533 8.59791977,66.181085 C9.30578023,65.6550167 10.2999663,65.8064606 10.8248965,66.5158557 C11.3498267,67.2242545 11.1987105,68.220596 10.49085,68.7476606 C10.2045244,68.9548996 9.8784314,69.0575228 9.54438488,69.0575228 C9.05922209,69.0575228 8.58201279,68.836335 8.26387326,68.4128899 M12.5816233,73.4095423 C11.9622453,72.7888216 11.9542919,71.7845094 12.574664,71.1558179 C13.195036,70.5331045 14.1971756,70.5251338 14.8255012,71.1468509 C15.4458733,71.7605972 15.4538267,72.7728801 14.840414,73.4025679 C14.5232686,73.7134265 14.1176407,73.8718448 13.7040593,73.8718448 C13.2984314,73.8718448 12.8928035,73.7213972 12.5816233,73.4095423 M17.6251291,77.6818545 C16.9172686,77.172724 16.7502453,76.1763826 17.2672221,75.4590167 C17.7762453,74.7496216 18.7783849,74.5822362 19.4862453,75.1003338 C20.2020593,75.6104606 20.3611291,76.6068021 19.8441523,77.3241679 C19.5339663,77.7545874 19.0488035,77.9857387 18.5556872,77.9857387 C18.2365535,77.9857387 17.9114547,77.8900899 17.6251291,77.6818545 M23.2721058,81.1272033 C22.4847105,80.7276704 22.1745244,79.7711826 22.5721988,78.9820801 C22.9619198,78.2009484 23.9242919,77.8821191 24.7037337,78.2806557 C25.4911291,78.678196 25.8013151,79.6356801 25.4036407,80.4247826 C25.1252686,80.974763 24.5685244,81.301563 23.9879198,81.301563 C23.7413616,81.301563 23.502757,81.2457679 23.2721058,81.1272033 M29.3803849,83.6449582 C28.5452686,83.372957 28.0839663,82.4732606 28.3543849,81.6363338 C28.6248035,80.799407 29.5155942,80.3371045 30.358664,80.6081094 C31.1937802,80.8791143 31.6471291,81.779807 31.384664,82.6177301 C31.1609721,83.294246 30.5415942,83.7246655 29.8655477,83.7246655 C29.7064779,83.7246655 29.5394547,83.6927826 29.3803849,83.6449582 M35.8068035,85.1753387 C34.9398733,85.0398362 34.3433616,84.2188509 34.4785709,83.3500411 C34.6137802,82.4812313 35.425036,81.8834265 36.2999198,82.0189289 C37.16685,82.1544313 37.7554081,82.9754167 37.6201988,83.8442265 C37.5008965,84.6333289 36.82485,85.1912801 36.0533616,85.1912801 C35.9738267,85.1912801 35.8863384,85.1833094 35.8068035,85.1753387 M40.7936407,84.0913191 C40.7936407,83.2055716 41.5094547,82.4971728 42.3843384,82.4971728 C43.2671756,82.4971728 43.975036,83.2055716 43.975036,84.0913191 C43.975036,84.9680996 43.2671756,85.6854655 42.3843384,85.6854655 C41.5094547,85.6854655 40.7936407,84.9680996 40.7936407,84.0913191"
+                                    id="Fill-1" fill="#2580BA" fill-rule="nonzero" mask="url(#mask-171)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <path
+                        d="M40.7258101,10.5908935 C40.7258101,9.71593816 41.4417877,9.00006565 42.3347486,9.00006565 C43.2196648,8.99211151 43.9436872,9.70798402 43.9436872,10.5829393 C43.9436872,11.4658487 43.2277095,12.1737671 42.3347486,12.1817213 C41.4498324,12.1817213 40.7258101,11.4658487 40.7258101,10.5908935 M34.3624581,11.5294819 C34.1935196,10.6624807 34.756648,9.82729611 35.6254749,9.65230505 C36.5023464,9.48526813 37.3470391,10.0420579 37.5240223,10.9011049 C37.6929609,11.768106 37.1298324,12.6032906 36.2529609,12.7703275 C36.1483799,12.79419 36.0437989,12.8021441 35.9392179,12.8021441 C35.1910615,12.8021441 34.5153073,12.2851251 34.3624581,11.5294819 M28.3128492,13.6770994 C27.9749721,12.8657772 28.3611173,11.9351429 29.181676,11.6010691 C30.0022346,11.2590411 30.9434637,11.6408398 31.2813408,12.4531562 C31.6272626,13.2634842 31.2411173,14.1951127 30.4205587,14.5361464 C30.2113966,14.6156878 30.0022346,14.6554585 29.8011173,14.6554585 C29.1655866,14.6554585 28.5702793,14.2895681 28.3128492,13.6770994 M22.8022346,16.9621588 C22.3115084,16.230378 22.504581,15.2440648 23.2446927,14.7509082 C23.9767598,14.2657057 24.9823464,14.456605 25.4730726,15.1893801 C25.9718436,15.9122124 25.7707263,16.9064798 25.0386592,17.3916823 C24.757095,17.5746275 24.4513966,17.662123 24.1376536,17.662123 C23.6227933,17.662123 23.1159777,17.4155447 22.8022346,16.9621588 M18.0478212,21.2414856 C17.4122905,20.6210627 17.4122905,19.6108871 18.0397765,18.9904642 C18.6672626,18.3700414 19.6889385,18.3620873 20.3164246,18.9825101 C20.9439106,19.6029329 20.9439106,20.6131086 20.3244693,21.2335314 C20.0026816,21.5437429 19.5924022,21.7028256 19.1821229,21.7028256 C18.7718436,21.7028256 18.3615642,21.5437429 18.0478212,21.2414856 M14.2185475,26.3480428 C13.4784358,25.8628403 13.2773184,24.868573 13.7680447,24.1447463 C14.2668156,23.4129655 15.2643575,23.2141121 16.0044693,23.6993145 C16.744581,24.1924711 16.9376536,25.1787844 16.4469274,25.9105652 C16.1331844,26.3639511 15.6263687,26.6184835 15.1115084,26.6184835 C14.7977654,26.6184835 14.492067,26.530988 14.2185475,26.3480428 M11.4672626,32.0988853 C10.6467039,31.7648115 10.2605587,30.8341772 10.5984358,30.022855 C10.9363128,29.2115329 11.8775419,28.82178 12.6981006,29.1558539 C13.5186592,29.4899277 13.9128492,30.420562 13.5669274,31.2318842 C13.3175419,31.8443529 12.7141899,32.2181974 12.0786592,32.2181974 C11.8775419,32.2181974 11.6683799,32.1784267 11.4672626,32.0988853 M9.91463687,38.2712972 C9.04581006,38.0963061 8.47463687,37.2611215 8.65162011,36.4020745 C8.82055866,35.5430275 9.6652514,34.9782836 10.5421229,35.1453206 C11.4109497,35.3213059 11.9740782,36.1554962 11.8051397,37.0145432 C11.6522905,37.7701864 10.984581,38.304108 10.2283799,38.304108 C10.1237989,38.304108 10.0192179,38.2872055 9.91463687,38.2712972 M8,43.0288666 C8,42.152917 8.71597765,41.4370445 9.60893855,41.4370445 C10.4948603,41.4370445 11.2178771,42.1449629 11.2178771,43.0288666 C11.2178771,43.9028276 10.5018994,44.6187001 9.60893855,44.6187001 C8.72402235,44.6187001 8,43.9107817 8,43.0288666 M8.6596648,49.6616242 C8.49072626,48.7946231 9.05385475,47.9594385 9.92268156,47.7924016 C10.7995531,47.6174105 11.6442458,48.1821544 11.8131844,49.0412014 C11.9901676,49.9002484 11.4270391,50.735433 10.5501676,50.9104241 C10.4455866,50.9342865 10.3410056,50.9422406 10.2364246,50.9422406 C9.48927374,50.9422406 8.81251397,50.4172674 8.6596648,49.6616242 M10.6225698,56.0328896 C10.276648,55.2215674 10.670838,54.2909331 11.4913966,53.9568593 C12.3119553,53.6227855 13.2531844,54.0045841 13.5910615,54.8159063 C13.9289385,55.6272285 13.5427933,56.5578628 12.7222346,56.8919366 C12.5211173,56.9794321 12.3119553,57.0192028 12.1027933,57.0192028 C11.4753073,57.0192028 10.88,56.6453583 10.6225698,56.0328896 M13.8002235,61.9109983 C13.3094972,61.1792175 13.5116201,60.1929043 14.2426816,59.6997477 C14.9827933,59.2145452 15.9803352,59.4054445 16.4791061,60.1372253 C16.9698324,60.8690061 16.7767598,61.8553193 16.036648,62.348476 C15.7631285,62.523467 15.4493855,62.6109625 15.1436872,62.6109625 C14.6288268,62.6109625 14.1139665,62.3643842 13.8002235,61.9109983 M18.0880447,67.0573262 C17.452514,66.4369034 17.452514,65.4267277 18.0880447,64.8063049 C18.707486,64.1858821 19.729162,64.1858821 20.356648,64.8063049 C20.9841341,65.4267277 20.9841341,66.4289493 20.3646927,67.0503664 C20.042905,67.3675377 19.6326257,67.5186663 19.2223464,67.5186663 C18.812067,67.5186663 18.4017877,67.3675377 18.0880447,67.0573262 M23.2929609,71.2809741 C22.5528492,70.7957716 22.3517318,69.8015042 22.8505028,69.0786718 C23.3412291,68.3458968 24.3468156,68.1470433 25.0788827,68.6401999 C25.8189944,69.1254024 26.0201117,70.1117156 25.5213408,70.8434964 C25.2156425,71.3048365 24.7088268,71.5514148 24.1859218,71.5514148 C23.8802235,71.5514148 23.567486,71.4639193 23.2929609,71.2809741 M29.2379888,74.4308131 C28.4174302,74.0887851 28.0232402,73.1581509 28.369162,72.3468287 C28.7070391,71.5355065 29.6482682,71.1537078 30.4688268,71.4887759 C31.2893855,71.8218555 31.6755307,72.7524898 31.3376536,73.563812 C31.0802235,74.1772749 30.4849162,74.5511195 29.8493855,74.5511195 C29.6482682,74.5511195 29.4391061,74.5113488 29.2379888,74.4308131 M35.6898324,76.3557147 C34.8129609,76.1886778 34.2498324,75.3534932 34.4187709,74.4864921 C34.5957542,73.6274451 35.4404469,73.0706553 36.3092737,73.2376923 C37.1861453,73.4047292 37.7492737,74.2399138 37.5803352,75.1069149 C37.427486,75.8635524 36.7517318,76.3875313 36.0035754,76.3875313 C35.8989944,76.3875313 35.7944134,76.3795772 35.6898324,76.3557147 M40.7821229,75.4171263 C40.7821229,74.5342169 41.5061453,73.8262985 42.3910615,73.8262985 C43.2840223,73.8262985 44,74.5342169 44,75.4171263 C44,76.2920816 43.2840223,77 42.3910615,77 C41.5061453,77 40.7821229,76.2920816 40.7821229,75.4171263"
+                        id="Fill-4" fill="#2581BA" fill-rule="nonzero"></path>
+                    <g id="Group-8" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(17.000000, 17.000000)">
+                        <g id="Fill-6-Clipped">
+                            <g>
+                                <mask id="mask-173" fill="white">
+                                    <use xlink:href="#path-172"></use>
+                                </mask>
+                                <g id="path-172"></g>
+                                <path
+                                    d="M23.0535294,2.3554908 C23.0298525,1.4781468 23.7164833,0.7509788 24.5925294,0.7272668 C25.4685756,0.7035548 26.1867756,1.3912028 26.2104525,2.2685468 C26.2341294,3.1379868 25.5474987,3.8651548 24.6793448,3.8888668 L24.631991,3.8888668 C23.7796217,3.8888668 23.0772063,3.2091228 23.0535294,2.3554908 M17.0553756,3.7149788 C16.810714,2.8771548 17.2921448,1.9998108 18.1208371,1.7468828 C18.9574217,1.5018588 19.8413602,1.9840028 20.0860217,2.8218268 C20.3306833,3.6517468 19.8571448,4.5369948 19.0205602,4.7820188 C18.8706063,4.8294428 18.7206525,4.8452508 18.5706987,4.8452508 C17.8919602,4.8452508 17.2605756,4.4026268 17.0553756,3.7149788 M11.6096833,6.5762268 C11.1598217,5.8332508 11.396591,4.8610588 12.1384679,4.4026268 C12.8803448,3.9520988 13.8510987,4.1892188 14.3088525,4.9321948 C14.758714,5.6751708 14.5298371,6.6473628 13.7800679,7.1057948 C13.527514,7.2638748 13.243391,7.3350108 12.9592679,7.3350108 C12.4304833,7.3350108 11.909591,7.0662748 11.6096833,6.5762268 M7.04003712,8.5127068 C7.6398525,7.8803868 8.64217558,7.8566748 9.26566788,8.4652828 C9.8970525,9.0738908 9.92072942,10.0697948 9.31302173,10.7021148 C9.00522173,11.0261788 8.59482173,11.1842588 8.17652942,11.1842588 C7.78191404,11.1842588 7.38729865,11.0419868 7.08739096,10.7495388 C6.45600635,10.1409308 6.43232942,9.1450268 7.04003712,8.5127068 Z M3.76472942,15.9345628 C3.00706788,15.5077468 2.73083712,14.5513628 3.14912942,13.7846748 C3.57531404,13.0258908 4.53817558,12.7492508 5.29583712,13.1681628 C6.06139096,13.5949788 6.33762173,14.5513628 5.91143712,15.3180508 C5.62731404,15.8397148 5.08274481,16.1321628 4.53028327,16.1321628 C4.26983712,16.1321628 4.00939096,16.0689308 3.76472942,15.9345628 M1.8942525,21.8072348 C1.04977558,21.5938268 0.536775577,20.7322908 0.749867885,19.8865628 C0.962960192,19.0408348 1.81532942,18.5270748 2.65980635,18.7404828 C3.51217558,18.9538908 4.02517558,19.8075228 3.81208327,20.6532508 C3.63056019,21.3725148 2.99128327,21.8546588 2.28097558,21.8546588 C2.15469865,21.8546588 2.02842173,21.8388508 1.8942525,21.8072348 M9.86538462e-05,26.3994588 C-0.0156859615,25.5221148 0.686729423,24.8107548 1.55488327,24.7949468 C2.42303712,24.7870428 3.14123712,25.4825948 3.15702173,26.3520348 C3.16491404,27.2293788 2.47039096,27.9486428 1.59434481,27.9565468 C0.710406346,27.9565468 0.00799096154,27.2609948 9.86538462e-05,26.3994588 M0.931390962,32.8886428 C0.694621731,32.0429148 1.18394481,31.1734748 2.02052942,30.9363548 C2.86500635,30.6992348 3.73316019,31.1971868 3.96992942,32.0350108 C4.20669865,32.8728348 3.71737558,33.7501788 2.87289865,33.9793948 C2.73083712,34.0189148 2.58877558,34.0426268 2.44671404,34.0426268 C1.76008327,34.0426268 1.12080635,33.5841948 0.931390962,32.8886428 M3.49639096,38.9193948 C3.05442173,38.1685148 3.30697558,37.1963228 4.05674481,36.7536988 C4.80651404,36.3110748 5.77726788,36.5560988 6.21923712,37.3069788 C6.66120635,38.0578588 6.4086525,39.0300508 5.65888327,39.4726748 C5.40632942,39.6228508 5.13009865,39.6939868 4.86176019,39.6939868 C4.31719096,39.6939868 3.79629865,39.4173468 3.49639096,38.9193948 M7.52936019,44.0807068 C6.90586788,43.4720988 6.89797558,42.4682908 7.51357558,41.8438748 C8.12128327,41.2273628 9.12360635,41.2194588 9.73920635,41.8280668 C10.3626987,42.4445788 10.370591,43.4483868 9.76288327,44.0648988 C9.44719096,44.3810588 9.04468327,44.5391388 8.63428327,44.5391388 C8.23177558,44.5391388 7.83716019,44.3889628 7.52936019,44.0807068 M12.7382833,48.0485148 C11.9806217,47.6137948 11.7201756,46.6416028 12.1542525,45.8897348 C12.5883294,45.1309508 13.551191,44.8632028 14.3088525,45.2969348 C15.066514,45.7326428 15.3269602,46.7048348 14.8928833,47.4557148 C14.6008679,47.9694748 14.0720833,48.2540188 13.5196217,48.2540188 C13.2591756,48.2540188 12.9829448,48.1907868 12.7382833,48.0485148 M18.7995756,50.5382748 C17.9550987,50.3100468 17.449991,49.4475228 17.6788679,48.6017948 C17.8998525,47.7560668 18.760114,47.2581148 19.604591,47.4794268 C20.4490679,47.7007388 20.9541756,48.5701788 20.733191,49.4080028 C20.5437756,50.1193628 19.9044987,50.5856988 19.2020833,50.5856988 C19.067914,50.5856988 18.9337448,50.5698908 18.7995756,50.5382748 M23.708591,49.7952988 C23.708591,48.9258588 24.4188987,48.2144988 25.2870525,48.2144988 C26.1552063,48.2144988 26.865514,48.9258588 26.865514,49.7952988 C26.865514,50.6726428 26.1552063,51.3760988 25.2870525,51.3760988 C24.4188987,51.3760988 23.708591,50.6726428 23.708591,49.7952988"
+                                    id="Fill-6" fill="#2581BA" fill-rule="nonzero" mask="url(#mask-173)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-9" mask="url(#mask-2)">
+                <g transform="translate(1499.000000, 1043.000000)">
+                    <g id="Group-3" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Fill-1-Clipped">
+                            <g>
+                                <mask id="mask-175" fill="white">
+                                    <use xlink:href="#path-174"></use>
+                                </mask>
+                                <g id="path-174"></g>
+                                <path
+                                    d="M49.7990276,2.98303244 C49.7791439,1.87194951 50.6440858,0.961061707 51.7476323,0.931032439 C52.8412369,0.901003171 53.7558881,1.78186171 53.7757718,2.88293488 C53.8055974,3.9940178 52.9307137,4.90490561 51.837109,4.93493488 L51.7873997,4.93493488 C50.7136788,4.93493488 49.8288532,4.0640861 49.7990276,2.98303244 M41.935016,4.08410561 C41.7361788,3.00305195 42.4519927,1.96203732 43.5356555,1.7618422 C44.6193183,1.56164707 45.6532718,2.29235927 45.8421672,3.37341293 C46.0410044,4.46447634 45.3251904,5.50549098 44.2415276,5.7056861 C44.1222253,5.72570561 44.002923,5.73571537 43.8836206,5.73571537 C42.9391439,5.73571537 42.1040276,5.05505195 41.935016,4.08410561 M34.3294927,6.41637878 C33.9616439,5.37536415 34.5084462,4.23425195 35.5523416,3.87390073 C36.5862951,3.51354951 37.7196672,4.0640861 38.0775741,5.10510073 C38.445423,6.14611537 37.8986206,7.28722756 36.8534826,7.64757878 C36.6459462,7.72765683 36.4172834,7.76769585 36.2085044,7.76769585 C35.3833299,7.76769585 34.6178067,7.24718854 34.3294927,6.41637878 M27.1812951,9.91979341 C26.6643183,8.94884707 27.0321672,7.72765683 27.9965276,7.20714951 C28.9608881,6.6866422 30.1737951,7.05700317 30.6907718,8.02794951 C31.2077485,8.99889585 30.8398997,10.2200861 29.8755392,10.7405934 C29.5772834,10.9007495 29.2591439,10.9808276 28.9410044,10.9808276 C28.2251904,10.9808276 27.539202,10.5904471 27.1812951,9.91979341 M20.6594346,14.494252 C20.0032718,13.6133934 20.1722834,12.3521641 21.0471672,11.6915202 C21.9220509,11.0208666 23.1747253,11.2010422 23.8308881,12.0819007 C24.4969927,12.9627593 24.3279811,14.2139788 23.4530974,14.8846324 C23.0852485,15.1548959 22.6664477,15.2850227 22.2501323,15.2850227 C21.6436788,15.2850227 21.057109,15.0147593 20.6594346,14.494252 M14.9229811,20.0296471 C14.1276323,19.2588959 14.1077485,17.9976666 14.8732718,17.1968861 C15.6387951,16.4061154 16.9014113,16.3860959 17.6868183,17.1468373 C18.4821672,17.9175885 18.5020509,19.1888276 17.7365276,19.9795983 C17.3487951,20.3899983 16.8218765,20.5901934 16.3048997,20.5901934 C15.8078067,20.5901934 15.3107137,20.4100178 14.9229811,20.0296471 M10.1011788,26.395852 C9.20641134,25.7552331 8.98769041,24.5140178 9.61402762,23.60313 C10.2503067,22.702252 11.4930392,22.4820373 12.3878067,23.1226617 C13.2825741,23.7532763 13.5012951,25.0044959 12.8749578,25.9053739 C12.4872253,26.4659202 11.8708299,26.7562032 11.2444927,26.7562032 C10.8468183,26.7562032 10.4491439,26.6460959 10.1011788,26.395852 M6.31332994,33.4327105 C5.32908576,32.9522422 4.92146948,31.7510715 5.40862064,30.7500959 C5.8957718,29.75913 7.08879506,29.3587398 8.07303924,29.839208 C9.05728343,30.3296861 9.46489971,31.5308568 8.97774855,32.5218227 C8.62978343,33.2325154 7.92391134,33.6429154 7.18821366,33.6429154 C6.89989971,33.6429154 6.6016439,33.5728471 6.31332994,33.4327105 M3.66879506,40.9900763 C2.62489971,40.6597544 2.02838808,39.5386617 2.35646948,38.4876373 C2.68455087,37.4266032 3.79803924,36.8360276 4.84193459,37.1663495 C5.8957718,37.4866617 6.48234157,38.6077544 6.15426017,39.6687885 C5.8957718,40.5296276 5.11036483,41.0801641 4.25536483,41.0801641 C4.06646948,41.0801641 3.86763227,41.0501349 3.66879506,40.9900763 M2.22722529,48.8577446 C1.1435625,48.6975885 0.387981105,47.6866032 0.547050872,46.5955398 C0.696178779,45.4944666 1.71024855,44.7337251 2.79391134,44.8938812 C3.88751599,45.0540373 4.63315552,46.0650227 4.48402762,47.1660959 C4.33489971,48.1570617 3.48984157,48.8777641 2.51553924,48.8777641 C2.4260625,48.8777641 2.3266439,48.8677544 2.22722529,48.8577446 M0.000248546512,54.873608 C-0.00969331395,53.7725349 0.875132267,52.8716568 1.96873692,52.8516373 C3.07228343,52.8416276 3.96705087,53.7324959 3.97699273,54.833569 C3.99687645,55.9346422 3.11205087,56.84553 2.01844622,56.8555398 C0.904957849,56.8555398 0.0201322674,55.9746812 0.000248546512,54.873608 M0.735946221,63.1516763 C0.556992733,62.0606129 1.28274855,61.029608 2.36641134,60.8494324 C3.45007413,60.6592471 4.47408576,61.399969 4.65303924,62.4910324 C4.84193459,63.5820959 4.10623692,64.6131007 3.02257413,64.7932763 C2.91197093,64.8132959 2.8038532,64.8233056 2.69449273,64.8233056 C1.74007413,64.8233056 0.895015988,64.1326324 0.735946221,63.1516763 M2.73426017,71.2195398 C2.38629506,70.1685154 2.94303924,69.0374129 3.98693459,68.6870715 C5.03082994,68.3267202 6.15426017,68.8972763 6.50222529,69.9483007 C6.85019041,70.9893154 6.29344622,72.1304276 5.24955087,72.480769 C5.0407718,72.5508373 4.83199273,72.5808666 4.62321366,72.5808666 C3.78809738,72.5808666 3.01263227,72.0503495 2.73426017,71.2195398 M5.96536483,78.8669934 C5.45832994,77.8860373 5.83612064,76.6748568 6.81042297,76.1643593 C7.78472529,75.6538617 8.98769041,76.0342324 9.49472529,77.0151885 C10.0017602,77.9961446 9.62396948,79.2073251 8.64966715,79.7178227 C8.35141134,79.867969 8.0332718,79.9380373 7.72507413,79.9380373 C7.00926017,79.9380373 6.31332994,79.5476568 5.96536483,78.8669934 M10.3298416,85.9138617 C9.68362064,85.0229934 9.87251599,83.7717739 10.7473997,83.11113 C11.6322253,82.4504861 12.8749578,82.6406715 13.5311206,83.5315398 C14.1872834,84.4211568 13.9983881,85.6723763 13.1135625,86.3342715 C12.7556555,86.5945251 12.3480392,86.7234007 11.9304811,86.7234007 C11.3240276,86.7234007 10.727516,86.44563 10.3298416,85.9138617 M15.7270291,92.1887276 C14.9528067,91.4092178 14.9428648,90.1479885 15.7183299,89.358469 C16.4937951,88.5764568 17.7464695,88.5664471 18.5318765,89.347208 C19.3073416,90.1179593 19.3172834,91.3891983 18.5505174,92.179969 C18.1540858,92.5703495 17.6470509,92.7692934 17.1300741,92.7692934 C16.6230392,92.7692934 16.1160044,92.5803593 15.7270291,92.1887276 M22.0314113,97.5539568 C21.1465858,96.9145837 20.9378067,95.6633641 21.5840276,94.7624861 C22.2203067,93.8716178 23.4729811,93.6614129 24.3578067,94.3120471 C25.2525741,94.9526715 25.4514113,96.203891 24.8051904,97.104769 C24.4174578,97.6452959 23.8110044,97.9355788 23.194609,97.9355788 C22.7956919,97.9355788 22.3893183,97.8154617 22.0314113,97.5539568 M29.0901323,101.880674 C28.1058881,101.378935 27.7181555,100.177764 28.2152485,99.1867983 C28.7023997,98.2058422 29.9053648,97.805452 30.8796672,98.3059398 C31.8639113,98.8051763 32.2516439,100.007598 31.7545509,100.998564 C31.4065858,101.689237 30.7106555,102.099637 29.9848997,102.099637 C29.676702,102.099637 29.3784462,102.029569 29.0901323,101.880674 M36.7254811,105.042506 C35.6815858,104.700923 35.1049578,103.571071 35.4429811,102.520047 C35.7810044,101.469023 36.8944927,100.888457 37.9483299,101.228789 C38.9922253,101.56912 39.5589113,102.700223 39.2308299,103.752498 C38.9512151,104.602076 38.1769927,105.142603 37.3319346,105.142603 C37.1330974,105.142603 36.9243183,105.102564 36.7254811,105.042506 M44.7585044,106.964379 C43.6748416,106.794213 42.929202,105.763208 43.0982137,104.672145 C43.2672253,103.581081 44.2812951,102.83035 45.3748997,103.000515 C46.4585625,103.170681 47.1942602,104.201686 47.0252485,105.29275 C46.8761206,106.283715 46.0310625,106.984398 45.066702,106.984398 C44.9672834,106.984398 44.857923,106.974389 44.7585044,106.964379 M50.9920509,105.603052 C50.9920509,104.490718 51.8868183,103.601101 52.980423,103.601101 C54.0839695,103.601101 54.9687951,104.490718 54.9687951,105.603052 C54.9687951,106.704125 54.0839695,107.605003 52.980423,107.605003 C51.8868183,107.605003 50.9920509,106.704125 50.9920509,105.603052"
+                                    id="Fill-1" fill="#953A5A" fill-rule="nonzero" mask="url(#mask-175)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <path
+                        d="M50.9072626,12.9886168 C50.9072626,11.8949227 51.8022346,11.0000821 52.9184358,11.0000821 C54.024581,10.9901394 54.9296089,11.88498 54.9296089,12.9786741 C54.9296089,14.0823109 54.0346369,14.9672089 52.9184358,14.9771516 C51.8122905,14.9771516 50.9072626,14.0823109 50.9072626,12.9886168 M42.9530726,14.1618523 C42.7418994,13.0781009 43.4458101,12.0341201 44.5318436,11.8153813 C45.627933,11.6065852 46.6837989,12.3025723 46.9050279,13.3763811 C47.1162011,14.4601325 46.4122905,15.5041133 45.3162011,15.7129094 C45.1854749,15.7427374 45.0547486,15.7526801 44.9240223,15.7526801 C43.9888268,15.7526801 43.1441341,15.1064063 42.9530726,14.1618523 M35.3910615,16.8463742 C34.9687151,15.8322215 35.4513966,14.6689287 36.477095,14.2513364 C37.5027933,13.8238014 38.6793296,14.3010497 39.101676,15.3164453 C39.5340782,16.3293552 39.0513966,17.4938909 38.0256983,17.920183 C37.7642458,18.0196097 37.5027933,18.0693231 37.2513966,18.0693231 C36.4569832,18.0693231 35.7128492,17.6119601 35.3910615,16.8463742 M28.5027933,20.9526985 C27.8893855,20.0379725 28.1307263,18.805081 29.0558659,18.1886352 C29.9709497,17.5821321 31.227933,17.8207563 31.8413408,18.7367251 C32.4648045,19.6402656 32.2134078,20.8830998 31.298324,21.4896029 C30.9463687,21.7182844 30.5642458,21.8276538 30.172067,21.8276538 C29.5284916,21.8276538 28.8949721,21.5194309 28.5027933,20.9526985 M22.5597765,26.301857 C21.7653631,25.5263284 21.7653631,24.2636089 22.5497207,23.4880803 C23.3340782,22.7125517 24.6111732,22.7026091 25.3955307,23.4781376 C26.1798883,24.2536662 26.1798883,25.5163857 25.4055866,26.2919143 C25.003352,26.6796786 24.4905028,26.8785321 23.9776536,26.8785321 C23.4648045,26.8785321 22.9519553,26.6796786 22.5597765,26.301857 M17.7731844,32.6850535 C16.8480447,32.0785504 16.596648,30.8357162 17.2100559,29.9309329 C17.8335196,29.0162069 19.0804469,28.7676401 20.0055866,29.3741432 C20.9307263,29.9905889 21.172067,31.2234805 20.5586592,32.1382065 C20.1664804,32.7049389 19.5329609,33.0231044 18.8893855,33.0231044 C18.4972067,33.0231044 18.1150838,32.913735 17.7731844,32.6850535 M14.3340782,39.8736066 C13.3083799,39.4560144 12.8256983,38.2927215 13.2480447,37.2785688 C13.6703911,36.2644161 14.8469274,35.7772251 15.8726257,36.1948174 C16.898324,36.6124097 17.3910615,37.7757025 16.9586592,38.7898552 C16.6469274,39.5554411 15.8927374,40.0227468 15.098324,40.0227468 C14.8469274,40.0227468 14.5854749,39.9730334 14.3340782,39.8736066 M12.3932961,47.5891215 C11.3072626,47.3703827 10.5932961,46.3264019 10.8145251,45.2525932 C11.0256983,44.1787844 12.0815642,43.4728545 13.1776536,43.6816507 C14.2636872,43.9016324 14.9675978,44.9443703 14.7564246,46.018179 C14.5653631,46.962733 13.7307263,47.630135 12.7854749,47.630135 C12.6547486,47.630135 12.5240223,47.6090068 12.3932961,47.5891215 M10,53.5360832 C10,52.4411463 10.8949721,51.5463056 12.0111732,51.5463056 C13.1185754,51.5463056 14.0223464,52.4312036 14.0223464,53.5360832 C14.0223464,54.6285345 13.1273743,55.5233751 12.0111732,55.5233751 C10.9050279,55.5233751 10,54.6384772 10,53.5360832 M10.824581,61.8270303 C10.6134078,60.7432789 11.3173184,59.6992981 12.403352,59.490502 C13.4994413,59.2717631 14.5553073,59.977693 14.7664804,61.0515017 C14.9877095,62.1253105 14.2837989,63.1692913 13.1877095,63.3880301 C13.0569832,63.4178581 12.926257,63.4278008 12.7955307,63.4278008 C11.8615922,63.4278008 11.0156425,62.7715843 10.824581,61.8270303 M13.2782123,69.791112 C12.8458101,68.7769593 13.3385475,67.6136664 14.3642458,67.1960741 C15.3899441,66.7784818 16.5664804,67.2557302 16.9888268,68.2698829 C17.4111732,69.2840356 16.9284916,70.4473284 15.9027933,70.8649207 C15.6513966,70.9742902 15.3899441,71.0240035 15.1284916,71.0240035 C14.3441341,71.0240035 13.6,70.5566979 13.2782123,69.791112 M17.2502793,77.1387479 C16.6368715,76.2240219 16.8895251,74.9911304 17.803352,74.3746846 C18.7284916,73.7681815 19.975419,74.0068057 20.5988827,74.9215316 C21.2122905,75.8362576 20.9709497,77.0691492 20.0458101,77.6855949 C19.7039106,77.9043338 19.3117318,78.0137032 18.9296089,78.0137032 C18.2860335,78.0137032 17.6424581,77.7054803 17.2502793,77.1387479 M22.6100559,83.5716578 C21.8156425,82.7961293 21.8156425,81.5334097 22.6100559,80.7578811 C23.3843575,79.9823526 24.6614525,79.9823526 25.4458101,80.7578811 C26.2301676,81.5334097 26.2301676,82.7861866 25.4558659,83.562958 C25.0536313,83.9594221 24.5407821,84.1483329 24.027933,84.1483329 C23.5150838,84.1483329 23.0022346,83.9594221 22.6100559,83.5716578 M29.1162011,88.8512176 C28.1910615,88.2447145 27.9396648,87.0018803 28.5631285,86.0983398 C29.1765363,85.182371 30.4335196,84.9338041 31.3486034,85.5502499 C32.273743,86.156753 32.5251397,87.3896445 31.901676,88.3043705 C31.5195531,88.8810456 30.8860335,89.1892685 30.2324022,89.1892685 C29.8502793,89.1892685 29.4593575,89.0798991 29.1162011,88.8512176 M36.547486,92.7885164 C35.5217877,92.3609814 35.0290503,91.1976886 35.4614525,90.1835359 C35.8837989,89.1693831 37.0603352,88.6921348 38.0860335,89.1109699 C39.1117318,89.5273194 39.5944134,90.6906122 39.172067,91.7047649 C38.8502793,92.4715937 38.1061453,92.9388993 37.3117318,92.9388993 C37.0603352,92.9388993 36.7988827,92.8891859 36.547486,92.7885164 M44.6122905,95.1946434 C43.5162011,94.9858473 42.8122905,93.9418665 43.0234637,92.8581151 C43.2446927,91.7843063 44.3005587,91.0883192 45.3865922,91.2971153 C46.4826816,91.5059115 47.1865922,92.5498922 46.975419,93.6336436 C46.7843575,94.5794405 45.9396648,95.2344141 45.0044693,95.2344141 C44.873743,95.2344141 44.7430168,95.2244714 44.6122905,95.1946434 M50.9776536,94.0214079 C50.9776536,92.9177711 51.8826816,92.0328732 52.9888268,92.0328732 C54.1050279,92.0328732 55,92.9177711 55,94.0214079 C55,95.115102 54.1050279,96 52.9888268,96 C51.8826816,96 50.9776536,95.115102 50.9776536,94.0214079"
+                        id="Fill-4" fill="#953A5A" fill-rule="nonzero"></path>
+                    <g id="Group-8" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(21.000000, 21.000000)">
+                        <g id="Fill-6-Clipped">
+                            <g>
+                                <mask id="mask-177" fill="white">
+                                    <use xlink:href="#path-176"></use>
+                                </mask>
+                                <g id="path-176"></g>
+                                <path
+                                    d="M29.0303704,2.9443635 C29.000555,1.8476835 29.8652012,0.9387235 30.9683704,0.9090835 C32.0715396,0.8794435 32.9759396,1.7390035 33.005755,2.8356835 C33.0355704,3.9224835 32.1709242,4.8314435 31.0776935,4.8610835 L31.0180627,4.8610835 C29.9447088,4.8610835 29.0601858,4.0114035 29.0303704,2.9443635 M21.4771396,4.6437235 C21.1690473,3.5964435 21.7752935,2.4997635 22.8188319,2.1836035 C23.8723088,1.8773235 24.9854165,2.4800035 25.2935088,3.5272835 C25.6016012,4.5646835 25.0052935,5.6712435 23.9518165,5.9775235 C23.7629858,6.0368035 23.574155,6.0565635 23.3853242,6.0565635 C22.5306165,6.0565635 21.7355396,5.5032835 21.4771396,4.6437235 M14.6196012,8.2202835 C14.0531088,7.2915635 14.3512627,6.0763235 15.2854781,5.5032835 C16.2196935,4.9401235 17.4421242,5.2365235 18.018555,6.1652435 C18.5850473,7.0939635 18.2968319,8.3092035 17.3526781,8.8822435 C17.0346473,9.0798435 16.6768627,9.1687635 16.3190781,9.1687635 C15.6532012,9.1687635 14.9972627,8.8328435 14.6196012,8.2202835 M8.86523192,10.6408835 C9.620555,9.8504835 10.8827396,9.8208435 11.6678781,10.5816035 C12.462955,11.3423635 12.4927704,12.5872435 11.7275088,13.3776435 C11.3399088,13.7827235 10.8231088,13.9803235 10.2963704,13.9803235 C9.79944731,13.9803235 9.30252423,13.8024835 8.92486269,13.4369235 C8.12978577,12.6761635 8.09997038,11.4312835 8.86523192,10.6408835 Z M4.74077038,19.9182035 C3.78667808,19.3846835 3.43883192,18.1892035 3.96557038,17.2308435 C4.50224731,16.2823635 5.71473962,15.9365635 6.66883192,16.4602035 C7.63286269,16.9937235 7.98070885,18.1892035 7.44403192,19.1475635 C7.08624731,19.7996435 6.40049346,20.1652035 5.70480115,20.1652035 C5.37683192,20.1652035 5.04886269,20.0861635 4.74077038,19.9182035 M2.385355,27.2590435 C1.32193962,26.9922835 0.675939615,25.9153635 0.944278077,24.8582035 C1.21261654,23.8010435 2.28597038,23.1588435 3.34938577,23.4256035 C4.42273962,23.6923635 5.06873962,24.7594035 4.80040115,25.8165635 C4.57181654,26.7156435 3.76680115,27.3183235 2.87233962,27.3183235 C2.71332423,27.3183235 2.55430885,27.2985635 2.385355,27.2590435 M0.000124230769,32.9993235 C-0.0197526923,31.9026435 0.864770385,31.0134435 1.95800115,30.9936835 C3.05123192,30.9838035 3.95563192,31.8532435 3.97550885,32.9400435 C3.98544731,34.0367235 3.11086269,34.9358035 2.00769346,34.9456835 C0.894585769,34.9456835 0.0100626923,34.0762435 0.000124230769,32.9993235 M1.17286269,41.1108035 C0.874708846,40.0536435 1.49089346,38.9668435 2.54437038,38.6704435 C3.60778577,38.3740435 4.70101654,38.9964835 4.99917038,40.0437635 C5.29732423,41.0910435 4.68113962,42.1877235 3.61772423,42.4742435 C3.43883192,42.5236435 3.25993962,42.5532835 3.08104731,42.5532835 C2.21640115,42.5532835 1.41138577,41.9802435 1.17286269,41.1108035 M4.40286269,48.6492435 C3.84630885,47.7106435 4.16433962,46.4954035 5.10849346,45.9421235 C6.05264731,45.3888435 7.27507808,45.6951235 7.83163192,46.6337235 C8.38818577,47.5723235 8.070155,48.7875635 7.12600115,49.3408435 C6.80797038,49.5285635 6.46012423,49.6174835 6.12221654,49.6174835 C5.43646269,49.6174835 4.78052423,49.2716835 4.40286269,48.6492435 M9.48141654,55.1008835 C8.69627808,54.3401235 8.68633962,53.0853635 9.46153962,52.3048435 C10.2268012,51.5342035 11.4889858,51.5243235 12.2641858,52.2850835 C13.0493242,53.0557235 13.0592627,54.3104835 12.2940012,55.0811235 C11.8964627,55.4763235 11.3896012,55.6739235 10.8728012,55.6739235 C10.3659396,55.6739235 9.86901654,55.4862035 9.48141654,55.1008835 M16.0408012,60.0606435 C15.0867088,59.5172435 14.7587396,58.3020035 15.305355,57.3621685 C15.8519704,56.4136885 17.0644627,56.0790035 18.018555,56.6211685 C18.9726473,57.1658035 19.3006165,58.3810435 18.7540012,59.3196435 C18.3862781,59.9618435 17.7204012,60.3175235 17.0247088,60.3175235 C16.6967396,60.3175235 16.3488935,60.2384835 16.0408012,60.0606435 M23.6735396,63.1728435 C22.6101242,62.8875585 21.9740627,61.8094035 22.2622781,60.7522435 C22.540555,59.6950835 23.6238473,59.0726435 24.6872627,59.3492835 C25.7506781,59.6259235 26.3867396,60.7127235 26.1084627,61.7600035 C25.8699396,62.6492035 25.0649242,63.2321235 24.1804012,63.2321235 C24.0114473,63.2321235 23.8424935,63.2123635 23.6735396,63.1728435 M29.8552627,62.2441235 C29.8552627,61.1573235 30.7497242,60.2681235 31.842955,60.2681235 C32.9361858,60.2681235 33.8306473,61.1573235 33.8306473,62.2441235 C33.8306473,63.3408035 32.9361858,64.2201235 31.842955,64.2201235 C30.7497242,64.2201235 29.8552627,63.3408035 29.8552627,62.2441235"
+                                    id="Fill-6" fill="#953A5A" fill-rule="nonzero" mask="url(#mask-177)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-33" mask="url(#mask-2)">
+                <g transform="translate(753.000000, 205.000000)">
+                    <g id="Group-3" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(0.000000, 0.067000)">
+                        <g id="Fill-1-Clipped">
+                            <g>
+                                <mask id="mask-179" fill="white">
+                                    <use xlink:href="#path-178"></use>
+                                </mask>
+                                <g id="path-178"></g>
+                                <path
+                                    d="M0.6002,9.1002 C0.2687,9.1002 0.0002,8.8312 0.0002,8.5002 L0.0002,1.0327 C0.0002,0.7017 0.2687,0.4327 0.6002,0.4327 C0.9312,0.4327 1.1997,0.7017 1.1997,1.0327 L1.1997,8.5002 C1.1997,8.8312 0.9312,9.1002 0.6002,9.1002"
+                                    id="Fill-1" fill="#84346B" fill-rule="nonzero" mask="url(#mask-179)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <path
+                        d="M5.0001,13.5671 C4.6686,13.5671 4.4001,13.2981 4.4001,12.9671 L4.4001,5.4996 C4.4001,5.1686 4.6686,4.8996 5.0001,4.8996 C5.3311,4.8996 5.6001,5.1686 5.6001,5.4996 L5.6001,12.9671 C5.6001,13.2981 5.3311,13.5671 5.0001,13.5671"
+                        id="Fill-4" fill="#84457C" fill-rule="nonzero"></path>
+                    <path
+                        d="M9.1998,10.3669 C8.8688,10.3669 8.6003,10.0984 8.6003,9.7669 L8.6003,2.2999 C8.6003,1.9684 8.8688,1.6999 9.1998,1.6999 C9.5313,1.6999 9.7998,1.9684 9.7998,2.2999 L9.7998,9.7669 C9.7998,10.0984 9.5313,10.3669 9.1998,10.3669"
+                        id="Fill-6" fill="#81295E" fill-rule="nonzero"></path>
+                    <path
+                        d="M0.6002,20.7668 C0.2687,20.7668 0.0002,20.4983 0.0002,20.1673 L0.0002,12.6998 C0.0002,12.3683 0.2687,12.0998 0.6002,12.0998 C0.9312,12.0998 1.1997,12.3683 1.1997,12.6998 L1.1997,20.1673 C1.1997,20.4983 0.9312,20.7668 0.6002,20.7668"
+                        id="Fill-8" fill="#84457C" fill-rule="nonzero"></path>
+                    <path
+                        d="M5.0001,25.1672 C4.6686,25.1672 4.4001,24.8982 4.4001,24.5672 L4.4001,17.0997 C4.4001,16.7687 4.6686,16.4997 5.0001,16.4997 C5.3311,16.4997 5.6001,16.7687 5.6001,17.0997 L5.6001,24.5672 C5.6001,24.8982 5.3311,25.1672 5.0001,25.1672"
+                        id="Fill-10" fill="#2076A3" fill-rule="nonzero"></path>
+                    <path
+                        d="M9.1998,21.967 C8.8688,21.967 8.6003,21.6985 8.6003,21.367 L8.6003,13.8995 C8.6003,13.5685 8.8688,13.3 9.1998,13.3 C9.5313,13.3 9.7998,13.5685 9.7998,13.8995 L9.7998,21.367 C9.7998,21.6985 9.5313,21.967 9.1998,21.967"
+                        id="Fill-12" fill="#85457C" fill-rule="nonzero"></path>
+                    <path
+                        d="M0.6002,31.5671 C0.2687,31.5671 0.0002,31.2981 0.0002,30.9671 L0.0002,23.4996 C0.0002,23.1686 0.2687,22.8996 0.6002,22.8996 C0.9312,22.8996 1.1997,23.1686 1.1997,23.4996 L1.1997,30.9671 C1.1997,31.2981 0.9312,31.5671 0.6002,31.5671"
+                        id="Fill-14" fill="#3B7772" fill-rule="nonzero"></path>
+                    <path
+                        d="M5.0001,35.967 C4.6686,35.967 4.4001,35.6985 4.4001,35.367 L4.4001,27.8995 C4.4001,27.5685 4.6686,27.3 5.0001,27.3 C5.3311,27.3 5.6001,27.5685 5.6001,27.8995 L5.6001,35.367 C5.6001,35.6985 5.3311,35.967 5.0001,35.967"
+                        id="Fill-16" fill="#80295D" fill-rule="nonzero"></path>
+                    <path
+                        d="M9.1998,32.7668 C8.8688,32.7668 8.6003,32.4983 8.6003,32.1673 L8.6003,24.6998 C8.6003,24.3683 8.8688,24.0998 9.1998,24.0998 C9.5313,24.0998 9.7998,24.3683 9.7998,24.6998 L9.7998,32.1673 C9.7998,32.4983 9.5313,32.7668 9.1998,32.7668"
+                        id="Fill-18" fill="#3A7671" fill-rule="nonzero"></path>
+                    <path
+                        d="M0.6002,43.1672 C0.2687,43.1672 0.0002,42.8982 0.0002,42.5672 L0.0002,35.0997 C0.0002,34.7687 0.2687,34.4997 0.6002,34.4997 C0.9312,34.4997 1.1997,34.7687 1.1997,35.0997 L1.1997,42.5672 C1.1997,42.8982 0.9312,43.1672 0.6002,43.1672"
+                        id="Fill-20" fill="#84457C" fill-rule="nonzero"></path>
+                    <path
+                        d="M5.0001,47.5671 C4.6686,47.5671 4.4001,47.2981 4.4001,46.9671 L4.4001,39.4996 C4.4001,39.1686 4.6686,38.8996 5.0001,38.8996 C5.3311,38.8996 5.6001,39.1686 5.6001,39.4996 L5.6001,46.9671 C5.6001,47.2981 5.3311,47.5671 5.0001,47.5671"
+                        id="Fill-22" fill="#85467D" fill-rule="nonzero"></path>
+                    <path
+                        d="M9.1998,44.3669 C8.8688,44.3669 8.6003,44.0984 8.6003,43.7669 L8.6003,36.2999 C8.6003,35.9684 8.8688,35.6999 9.1998,35.6999 C9.5313,35.6999 9.7998,35.9684 9.7998,36.2999 L9.7998,43.7669 C9.7998,44.0984 9.5313,44.3669 9.1998,44.3669"
+                        id="Fill-24" fill="#85467D" fill-rule="nonzero"></path>
+                    <path
+                        d="M0.6002,55.1672 C0.2687,55.1672 0.0002,54.8982 0.0002,54.5672 L0.0002,47.0997 C0.0002,46.7687 0.2687,46.4997 0.6002,46.4997 C0.9312,46.4997 1.1997,46.7687 1.1997,47.0997 L1.1997,54.5672 C1.1997,54.8982 0.9312,55.1672 0.6002,55.1672"
+                        id="Fill-26" fill="#3A7671" fill-rule="nonzero"></path>
+                    <g id="Group-30" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(4.000000, 50.567000)">
+                        <g id="Fill-28-Clipped">
+                            <g>
+                                <mask id="mask-181" fill="white">
+                                    <use xlink:href="#path-180"></use>
+                                </mask>
+                                <g id="path-180"></g>
+                                <path
+                                    d="M1.0001,9.0001 C0.6686,9.0001 0.4001,8.7311 0.4001,8.4001 L0.4001,0.9326 C0.4001,0.6016 0.6686,0.3326 1.0001,0.3326 C1.3311,0.3326 1.6001,0.6016 1.6001,0.9326 L1.6001,8.4001 C1.6001,8.7311 1.3311,9.0001 1.0001,9.0001"
+                                    id="Fill-28" fill="#81295D" fill-rule="nonzero" mask="url(#mask-181)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <path
+                        d="M9.1998,56.3669 C8.8688,56.3669 8.6003,56.0984 8.6003,55.7669 L8.6003,48.2999 C8.6003,47.9684 8.8688,47.6999 9.1998,47.6999 C9.5313,47.6999 9.7998,47.9684 9.7998,48.2999 L9.7998,55.7669 C9.7998,56.0984 9.5313,56.3669 9.1998,56.3669"
+                        id="Fill-31" fill="#3B7772" fill-rule="nonzero"></path>
+                </g>
+            </g>
+            <g id="Group-33" mask="url(#mask-2)">
+                <g transform="translate(753.000000, 966.000000)">
+                    <g id="Group-3" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(0.000000, 0.067000)">
+                        <g id="Fill-1-Clipped">
+                            <g>
+                                <mask id="mask-183" fill="white">
+                                    <use xlink:href="#path-182"></use>
+                                </mask>
+                                <g id="path-182"></g>
+                                <path
+                                    d="M0.6002,9.1002 C0.2687,9.1002 0.0002,8.8312 0.0002,8.5002 L0.0002,1.0327 C0.0002,0.7017 0.2687,0.4327 0.6002,0.4327 C0.9312,0.4327 1.1997,0.7017 1.1997,1.0327 L1.1997,8.5002 C1.1997,8.8312 0.9312,9.1002 0.6002,9.1002"
+                                    id="Fill-1" fill="#84346B" fill-rule="nonzero" mask="url(#mask-183)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <path
+                        d="M5.0001,13.5671 C4.6686,13.5671 4.4001,13.2981 4.4001,12.9671 L4.4001,5.4996 C4.4001,5.1686 4.6686,4.8996 5.0001,4.8996 C5.3311,4.8996 5.6001,5.1686 5.6001,5.4996 L5.6001,12.9671 C5.6001,13.2981 5.3311,13.5671 5.0001,13.5671"
+                        id="Fill-4" fill="#84457C" fill-rule="nonzero"></path>
+                    <path
+                        d="M9.1998,10.3669 C8.8688,10.3669 8.6003,10.0984 8.6003,9.7669 L8.6003,2.2999 C8.6003,1.9684 8.8688,1.6999 9.1998,1.6999 C9.5313,1.6999 9.7998,1.9684 9.7998,2.2999 L9.7998,9.7669 C9.7998,10.0984 9.5313,10.3669 9.1998,10.3669"
+                        id="Fill-6" fill="#81295E" fill-rule="nonzero"></path>
+                    <path
+                        d="M0.6002,20.7668 C0.2687,20.7668 0.0002,20.4983 0.0002,20.1673 L0.0002,12.6998 C0.0002,12.3683 0.2687,12.0998 0.6002,12.0998 C0.9312,12.0998 1.1997,12.3683 1.1997,12.6998 L1.1997,20.1673 C1.1997,20.4983 0.9312,20.7668 0.6002,20.7668"
+                        id="Fill-8" fill="#84457C" fill-rule="nonzero"></path>
+                    <path
+                        d="M5.0001,25.1672 C4.6686,25.1672 4.4001,24.8982 4.4001,24.5672 L4.4001,17.0997 C4.4001,16.7687 4.6686,16.4997 5.0001,16.4997 C5.3311,16.4997 5.6001,16.7687 5.6001,17.0997 L5.6001,24.5672 C5.6001,24.8982 5.3311,25.1672 5.0001,25.1672"
+                        id="Fill-10" fill="#2076A3" fill-rule="nonzero"></path>
+                    <path
+                        d="M9.1998,21.967 C8.8688,21.967 8.6003,21.6985 8.6003,21.367 L8.6003,13.8995 C8.6003,13.5685 8.8688,13.3 9.1998,13.3 C9.5313,13.3 9.7998,13.5685 9.7998,13.8995 L9.7998,21.367 C9.7998,21.6985 9.5313,21.967 9.1998,21.967"
+                        id="Fill-12" fill="#85457C" fill-rule="nonzero"></path>
+                    <path
+                        d="M0.6002,31.5671 C0.2687,31.5671 0.0002,31.2981 0.0002,30.9671 L0.0002,23.4996 C0.0002,23.1686 0.2687,22.8996 0.6002,22.8996 C0.9312,22.8996 1.1997,23.1686 1.1997,23.4996 L1.1997,30.9671 C1.1997,31.2981 0.9312,31.5671 0.6002,31.5671"
+                        id="Fill-14" fill="#3B7772" fill-rule="nonzero"></path>
+                    <path
+                        d="M5.0001,35.967 C4.6686,35.967 4.4001,35.6985 4.4001,35.367 L4.4001,27.8995 C4.4001,27.5685 4.6686,27.3 5.0001,27.3 C5.3311,27.3 5.6001,27.5685 5.6001,27.8995 L5.6001,35.367 C5.6001,35.6985 5.3311,35.967 5.0001,35.967"
+                        id="Fill-16" fill="#80295D" fill-rule="nonzero"></path>
+                    <path
+                        d="M9.1998,32.7668 C8.8688,32.7668 8.6003,32.4983 8.6003,32.1673 L8.6003,24.6998 C8.6003,24.3683 8.8688,24.0998 9.1998,24.0998 C9.5313,24.0998 9.7998,24.3683 9.7998,24.6998 L9.7998,32.1673 C9.7998,32.4983 9.5313,32.7668 9.1998,32.7668"
+                        id="Fill-18" fill="#3A7671" fill-rule="nonzero"></path>
+                    <path
+                        d="M0.6002,43.1672 C0.2687,43.1672 0.0002,42.8982 0.0002,42.5672 L0.0002,35.0997 C0.0002,34.7687 0.2687,34.4997 0.6002,34.4997 C0.9312,34.4997 1.1997,34.7687 1.1997,35.0997 L1.1997,42.5672 C1.1997,42.8982 0.9312,43.1672 0.6002,43.1672"
+                        id="Fill-20" fill="#84457C" fill-rule="nonzero"></path>
+                    <path
+                        d="M5.0001,47.5671 C4.6686,47.5671 4.4001,47.2981 4.4001,46.9671 L4.4001,39.4996 C4.4001,39.1686 4.6686,38.8996 5.0001,38.8996 C5.3311,38.8996 5.6001,39.1686 5.6001,39.4996 L5.6001,46.9671 C5.6001,47.2981 5.3311,47.5671 5.0001,47.5671"
+                        id="Fill-22" fill="#85467D" fill-rule="nonzero"></path>
+                    <path
+                        d="M9.1998,44.3669 C8.8688,44.3669 8.6003,44.0984 8.6003,43.7669 L8.6003,36.2999 C8.6003,35.9684 8.8688,35.6999 9.1998,35.6999 C9.5313,35.6999 9.7998,35.9684 9.7998,36.2999 L9.7998,43.7669 C9.7998,44.0984 9.5313,44.3669 9.1998,44.3669"
+                        id="Fill-24" fill="#85467D" fill-rule="nonzero"></path>
+                    <path
+                        d="M0.6002,55.1672 C0.2687,55.1672 0.0002,54.8982 0.0002,54.5672 L0.0002,47.0997 C0.0002,46.7687 0.2687,46.4997 0.6002,46.4997 C0.9312,46.4997 1.1997,46.7687 1.1997,47.0997 L1.1997,54.5672 C1.1997,54.8982 0.9312,55.1672 0.6002,55.1672"
+                        id="Fill-26" fill="#3A7671" fill-rule="nonzero"></path>
+                    <g id="Group-30" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(4.000000, 50.567000)">
+                        <g id="Fill-28-Clipped">
+                            <g>
+                                <mask id="mask-185" fill="white">
+                                    <use xlink:href="#path-184"></use>
+                                </mask>
+                                <g id="path-184"></g>
+                                <path
+                                    d="M1.0001,9.0001 C0.6686,9.0001 0.4001,8.7311 0.4001,8.4001 L0.4001,0.9326 C0.4001,0.6016 0.6686,0.3326 1.0001,0.3326 C1.3311,0.3326 1.6001,0.6016 1.6001,0.9326 L1.6001,8.4001 C1.6001,8.7311 1.3311,9.0001 1.0001,9.0001"
+                                    id="Fill-28" fill="#81295D" fill-rule="nonzero" mask="url(#mask-185)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <path
+                        d="M9.1998,56.3669 C8.8688,56.3669 8.6003,56.0984 8.6003,55.7669 L8.6003,48.2999 C8.6003,47.9684 8.8688,47.6999 9.1998,47.6999 C9.5313,47.6999 9.7998,47.9684 9.7998,48.2999 L9.7998,55.7669 C9.7998,56.0984 9.5313,56.3669 9.1998,56.3669"
+                        id="Fill-31" fill="#3B7772" fill-rule="nonzero"></path>
+                </g>
+            </g>
+            <g id="Group-19" mask="url(#mask-2)">
+                <g transform="translate(327.000000, 67.000000)">
+                    <g id="Group-3" transform="translate(0.000000, 52.000000)">
+                        <g id="Fill-1-Clipped">
+                            <g>
+                                <mask id="mask-187" fill="white">
+                                    <use xlink:href="#path-186"></use>
+                                </mask>
+                                <g id="path-186"></g>
+                                <path
+                                    d="M2.06889412,1.54989333 L7.8496,11.2976267 L13.5380706,1.54989333 L2.06889412,1.54989333 Z M7.85524706,13.5264267 C7.58889412,13.5264267 7.34136471,13.3864267 7.20489412,13.15776 L0.103717647,1.18122667 C-0.0327529412,0.950693333 -0.0346352941,0.665093333 0.0990117647,0.432693333 C0.234541176,0.200293333 0.483011765,0.05656 0.753129412,0.05656 L14.8434824,0.05656 C15.1117176,0.05656 15.3611294,0.19936 15.4957176,0.429893333 C15.6303059,0.66136 15.6303059,0.946026667 15.4947765,1.17749333 L8.5056,13.1540267 C8.37195294,13.3836267 8.12442353,13.5254933 7.85524706,13.5264267 L7.85524706,13.5264267 Z"
+                                    id="Fill-1" fill="#624C9A" fill-rule="nonzero" mask="url(#mask-187)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-6" transform="translate(0.000000, 65.000000)">
+                        <g id="Fill-4-Clipped">
+                            <g>
+                                <mask id="mask-189" fill="white">
+                                    <use xlink:href="#path-188"></use>
+                                </mask>
+                                <g id="path-188"></g>
+                                <path
+                                    d="M2.06889412,2.02337333 L7.8496,11.7711067 L13.5380706,2.02337333 L2.06889412,2.02337333 Z M7.85524706,13.9999067 C7.58889412,13.9999067 7.34136471,13.8599067 7.20489412,13.6321733 L0.103717647,1.65470667 C-0.0327529412,1.42417333 -0.0346352941,1.13857333 0.0990117647,0.906173333 C0.234541176,0.673773333 0.483011765,0.53004 0.753129412,0.53004 L14.8434824,0.53004 C15.1117176,0.53004 15.3611294,0.671906667 15.4957176,0.903373333 C15.6303059,1.13484 15.6303059,1.41950667 15.4947765,1.65097333 L8.5056,13.6275067 C8.37195294,13.8571067 8.12442353,13.9989733 7.85524706,13.9999067 L7.85524706,13.9999067 Z"
+                                    id="Fill-4" fill="#624C9A" fill-rule="nonzero" mask="url(#mask-189)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-9" transform="translate(0.000000, 26.000000)">
+                        <g id="Fill-7-Clipped">
+                            <g>
+                                <mask id="mask-191" fill="white">
+                                    <use xlink:href="#path-190"></use>
+                                </mask>
+                                <g id="path-190"></g>
+                                <path
+                                    d="M2.06889412,1.65881333 L7.8496,11.4065467 L13.5380706,1.65881333 L2.06889412,1.65881333 Z M7.85524706,13.6353467 C7.58889412,13.6353467 7.34136471,13.4953467 7.20489412,13.2676133 L0.103717647,1.29014667 C-0.0327529412,1.05961333 -0.0336941176,0.774013333 0.0990117647,0.541613333 C0.234541176,0.30828 0.483011765,0.16548 0.753129412,0.16548 L14.8434824,0.16548 C15.1126588,0.16548 15.3611294,0.30828 15.4957176,0.538813333 C15.6303059,0.77028 15.6303059,1.05494667 15.4957176,1.28641333 L8.50654118,13.2629467 C8.37195294,13.4925467 8.12442353,13.6344133 7.85524706,13.6353467 L7.85524706,13.6353467 Z"
+                                    id="Fill-7" fill="#624C9A" fill-rule="nonzero" mask="url(#mask-191)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-12" transform="translate(0.000000, 39.000000)">
+                        <g id="Fill-10-Clipped">
+                            <g>
+                                <mask id="mask-193" fill="white">
+                                    <use xlink:href="#path-192"></use>
+                                </mask>
+                                <g id="path-192"></g>
+                                <path
+                                    d="M2.06889412,1.7472 L7.8496,11.4949333 L13.5380706,1.7472 L2.06889412,1.7472 Z M7.85524706,13.7237333 C7.58889412,13.7237333 7.34136471,13.5837333 7.20489412,13.3550667 L0.103717647,1.37853333 C-0.0327529412,1.148 -0.0336941176,0.8624 0.0990117647,0.629066667 C0.234541176,0.396666667 0.483011765,0.253866667 0.753129412,0.253866667 L14.8434824,0.253866667 C15.1126588,0.253866667 15.3611294,0.395733333 15.4957176,0.6272 C15.6303059,0.858666667 15.6303059,1.14333333 15.4957176,1.3748 L8.50654118,13.3513333 C8.37195294,13.5809333 8.12442353,13.7228 7.85524706,13.7237333 L7.85524706,13.7237333 Z"
+                                    id="Fill-10" fill="#624C9A" fill-rule="nonzero" mask="url(#mask-193)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-15">
+                        <g id="Fill-13-Clipped">
+                            <g>
+                                <mask id="mask-195" fill="white">
+                                    <use xlink:href="#path-194"></use>
+                                </mask>
+                                <g id="path-194"></g>
+                                <path
+                                    d="M2.06889412,1.72713333 L7.8496,11.4758 L13.5380706,1.72713333 L2.06889412,1.72713333 Z M7.85524706,13.7036667 C7.58889412,13.7036667 7.34136471,13.5636667 7.20489412,13.3359333 L0.103717647,1.35846667 C-0.0327529412,1.12793333 -0.0336941176,0.842333333 0.0990117647,0.609933333 C0.234541176,0.377533333 0.483011765,0.2338 0.753129412,0.2338 L14.8434824,0.2338 C15.1126588,0.2338 15.3611294,0.3766 15.4957176,0.608066667 C15.6303059,0.8386 15.6303059,1.12326667 15.4957176,1.35473333 L8.50654118,13.3312667 C8.37195294,13.5608667 8.12442353,13.7027333 7.85524706,13.7036667 L7.85524706,13.7036667 Z"
+                                    id="Fill-13" fill="#624C9A" fill-rule="nonzero" mask="url(#mask-195)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-18" transform="translate(0.000000, 13.000000)">
+                        <g id="Fill-16-Clipped">
+                            <g>
+                                <mask id="mask-197" fill="white">
+                                    <use xlink:href="#path-196"></use>
+                                </mask>
+                                <g id="path-196"></g>
+                                <path
+                                    d="M2.06889412,1.81561333 L7.8496,11.5633467 L13.5380706,1.81561333 L2.06889412,1.81561333 Z M7.85524706,13.7921467 C7.58889412,13.7921467 7.34136471,13.6521467 7.20489412,13.4244133 L0.103717647,1.44694667 C-0.0327529412,1.21641333 -0.0336941176,0.930813333 0.0990117647,0.698413333 C0.234541176,0.46508 0.483011765,0.32228 0.753129412,0.32228 L14.8434824,0.32228 C15.1126588,0.32228 15.3611294,0.46508 15.4957176,0.695613333 C15.6303059,0.92708 15.6303059,1.21174667 15.4957176,1.44321333 L8.50654118,13.4197467 C8.37195294,13.6493467 8.12442353,13.7912133 7.85524706,13.7921467 L7.85524706,13.7921467 Z"
+                                    id="Fill-16" fill="#624C9A" fill-rule="nonzero" mask="url(#mask-197)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-3" mask="url(#mask-2)">
+                <g transform="translate(1092.000000, 1036.000000)" id="Fill-1-Clipped">
+                    <g>
+                        <g>
+                            <mask id="mask-199" fill="white">
+                                <use xlink:href="#path-198"></use>
+                            </mask>
+                            <g id="path-198"></g>
+                            <path
+                                d="M27.5371063,-15.1364701 C27.6931186,-15.1364701 27.8491309,-15.0824037 27.9767142,-14.9749825 L40.2586933,-4.63194973 L52.5434458,-14.9749825 C52.799306,-15.1905364 53.1674949,-15.1905364 53.423355,-14.9749825 L65.7129613,-4.63194973 L77.9991007,-14.9749825 C78.2542674,-15.1905364 78.6224564,-15.1905364 78.8783165,-14.9756939 L91.1720831,-4.63266113 L104.330504,-15.7034552 L102.409127,-18.1079845 L91.6123844,-9.02412829 C91.3558309,-8.80857434 90.9883353,-8.80928574 90.7324752,-9.02412829 L78.4380152,-19.3678724 L66.1525692,-9.02483969 C65.8974025,-8.80928574 65.5292136,-8.80928574 65.2726601,-9.02483969 L52.9837471,-19.3678724 L40.6983012,-9.02555109 C40.4431344,-8.80999713 40.0742521,-8.80999713 39.8190854,-9.02555109 L27.5371063,-19.3678724 L15.2558207,-9.02555109 C14.9999606,-8.80999713 14.6310782,-8.80999713 14.3759115,-9.02555109 L3.5923436,-18.1072731 L1.6688857,-15.7034552 L14.8155194,-4.63194973 L27.0974984,-14.9749825 C27.2250818,-15.0824037 27.3810941,-15.1364701 27.5371063,-15.1364701 M40.2586933,-3 C40.102681,-3 39.9466687,-3.05406634 39.8190854,-3.16148761 L27.5371063,-13.5045203 L15.2558207,-3.16148761 C14.9999606,-2.94664506 14.6310782,-2.94664506 14.3759115,-3.16148761 L0.252987706,-15.0553706 C0.110843196,-15.1748856 0.0207027749,-15.3477556 0.00336807856,-15.535565 C-0.0146600056,-15.7233744 0.0401176348,-15.9104724 0.157300182,-16.0563092 L2.95997388,-19.5599502 C3.07715643,-19.705787 3.24495629,-19.7982689 3.42801068,-19.8167653 C3.61245185,-19.8338389 3.79411947,-19.7783498 3.93557059,-19.6581233 L14.8155194,-10.4960132 L27.0974984,-20.8383345 C27.3526652,-21.0538885 27.7215475,-21.0538885 27.9767142,-20.8383345 L40.2586933,-10.4953018 L52.5434458,-20.8376231 C52.799306,-21.0531771 53.1674949,-21.0531771 53.423355,-20.8376231 L65.7129613,-10.4945904 L77.9977139,-20.8376231 C78.253574,-21.0531771 78.621763,-21.0524657 78.8776231,-20.8383345 L91.1720831,-10.4945904 L102.0659,-19.6588347 C102.208738,-19.7783498 102.389712,-19.8352617 102.574153,-19.8167653 C102.757207,-19.7982689 102.925701,-19.705787 103.04219,-19.5599502 L105.842783,-16.0555978 C106.085469,-15.7518304 106.042479,-15.3036489 105.746402,-15.0546592 L91.6123844,-3.16219901 C91.3565243,-2.94806786 90.9883353,-2.94806786 90.7324752,-3.16219901 L78.4387086,-13.5052317 L66.1525692,-3.16219901 C65.8974025,-2.94664506 65.5292136,-2.94664506 65.2726601,-3.16219901 L52.9837471,-13.5052317 L40.6983012,-3.16148761 C40.5707178,-3.05406634 40.4147055,-3 40.2586933,-3"
+                                id="Fill-1" fill="#375192" fill-rule="nonzero" mask="url(#mask-199)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

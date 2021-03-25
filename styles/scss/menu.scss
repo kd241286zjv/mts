@@ -1,0 +1,156 @@
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    list-style: none;
+    height: 24em;
+
+    &__item {
+        margin-bottom: 1.5em;
+        padding-right: 7.5em;
+    }
+
+    &__link {
+        font-family: $mts;
+        font-weight: 900;
+        font-size: 5em;
+        letter-spacing: -0.02em;
+        color: rgba($white, 0);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: $white;
+        text-decoration: none;
+        transition: color $time;
+
+        &_active,
+        &:hover {
+            color: $white;
+        }
+    }
+
+    &__number {
+        display: inline-block;
+        width: 2.7em;
+    }
+
+    @include tablet {
+        height: 100%;
+
+        &__link {
+            font-size: 4em;
+        }
+
+        &__item {
+            margin-bottom: 1.75em;
+            padding-right: 0;
+        }
+
+        &__number {
+            width: 2.4em;
+        }
+    }
+
+    @include mobile {
+        height: 100%;
+
+        &__link {
+            font-size: 1.8em;
+            color: $white;
+            -webkit-text-stroke-width: 0;
+            -webkit-text-stroke-color: none;
+
+            &_active,
+            &:hover {
+                color: $mobile-menu-active;
+            }
+        }
+
+        &__item {
+            margin-bottom: 2em;
+            padding-right: 0;
+        }
+
+        &__number {
+            width: 2.4em;
+        }
+    }
+}
+
+.menu {
+    position: fixed;
+    z-index: 14;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 0.625rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity $menu-time, visibility $menu-time;
+    @include menu-bg;
+
+    &__container {
+        height: 100%;
+        transform: translateX(-5%);
+        transition: transform $menu-time;
+    }
+
+    &__row {
+        height: 100%;
+    }
+
+    &__head {
+        font-size: 6.7em;
+        line-height: 1;
+        letter-spacing: -.02em;
+        margin-bottom: 0.75em;
+        font-family: $mts;
+        font-weight: 900;
+        color: $white;
+    }
+
+    &__menu-list {
+        font-size: 1em;
+    }
+
+    &_visible {
+        opacity: 1;
+        visibility: visible;
+
+        .menu__container {
+            transform: translateX(0%);
+        }
+    }
+
+    &__soc-list {
+        position: absolute;
+        left: 3.5em;
+        bottom: 1em;
+        flex-direction: row;
+        align-items: center;
+        margin-left: -.7em;
+
+        .soc-list__link {
+            padding-right: .7em;
+            padding-left: .7em;
+        }
+    }
+
+    @include tablet {
+        &__container {
+            padding-left: 5em;
+        }
+
+        &__head {
+            font-size: 5em;
+            margin-bottom: 0.6em;
+        }
+    }
+
+    @include mobile {
+        &__head {
+            font-size: 2.5em;
+            margin-bottom: 1em;
+        }
+    }
+}
