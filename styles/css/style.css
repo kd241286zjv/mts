@@ -932,7 +932,7 @@ button {
   .city-graphics__svg {
     cursor: pointer;
     position: relative; }
-  .city-graphics__image::before {
+  .city-graphics__svg-inner {
     content: "";
     position: absolute;
     display: block;
@@ -945,7 +945,7 @@ button {
     opacity: 0;
     transition: .3s opacity ease;
   }
-  .city-graphics__svg:hover::after{
+  .city-graphics__svg:hover .city-graphics__svg-inner{
     opacity: 1;
   }
   .city-graphics__svg-mask {
