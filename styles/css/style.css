@@ -840,7 +840,7 @@ button {
       transform: translateX(-50%);
       border: 8px solid transparent;
       opacity: 0;
-      transtition: .3s opacity ease;
+      transition: .3s opacity ease;
       border-top: 8px solid #B70338;
     }
     .city-menu__link_active, .city-menu__link_hover {
