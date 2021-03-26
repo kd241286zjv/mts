@@ -930,7 +930,8 @@ button {
     bottom: 0;
     height: 100%; }
   .city-graphics__svg {
-    cursor: pointer; }
+    cursor: pointer;
+    position: relative; }
   .city-graphics__svg::after {
     content: '';
     position: absolute;
