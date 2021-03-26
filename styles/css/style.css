@@ -1,48 +1,48 @@
 @font-face {
   font-family: "MTSSans";
-  src: url("/fonts/MTSSans/MTSSans-UltraWide.woff2") format("woff2"), url("/fonts/MTSSans/MTSSans-UltraWide.woff") format("woff"), url("/fonts/MTSSans/MTSSans-UltraWide.ttf") format("truetype");
+  src: url("../../fonts/MTSSans/MTSSans-UltraWide.woff2") format("woff2"), url("../../fonts/MTSSans/MTSSans-UltraWide.woff") format("woff"), url("/fonts/MTSSans/MTSSans-UltraWide.ttf") format("truetype");
   font-weight: 900;
   font-style: normal; }
 
 @font-face {
   font-family: "MTSSans";
-  src: url("/fonts/MTSSans/MTSSans-Bold.woff2") format("woff2"), url("/fonts/MTSSans/MTSSans-Bold.woff") format("woff"), url("/fonts/MTSSans/MTSSans-Bold.ttf") format("truetype");
+  src: url("../../fonts/MTSSans/MTSSans-Bold.woff2") format("woff2"), url("../../fonts/MTSSans/MTSSans-Bold.woff") format("woff"), url("/fonts/MTSSans/MTSSans-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal; }
 
 @font-face {
   font-family: "MTSSans";
-  src: url("/fonts/MTSSans/MTSSans-Medium.woff2") format("woff2"), url("/fonts/MTSSans/MTSSans-Medium.woff") format("woff"), url("/fonts/MTSSans/MTSSans-Medium.ttf") format("truetype");
+  src: url("../../fonts/MTSSans/MTSSans-Medium.woff2") format("woff2"), url("../../fonts/MTSSans/MTSSans-Medium.woff") format("woff"), url("/fonts/MTSSans/MTSSans-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal; }
 
 @font-face {
   font-family: "MTSSans";
-  src: url("/fonts/MTSSans/MTSSans-Regular.woff2") format("woff2"), url("/fonts/MTSSans/MTSSans-Regular.woff") format("woff"), url("/fonts/MTSSans/MTSSans-Regular.ttf") format("truetype");
+  src: url("../../fonts/MTSSans/MTSSans-Regular.woff2") format("woff2"), url("../../fonts/MTSSans/MTSSans-Regular.woff") format("woff"), url("/fonts/MTSSans/MTSSans-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: "Geometria";
-  src: url("/fonts/Geometria/Geometria.woff2") format("woff2"), url("/fonts/Geometria/Geometria.woff") format("woff"), url("/fonts/Geometria/Geometria.ttf") format("truetype");
+  src: url("../../fonts/Geometria/Geometria.woff2") format("woff2"), url("../../fonts/Geometria/Geometria.woff") format("woff"), url("/fonts/Geometria/Geometria.ttf") format("truetype");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: "Geometria";
-  src: url("/fonts/Geometria/Geometria-Bold.woff2") format("woff2"), url("/fonts/Geometria/Geometria-Bold.woff") format("woff"), url("/fonts/Geometria/Geometria-Bold.ttf") format("truetype");
+  src: url("../../fonts/Geometria/Geometria-Bold.woff2") format("woff2"), url("../../fonts/Geometria/Geometria-Bold.woff") format("woff"), url("/fonts/Geometria/Geometria-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal; }
 
 @font-face {
   font-family: "Geometria";
-  src: url("/fonts/Geometria/Geometria-ExtraBold.woff2") format("woff2"), url("/fonts/Geometria/Geometria-ExtraBold.woff") format("woff"), url("/fonts/Geometria/Geometria-ExtraBold.ttf") format("truetype");
+  src: url("../../fonts/Geometria/Geometria-ExtraBold.woff2") format("woff2"), url("../../fonts/Geometria/Geometria-ExtraBold.woff") format("woff"), url("/fonts/Geometria/Geometria-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal; }
 
 @font-face {
   font-family: "Noah";
-  src: url("/fonts/Noah/Noah-Regular.woff2") format("woff2"), url("/fonts/Noah/Noah-Regular.woff") format("woff"), url("/fonts/Noah/Noah-Regular.ttf") format("truetype");
+  src: url("../../fonts/Noah/Noah-Regular.woff2") format("woff2"), url("../../fonts/Noah/Noah-Regular.woff") format("woff"), url("/fonts/Noah/Noah-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal; }
 
