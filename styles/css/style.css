@@ -932,7 +932,7 @@ button {
   .city-graphics__svg {
     cursor: pointer;
     position: relative; }
-  .city-graphics__svg::after {
+  .city-graphics__image-inner_svg::after {
     content: '';
     position: absolute;
     display: block;
@@ -945,7 +945,7 @@ button {
     opacity: 0;
     transition: .3s opacity ease;
   }
-  .city-graphics__svg:hover::after{
+  .city-graphics__image-inner_svg:hover::after{
     opacity: 1;
   }
   .city-graphics__svg-mask {
@@ -959,7 +959,8 @@ button {
     width: auto;
     vertical-align: top; }
     .city-graphics__image-inner_svg {
-      transform-origin: center 87.5%; }
+      transform-origin: center 87.5%;
+    position: relative;}
   .city-graphics__anim {
     position: absolute;
     bottom: 0;
