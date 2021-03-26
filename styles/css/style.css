@@ -831,10 +831,7 @@ button {
     text-decoration: none;
     font-size: 2.7em;
     white-space: nowrap; }
-    .city-menu__link_active, .city-menu__link_hover {
-      color: #fff;
-      position: relative; }
-    .city-menu__link_active::before, .city-menu__link_hover::before {
+    .city-menu__link::before {
       content: '';
       display: block;
       position: absolute;
@@ -842,7 +839,15 @@ button {
       left: 50%;
       transform: translateX(-50%);
       border: 8px solid transparent;
-      border-top: 8px solid #B70338; }
+      opacity: 0;
+      transtition: .3s opacity ease;
+      border-top: 8px solid #B70338;
+    }
+    .city-menu__link_active, .city-menu__link_hover {
+      color: #fff;
+      position: relative; }
+    .city-menu__link_active.city-menu__link::before, .city-menu__link_hover.city-menu__link::before {
+      opacity: 1; }
   .city-menu__text {
     margin-top: -.2em; }
   @media (max-width: 1199px) and (min-width: 768px) {
