@@ -1246,25 +1246,25 @@ button {
     height: 0.9em; }
 
 .zone-info {
-  background-color: #07091f;
-  padding: 5.5em 3em 0 5.5em;
+  background-color: rgba(7, 9, 31, .8);
+  padding: 1.5em 3em 0 5.5em;
   height: 65em;
   display: flex;
   flex-direction: column;
   transition: height 0.35s ease-in-out;
   transform: translateZ(0); }
   .zone-info__head {
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-transform: uppercase;
     line-height: 1;
     letter-spacing: 0.2em;
     margin-bottom: 2em;
-    color: #fff;
+    color: #0076F0;
     font-family: "MTSSans", Helvetica, Arial, sans-serif;
     font-weight: 700;
     flex-shrink: 0; }
   .zone-info__title {
-    font-size: 4.2em;
+    font-size: 4em;
     line-height: 1;
     letter-spacing: -0.02em;
     color: #fff;
@@ -1275,7 +1275,7 @@ button {
   .zone-info__text {
     color: #fff;
     font-family: "Geometria", Helvetica, Arial, sans-serif;
-    font-size: 2em;
+    font-size: 1.75em;
     line-height: 1.45; }
     .zone-info__text a {
       color: inherit; }
