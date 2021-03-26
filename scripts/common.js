@@ -519,7 +519,7 @@ function scrollToTop(fn) {
 // Функция для подключения анимаций Lottie
 function addAnim(options) {
   var name = typeof options != "object" ? options : "",
-    pathFolder = "../scripts/animation/",
+    pathFolder = "./animation/",
     anim,
     cls;
 
